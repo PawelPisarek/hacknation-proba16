@@ -1,4 +1,4 @@
-# Stan — 15:01 (sobota zespołu)
+# Stan — 15:02 (sobota zespołu)
 Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 14:32 po resecie limitu); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
 
 | zadanie | kto | status |
@@ -9,7 +9,7 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | zamknięte (P18–P23 odpowiedziane) |
 | 1b /discover → docs/pm/02-discover.md | Projektant | zamknięte (74f8b12, 3 rundy) |
 | recenzja przejścia 1b | Analityk | zamknięte po 3 rundach (P28: puszczamy dalej) |
-| 2 /write-prd → docs/spec.md | Projektant | zamknięte po 3 rundach (987a579); recenzja odbiorcy (Programista) po 0P |
+| 2 /write-prd → docs/spec.md | Projektant | recenzja odbiorcy (Programista, spec-odbiorca.md): 4 techn. → Projektant wpisuje; 1 produkt → P30 Artur |
 | 3 warianty ekranu (3 linki → Artur) | Projektant szkice → Programista | szkice 40ed041; makiety wariantów zlecone 15:01 |
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | liczby H2ko wpisywane (15:01) |
