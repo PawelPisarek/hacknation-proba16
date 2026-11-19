@@ -228,3 +228,4 @@ P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca;
 15:43 Szef: krytyk R2 8/10 (30b5830), 3 braki = poprawki (bez pytań do Artura) → Programista makieta R3
 15:50 Programista: makieta R3 wg docs/recenzje/makieta-R2.md (30b5830): (a) samo „0 miejsc” (lista, pasek, raport) bez „brak różnic”; okno BADANY stałe (rysunek = typ rzeczywisty), „porównano z” zmienia tylko wzorzec i listę; zrzuty pełnej wysokości z paskiem i oknem raportu docs/zrzuty/makieta-R3-{b,c,d,a}.png (tryb #b-zrzut: decyzje jak w §7.3)
 15:51 Szef: makieta R3 https://pawelpisarek.github.io/hacknation-proba16/makieta/ (ac5eedf) → krytyk Analityk (runda 3, ostatnia)
+15:51 Analityk: krytyk makiety R3 (ac5eedf): ocena 8/10, 2 braki (1 technika-poprawka: 0 miejsc dla innego typu; 1 produkt-wybór: raport z nieprzejrzanymi) → docs/recenzje/makieta-R3.md
