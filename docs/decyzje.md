@@ -160,3 +160,4 @@ P29 14:47 odpowiedź: A, a przy „Odrzuć” operator wybiera powód z krótkie
 14:51 Szef: slajdy zamknięte (slajdy-2 e76538f: brak braków); 2 uwagi kosmetyczne → Prezenter
 14:52 Prezenter: slajdy-2: slajd 9 bez nadmiarowej kropki, slajd 6 obrazek tylko po pomiarze (do tego czasu wariant bez liczb), README Użyte narzędzia + orkiestrator.
 14:59 Szef: 0P wznowione po restarcie (Programista); szkice 3 wariantów → Projektant (docs/pm/04-warianty.md), niezależne od 0P
+14:59 Projektant: docs/pm/04-warianty.md — 3 szkice wariantów ekranu dla Programisty (zlecenie Szefa)
