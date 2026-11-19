@@ -44,13 +44,13 @@ Operator RTG KAS na granicy zewnętrznej UE. Pierwsza wersja: tylko naczepy cię
 Ekran główny jest jeden, trzy strefy; dane sztuczne.
 - **Góra:** nazwa Prześwit, nazwa wczytanego obrazu (np. „naczepa_017.bmp”), podpis „porównano z: typ ___”, lista wyboru typu naczepy (zmiana = 1 kliknięcie), przycisk „Zapisz raport”.
 - **Środek:** obraz badany z ramkami; ramki w strefie ryzyka mają kolor wyróżniony i etykietę („podwójna podłoga”, „ściana przy kabinie”); suwak dzieli okno na wzorzec i obraz badany (przesuwany pionowy podział).
-- **Prawa kolumna:** lista miejsc od najbardziej różnych (numer, strefa, stopień różnicy); każde miejsce ma przyciski „Zatwierdź” (= sprawdzone, podejrzane — do kontroli) i „Odrzuć” (= pomyłka systemu) — znaczenie tymczasowe do odpowiedzi na P29; klik w wiersz przewija obraz do miejsca.
+- **Prawa kolumna:** lista miejsc od najbardziej różnych (numer, strefa, stopień różnicy); każde miejsce ma przyciski „Zatwierdź” (= sprawdzone, podejrzane — do kontroli) i „Odrzuć” (= pomyłka systemu) (P29 A); „Odrzuć” wymaga powodu z krótkiej listy (np. element konstrukcji, ładunek zgodny, cień); klik w wiersz przewija obraz do miejsca.
 - **Dół:** pasek stanu „Przejrzano 2 z 4 miejsc”, ostrożna informacja „Narzędzie pokazuje, gdzie obraz różni się od wzorca — tam warto spojrzeć jeszcze raz.” (P17).
 - **Okno raportu:** obraz z zaznaczeniami, lista miejsc z decyzją, pola „miejsce kontroli” i „przedmiot kontroli”, przycisk zapisu (plik do pobrania).
 - **Udawane dane:** 4 gotowe obrazy: (a) czysta naczepa — brak zaznaczeń; (b) naczepa z podwójną podłogą — 2 zaznaczenia, jedno w strefie ryzyka; (c) naczepa z towarem w ładunku i ścianą przy kabinie — 4 zaznaczenia; (d) naczepa, której typ system dobiera źle — pokaz wyboru typu z listy.
 
 ### 7.3 Ścieżka pokazu (nasze ograniczenie: do 2 min)
-1. Wczytanie obrazu (b) → w kilka sekund zaznaczenia i podpis „porównano z”. 2. Suwak: wzorzec ↔ obraz. 3. Klik w pierwsze miejsce z listy (strefa podwójnej podłogi) → „Zatwierdź” (sprawdzone, podejrzane — do kontroli; tymczasowo, P29). 4. Inne miejsce → „Odrzuć” (pomyłka systemu; tymczasowo, P29). 5. Obraz (c): ściana przy kabinie i towar w ładunku — dwie strefy na liście. 6. Obraz (d): zmiana typu naczepy z listy. 7. „Zapisz raport”. 8. Obraz (a): brak zaznaczeń.
+1. Wczytanie obrazu (b) → w kilka sekund zaznaczenia i podpis „porównano z”. 2. Suwak: wzorzec ↔ obraz. 3. Klik w pierwsze miejsce z listy (strefa podwójnej podłogi) → „Zatwierdź” (sprawdzone, podejrzane — do kontroli). 4. Inne miejsce → „Odrzuć” (pomyłka systemu) + powód z listy. 5. Obraz (c): ściana przy kabinie i towar w ładunku — dwie strefy na liście. 6. Obraz (d): zmiana typu naczepy z listy. 7. „Zapisz raport”. 8. Obraz (a): brak zaznaczeń.
 
 ### 7.4 Kryteria akceptacji
 Definicje (P9 A): skrytka „zaznaczona”, gdy zaznaczenie choć częściowo nachodzi na skrytkę albo jego środek leży w skrytce. FP = czysty obraz z co najmniej jednym zaznaczeniem. Liczby progów nie są wpisane: wynik „n z N” podaje pomiar Programisty (krok 0P), progi po pomiarze (P11, P16).
@@ -58,10 +58,10 @@ Definicje (P9 A): skrytka „zaznaczona”, gdy zaznaczenie choć częściowo na
 - A2 (Z2b, Z2c): ściana przy kabinie i towar w ładunku — w tym samym przebiegu co A1, FN liczone osobno od konstrukcji. Próg dla każdego ustala Programista po pomiarze 0P. Nie trzyma: ściana → strefa ryzyka bez twierdzenia o różnicy; towar → ograniczenie w tekstach, FN osobno w opisie (02 §8, Z2b, Z2c).
 - A3 (Z1): trafność doboru wzorca — wynik „n z N” z pomiaru; próg ustala Programista po pomiarze 0P. Nie trzyma: wybór typu naczepy z listy (A6) i tak jest dostępny zawsze; poprawiamy dobór (02 §8, Z1).
 - A4 (czas): wynik dla obrazu w mniej niż 1 min. Nie trzyma: upraszczamy porównanie albo zawężamy zbiór (02 §8).
-- A5 (Z5): najwyżej 1 kliknięcie na zaznaczenie (Zatwierdź / Odrzuć).
+- A5 (Z5): „Zatwierdź” = 1 kliknięcie; „Odrzuć” = 2 kliknięcia (przycisk + powód z listy).
 - A6 (P26 B): zmiana typu naczepy — najwyżej 1 kliknięcie; wzorzec zmienia się, porównanie odświeża się; test akceptacji MVP.
 - A7 (Z6): raport zawiera miejsce i przedmiot kontroli oraz decyzję przy każdym miejscu; test akceptacji MVP.
-- A8 (Z3): zaufanie — po MVP, przegląd z Arturem w roli operatora. Miary: (1) zaznaczenia zatwierdzone („sprawdzone, podejrzane — do kontroli”, tymczasowo wg P29), wynik „n z N”, bez procentów (02 §6); (2) liczba zaznaczeń na obraz na czystych obrazach (A10). „Kilka, nie kilkadziesiąt” (P13): do MVP robocza wartość z pomiaru 0P (Programista, A10); ostateczną liczbę ustala Artur przy przeglądzie MVP. Próg zatwierdzonych też ustala Artur. Nie trzyma: pokazujemy tylko najbardziej różne miejsca, reszta zwinięta pod listą (02 §8, Z3).
+- A8 (Z3): zaufanie — po MVP, przegląd z Arturem w roli operatora. Miary: (1) zaznaczenia zatwierdzone („sprawdzone, podejrzane — do kontroli”, P29 A), wynik „n z N”, bez procentów (02 §6); (2) liczba zaznaczeń na obraz na czystych obrazach (A10). „Kilka, nie kilkadziesiąt” (P13): do MVP robocza wartość z pomiaru 0P (Programista, A10); ostateczną liczbę ustala Artur przy przeglądzie MVP. Próg zatwierdzonych też ustala Artur. Nie trzyma: pokazujemy tylko najbardziej różne miejsca, reszta zwinięta pod listą (02 §8, Z3).
 - A9 (Z4): w tekstach i na ekranie brak zdań obiecujących skuteczność (P15–P17).
 - A10 (fałszywy alarm): FP = czysty obraz z co najmniej jednym zaznaczeniem; liczony na czystych obrazach i raportowany razem z FN (P4, P13). Wynik „n z N” z pomiaru Programisty (0P); próg FP po pomiarze ustala Programista (P16). Liczba zaznaczeń na auto „kilka, nie kilkadziesiąt” (P13): do MVP wartość robocza z pomiaru 0P; ostateczną ustala Artur przy przeglądzie MVP (A8).
 
@@ -77,7 +77,7 @@ UPROSZCZENIE: kontenery, autokary, wagony — tylko naczepy — dorobienie: duż
 UPROSZCZENIE: badania z operatorami — sztuczne dane i Artur przy przeglądzie MVP — dorobienie: duże
 
 ## 9. Ryzyka
-- **Znaczenie „Zatwierdź” / „Odrzuć” (P29) czeka na Artura;** w specu rekomendacja jako tymczasowa.
+- Znaczenie „Zatwierdź” / „Odrzuć” rozstrzygnięte (P29 A); powody odrzucenia trafiają do raportu.
 - **Ekran i ścieżka nie były potwierdzone przez Artura:** moment (c) (trzy warianty ekranu i wybór) pominięty na zlecenie Szefa po P28; układ z 7.2 to propozycja Projektanta. Do potwierdzenia przy przeglądzie makiety.
 - Z1: dobór wzorca może zawieść; zapas — wybór typu z listy (P26 B).
 - Z2 / Z2b / Z2c: przeoczenia podwójnej podłogi, ściany przy kabinie i towaru — progi po pomiarze 0P; zapas — strefy ryzyka.

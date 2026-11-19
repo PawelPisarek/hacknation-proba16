@@ -144,3 +144,4 @@ P29 14:45 Artur: Co znaczą przyciski przy zaznaczeniu na ekranie: (A) „Zatwie
 14:45 Analityk: recenzja przejścia 2 (write-prd) runda 2 (spec.md 6d389d1) — 3 braki technika (A1 sprzeczne zdanie o progu, „kilka” z dwoma właścicielami A8/A10, A8 procenty vs „n z N”); P29 nieoceniane; docs/recenzje/2-2.md
 14:46 Szef: recenzja 2-2 (a79ed53): 3 braki technika → Projektant poprawia (runda 3 ostatnia). demo.md (0a0d09d, 120 s) → recenzja demo-1 (Analityk).
 14:46 Projektant: recenzja kroku 2 runda 2 (Analityk, a79ed53) braki 1–3 poprawione w spec.md i 03-write-prd.md: A1 = 0 przeoczeń chyba że Programista zapisze inny próg po 0P; „kilka, nie kilkadziesiąt” — robocza z 0P do MVP, ostateczna Artur przy przeglądzie MVP (A8 = A10); A8 (1) jako „n z N”
+P29 14:47 odpowiedź: A, a przy „Odrzuć” operator wybiera powód z krótkiej listy (np. element konstrukcji, ładunek zgodny, cień) (Artur w pokoju)
