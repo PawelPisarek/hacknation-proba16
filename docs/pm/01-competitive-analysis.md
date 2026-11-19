@@ -39,12 +39,16 @@ Podejścia wschodzące (badania): uczenie wyłącznie na normalnych obrazach —
 | **Klasyfikacja „pusty / niepusty”** | etykieta całego obrazu | prosta | nie lokalizuje (nie spełnia W4/W10) | lekka, ale nie lokalizuje |
 | **Detektor obiektów uczony na dodatkach** | wykrywa znane klasy | wysoka czułość na znane | wymaga przykładów anomalii — zadanie §5 ich nie gwarantuje | wymaga etykiet anomalii, których nie mamy (§5) |
 
+Miejsca z P7 (podwójna podłoga, ściana przy kabinie) to obszary, gdzie wzorzec różni się najmniej od badanego obrazu — tam metody różnicowe są najbardziej narażone na fałszywe alarmy z powodu przesunięć; w pomiarze raportujemy wynik osobno dla dodatków w konstrukcji i w ładunku (założenie, do potwierdzenia na zbiorze).
+
 Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejsca) najbliższe są: **różnica po wyrównaniu** jako podstawa i **model uczony na czystych** jako druga hipoteza do porównania; wybór potwierdzi pomiar FP/FN na zbiorze (decyzje 11:59, typ A). Liczb skuteczności z literatury nie przenoszę na nasze dane (inny zbiór) — liczb skuteczności konkurentów tu nie podaję (brak weryfikowalnego źródła).
 
 ## 6. Porównanie funkcji (soczewka: skuteczność, brak przeoczeń skrytki)
 | Zdolność | Nasze rozwiązanie (cel) | Rapiscan | Smiths AXR | Obecne narzędzie KAS |
 |---|---|---|---|---|
 | Porównanie ze wzorcem i wskazanie różnic | tak (podstawa) | tak (ten sam pojazd) | brak danych | nie |
+| **Dobór wzorca z biblioteki** (operator nie wskazuje go sam — P8; zwykle nie ma zdjęcia tej samej naczepy) | cel (osobna funkcja: system wybiera najbliższy wzorzec tego typu naczepy) | częściowo: „Similar Cargo” podsuwa podobne obrazy do oglądania obok siebie, nie liczy różnic | brak danych | nie |
+| Czytelność zaznaczeń w trakcie oglądania i czas odpowiedzi (P6: kilka minut na auto; zadanie §7: < 1 min) | cel: zaznaczenia widoczne od razu na obrazie operatora, wynik w < 1 min | brak danych | brak danych | nie dotyczy |
 | Wskazanie miejsca na obrazie | tak (wymóg §3) | tak | brak danych | częściowo (papierosy) |
 | Skrytki w konstrukcji (podwójna podłoga, ściana przy kabinie — P7) i towar w ładunku | cel (oba, P7) | brak danych | brak danych | słabo przy małych ilościach w konstrukcji (§1) |
 | Miara FP/FN na zbiorze testowym | tak (mierzymy) | nie publikuje na naszym zbiorze | nie | nie |
@@ -56,24 +60,25 @@ Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejs
 1. **Skrytki w konstrukcji obok towaru w ładunku** (P7: oba) — tam, gdzie dzisiejsze narzędzie do papierosów jest słabe (zadanie §1); wskazujemy różnice ogólnie, nie tylko papierosy.
 2. **Wynik, który można sprawdzić** — raportujemy FP-obraz i FN-obraz oraz czułość wg rozmiaru dodatku (nie obiecujemy bez pomiaru).
 3. **Wzorzec z biblioteki dla naczepy tego samego typu** (P8: operator zwykle nie ma czystego zdjęcia tej samej naczepy), a nie tylko „ten sam pojazd przed/po” (zakres Rapiscan Vehicle Compare). Uwaga: zadanie §7 opisuje dane jako pary/grupy „przed i po”; biblioteka wzorców z naszego zbioru to założenie wykonawcze do sprawdzenia w makiecie i danych.
-4. **Działa lokalnie** i **skaluje się partiami** (§3, §9).
+4. **Podpowiedź w trakcie oglądania obrazu** (P6): operator ma kilka minut na auto, więc zaznaczenia muszą być czytelne od razu, a wynik w < 1 min (zadanie §7). To wymóg użyteczności, a wyróżnik tylko jeśli pokażemy to w demo.
+5. **Działa lokalnie** (§3, §9). Obsługa partii i dużych plików to wymóg wejścia (§9), nie wyróżnik, dopóki nie zmierzymy (P11 czeka).
 
 ## 8. Zagrożenia
 1. Rapiscan i inni oferują porównanie od dawna — wyróżnia nas wynik na naszym zbiorze, nie sama idea.
-2. Zero fałszywych alarmów (§6) a czułość na małe skrytki (P4: nie przeoczyć) — kompromis do jawnego pokazania.
+2. Zero fałszywych alarmów (§6) a czułość na małe skrytki (P4: nie przeoczyć) — kompromis do jawnego pokazania; którą stronę wybieramy przy konflikcie — pytanie P13 do Artura (do odpowiedzi nie rozstrzygamy).
 3. Sztuczny zbiór (decyzje 11:59) może zawyżać wyniki względem prawdziwych obrazów KAS.
 
 ## 9. Rekomendacje
 - **Postawić na**: różnica po wyrównaniu ze wzorcem dobieranym z biblioteki + czytelne zaznaczenie miejsca + jawny pomiar FP/FN.
+- **Zrobić jako osobną funkcję**: dobór wzorca z biblioteki (P8) — z możliwością pokazania operatorowi, który wzorzec wybrano.
+- **Zadbać o użycie na żywo** (P6): czytelne zaznaczenia od razu, wynik w < 1 min.
 - **Nadrobić (wymóg wejścia)**: `.bmp` 50 MB, partie, czas < 1 min.
-- **Pominąć**: dopasowanie do manifestu (patenty — poza zadaniem). Papierosów nie wyłączamy z zakresu (P7: boli także towar w ładunku); rozpoznawanie papierosów robi dziś osobne narzędzie KAS i go nie powielamy.
+- **Pominąć**: dopasowanie do manifestu (patenty — poza zadaniem). Cel obejmuje oba rodzaje ukrycia i oba miejsca z P7 (podwójna podłoga, ściana przy kabinie). Papierosów nie wyłączamy z zakresu (P7: boli także towar w ładunku); rozpoznawanie papierosów robi dziś osobne narzędzie KAS i go nie powielamy.
 
-## 10. Czego nie wiem o produkcie (lista przed momentem (a))
-Każda pozycja to osobne pytanie do Artura z rekomendacją (numery w `docs/decyzje.md`):
-1. Kiedy operator sięga po narzędzie — **P6: w trakcie oglądania obrazu** (kilka minut na auto).
-2. Co dziś najbardziej boli — **P7: oba** (skrytki w konstrukcji i towar w ładunku).
-3. Skąd operator bierze wzorzec — **P8: system dobiera z biblioteki**.
-Pominięte, bo rozstrzyga zadanie: cena i wejście na rynek (narzędzie wewnętrzne KAS, wdrożenie przez usługodawców IT KAS — §9); kto jest użytkownikiem (operator RTG, §1–2); jak sobie dziś radzi (ręcznie + narzędzie do papierosów, §1); praca bez internetu (§9); sztuczne dane (decyzje 11:59).
+## 10. Czego nie wiem o produkcie
+Zamknięte (odpowiedzi Artura): P6 — w trakcie oglądania obrazu, kilka minut na auto; P7 — oba rodzaje ukrycia, najczęściej podwójna podłoga albo ściana przy kabinie; P8 — wzorzec dobiera system z biblioteki.
+Otwarte (osobne pytania do Artura z rekomendacją, numery w `docs/decyzje.md`): P9 — kiedy uznajemy trafienie w skrytkę; P10 — jak opisujemy obecne narzędzie KAS; P11 — obietnica dużych plików i partii; P12 — czy obiecujemy przeróbki konstrukcji; **P13 — którą stronę wybieramy, gdy „nie przeoczyć skrytki” (P4) ściera się z „zero fałszywych alarmów na czystych” (zadanie §6)**.
+Pominięte, bo rozstrzyga zadanie: cena i wejście na rynek (narzędzie wewnętrzne KAS, wdrożenie przez usługodawców IT KAS — §9); kto jest użytkownikiem (operator RTG, §1–2); jak sobie radzi dziś (ręcznie + narzędzie do papierosów, §1); praca bez internetu (§9); sztuczne dane (decyzje 11:59).
 
 <!-- skill: przeplywy-pm -->
 <!-- skill: competitor-analysis -->
