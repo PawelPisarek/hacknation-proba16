@@ -34,7 +34,7 @@ Operator RTG KAS na granicy zewnętrznej UE. Pierwsza wersja: tylko naczepy cię
 ### 7.1 Funkcje pierwszej wersji (P18–P22, P25, P26)
 1. **Zaznaczenia różnic na obrazie** — ramki w miejscach różnych od wzorca.
 2. **Dobór wzorca i wybór typu naczepy** — system dobiera wzorzec z biblioteki, podpis „porównano z: typ X”. Operator zawsze może zmienić typ naczepy z listy jednym kliknięciem (P26 B; zna typ z dokumentów przewozowych). Po zmianie wzorzec i porównanie odświeżają się.
-3. **Podgląd obok siebie z suwakiem** — wzorzec i obraz w jednym oknie.
+3. **Podgląd obok siebie** — dwa okna: wzorzec i obraz badany, z listą miejsc z boku (P31).
 4. **Lista miejsc od najbardziej różnych** — klik skacze w miejsce.
 6. **Strefy ryzyka** — oznaczone podwójna podłoga i ściana przy kabinie; kolor ramki tylko dla stref ryzyka (5 w części, P22).
 7. **Zatwierdź / odrzuć** zaznaczenie. P29 A zmienia P20 A w tym punkcie: „Zatwierdź” = 1 kliknięcie, „Odrzuć” = 2 kliknięcia (przycisk + powód z listy).
@@ -43,14 +43,14 @@ Operator RTG KAS na granicy zewnętrznej UE. Pierwsza wersja: tylko naczepy cię
 ### 7.2 Ekrany (propozycja do makiety)
 Ekran główny jest jeden, dane sztuczne. **Układ wg P31 (Artur w pokoju, 15:06): wariant 3 — wzorzec obok badanego obrazu (dwa okna, wspólne przewijanie) — z listą miejsc z boku, jak w wariancie 1.** Uzasadnienie Artura: operator musi widzieć, z czym porównujemy. Lista idzie od wysokiego stopnia różnicy (niski / średni / wysoki, P30 A). Makieta: https://pawelpisarek.github.io/hacknation-proba16/makieta/warianty/3/. Opisy stref poniżej czytać z tym układem: „środek” = dwa okna (wzorzec i badany), suwak dzielący jest zbędny.
 - **Góra:** nazwa Prześwit, nazwa wczytanego obrazu (np. „naczepa_017.bmp”), podpis „porównano z: typ ___”, lista wyboru typu naczepy (zmiana = 1 kliknięcie), przycisk „Zapisz raport”.
-- **Środek:** obraz badany z ramkami; ramki w strefie ryzyka mają kolor wyróżniony i etykietę („podwójna podłoga”, „ściana przy kabinie”); suwak dzieli okno na wzorzec i obraz badany (przesuwany pionowy podział).
+- **Środek:** dwa okna obok siebie: wzorzec (po lewej) i obraz badany z ramkami (po prawej), ze wspólnym przewijaniem; ramki w strefie ryzyka mają kolor wyróżniony i etykietę („podwójna podłoga”, „ściana przy kabinie”); lista miejsc z boku.
 - **Prawa kolumna:** lista miejsc od najwyższego stopnia różnicy (wysoki → niski) (numer, strefa, stopień różnicy); każde miejsce ma przyciski „Zatwierdź” (= sprawdzone, podejrzane — do kontroli) i „Odrzuć” (= pomyłka systemu) (P29 A); „Odrzuć” wymaga powodu z zamkniętej listy: element konstrukcji / ładunek zgodny z deklaracją / cień lub zakłócenie obrazu / inne; klik w wiersz przewija obraz do miejsca.
 - **Dół:** pasek postępu zgodny z obrazem: (b) „Przejrzano 2 z 2”, (c) „Przejrzano 0 z 4”, (a) „0 miejsc”; ostrożna informacja „Narzędzie pokazuje, gdzie obraz różni się od wzorca — tam warto spojrzeć jeszcze raz.” (P17).
 - **Okno raportu:** obraz z zaznaczeniami, lista miejsc z decyzją, pola „miejsce kontroli” i „przedmiot kontroli”, przycisk zapisu (plik do pobrania).
 - **Udawane dane:** 4 gotowe obrazy: (a) czysta naczepa — brak zaznaczeń; (b) naczepa z podwójną podłogą — 2 zaznaczenia, jedno w strefie ryzyka; (c) naczepa z towarem w ładunku i ścianą przy kabinie — 4 zaznaczenia; (d) naczepa, której typ system dobiera źle: system wybiera „plandeka”, poprawny typ to „chłodnia” (nazwy przykładowe, jak w `docs/demo.md`) — pokaz wyboru typu z listy.
 
 ### 7.3 Ścieżka pokazu (nasze ograniczenie: do 2 min)
-1. Wczytanie obrazu (b) → w kilka sekund zaznaczenia i podpis „porównano z”. 2. Suwak: wzorzec ↔ obraz. 3. Klik w pierwsze miejsce z listy (strefa podwójnej podłogi) → „Zatwierdź” (sprawdzone, podejrzane — do kontroli). 4. Inne miejsce → „Odrzuć” (pomyłka systemu) + powód z listy. 5. Obraz (c): ściana przy kabinie i towar w ładunku — dwie strefy na liście. 6. Obraz (d): zmiana typu naczepy z listy. 7. „Zapisz raport”. 8. Obraz (a): brak zaznaczeń.
+1. Wczytanie obrazu (b) → w kilka sekund zaznaczenia i podpis „porównano z”. 2. Dwa okna: wzorzec obok badanego obrazu. 3. Klik w pierwsze miejsce z listy (strefa podwójnej podłogi) → „Zatwierdź” (sprawdzone, podejrzane — do kontroli). 4. Inne miejsce → „Odrzuć” (pomyłka systemu) + powód z listy. 5. Obraz (c): ściana przy kabinie i towar w ładunku — dwie strefy na liście. 6. Obraz (d): zmiana typu naczepy z listy. 7. „Zapisz raport”. 8. Obraz (a): brak zaznaczeń.
 
 ### 7.4 Kryteria akceptacji
 Definicje (P9 A): skrytka „zaznaczona”, gdy zaznaczenie choć częściowo nachodzi na skrytkę albo jego środek leży w skrytce. FP = czysty obraz z co najmniej jednym zaznaczeniem. Liczby progów nie są wpisane: wynik „n z N” podaje pomiar Programisty (krok 0P), progi po pomiarze (P11, P16).
