@@ -61,11 +61,11 @@ Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejs
 2. **Wynik, który można sprawdzić** — raportujemy FP-obraz i FN-obraz oraz czułość wg rozmiaru dodatku (nie obiecujemy bez pomiaru).
 3. **Wzorzec z biblioteki dla naczepy tego samego typu** (P8: operator zwykle nie ma czystego zdjęcia tej samej naczepy), a nie tylko „ten sam pojazd przed/po” (zakres Rapiscan Vehicle Compare). Uwaga: zadanie §7 opisuje dane jako pary/grupy „przed i po”; biblioteka wzorców z naszego zbioru to założenie wykonawcze do sprawdzenia w makiecie i danych.
 4. **Podpowiedź w trakcie oglądania obrazu** (P6): operator ma kilka minut na auto, więc zaznaczenia muszą być czytelne od razu, a wynik w < 1 min (zadanie §7). To wymóg użyteczności, a wyróżnik tylko jeśli pokażemy to w demo.
-5. **Działa lokalnie** (§3, §9). Obsługa partii i dużych plików to wymóg wejścia (§9), nie wyróżnik, dopóki nie zmierzymy (P11 czeka).
+5. **Działa lokalnie** (§3, §9). Obsługa partii i dużych plików to wymóg wejścia (§9), nie wyróżnik, dopóki nie zmierzymy (P11: A).
 
 ## 8. Zagrożenia
 1. Rapiscan i inni oferują porównanie od dawna — wyróżnia nas wynik na naszym zbiorze, nie sama idea.
-2. Zero fałszywych alarmów (§6) a czułość na małe skrytki (P4: nie przeoczyć) — kompromis do jawnego pokazania; przy konflikcie priorytetem jest mniej przeoczeń (P4: B, Artur: „żeby nie przeoczyć skrytki”); P13 to potwierdzi lub zmieni.
+2. Zero fałszywych alarmów (§6) a czułość na małe skrytki (P4: nie przeoczyć) — kompromis do jawnego pokazania; przy konflikcie priorytetem jest mniej przeoczeń (P4: B, Artur: „żeby nie przeoczyć skrytki”); potwierdzone w P13: A (kilka zaznaczeń na auto, nie kilkadziesiąt).
 3. Sztuczny zbiór (decyzje 11:59) może zawyżać wyniki względem prawdziwych obrazów KAS.
 
 ## 9. Rekomendacje
@@ -78,7 +78,7 @@ Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejs
 ## 10. Czego nie wiem o produkcie
 Zamknięte (odpowiedzi Artura): P6 — w trakcie oglądania obrazu, kilka minut na auto; P7 — oba rodzaje ukrycia, najczęściej podwójna podłoga albo ściana przy kabinie; P8 — wzorzec dobiera system z biblioteki.
 Zamknięte też: P9 — trafienie, gdy zaznaczenie choć częściowo nachodzi na skrytkę albo jego środek leży w skrytce; P10 — KAS papierosy wykrywa, ale przy małych ilościach w konstrukcji jest za słabe; P11 — dużych plików i partii nie obiecujemy przed pomiarem (stąd tylko wymóg wejścia); P12 — **obiecujemy też przeróbki konstrukcji** (podwójna podłoga najczęstsza).
-Otwarte: **P13 — którą stronę wybieramy, gdy „nie przeoczyć skrytki” (P4) ściera się z „zero fałszywych alarmów na czystych” (zadanie §6)**.
+Zamknięte też: P13 — A: nie przeoczyć skrytki, nawet kosztem kilku fałszywych alarmów; zaznaczeń na auto ma być kilka, nie kilkadziesiąt. Otwarte: brak.
 Pominięte, bo rozstrzyga zadanie: cena i wejście na rynek (narzędzie wewnętrzne KAS, wdrożenie przez usługodawców IT KAS — §9); kto jest użytkownikiem (operator RTG, §1–2); jak sobie radzi dziś (ręcznie + narzędzie do papierosów, §1); praca bez internetu (§9); sztuczne dane (decyzje 11:59).
 
 <!-- skill: przeplywy-pm -->
