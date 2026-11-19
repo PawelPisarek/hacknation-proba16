@@ -4,7 +4,7 @@
 
 ## 1. Kontekst odkrywania (z zadania i ustaleń, bez pytań)
 - **Co badamy:** narzędzie, które pokazuje operatorowi RTG miejsca różne od wzorca (zadanie §2–3).
-- **Co już wiemy:** użytkownik to operator RTG KAS; ma kilka minut na auto (P6); wzorzec dobiera system (P8, P16); boli i skrytka w konstrukcji, i towar w ładunku — najczęściej podwójna podłoga albo ściana przy kabinie (P7, P12); ważniejsze nie przeoczyć niż uniknąć kilku fałszywych alarmów (P4, P13); trafienie wg P9; obecne narzędzie KAS słabe przy małych ilościach w konstrukcji (P10); wydajność i partie dopiero po pomiarze (P11); teksty ostrożnie (P15–P17).
+- **Co już wiemy:** użytkownik to operator RTG KAS; ma kilka minut na auto (P6); wzorzec dobiera system, a gdy dobierze źle, operator wybiera typ naczepy z listy jednym kliknięciem — zawsze dostępne jako zapas (P8, P26 B, P16); boli i skrytka w konstrukcji, i towar w ładunku — najczęściej podwójna podłoga albo ściana przy kabinie (P7, P12); ważniejsze nie przeoczyć niż uniknąć kilku fałszywych alarmów (P4, P13); trafienie wg P9; obecne narzędzie KAS słabe przy małych ilościach w konstrukcji (P10); wydajność i partie dopiero po pomiarze (P11); teksty ostrożnie (P15–P17).
 - **Jaką decyzję ustawia odkrywanie:** co wchodzi do pierwszej działającej wersji i do pokazu. „Pokaz do 2 min” to nasze ograniczenie (cel zespołu), nie odpowiedź Artura ani wymóg zadania.
 - UPROSZCZENIE: brak badań z operatorami — rozmowy z użytkownikami zastępuje wiedza Artura i opis zadania — dorobienie: rozmowy po hackathonie.
 
@@ -12,7 +12,7 @@
 | # | Pomysł | Perspektywa | Co daje operatorowi | Wpływ | Wysiłek |
 |---|---|---|---|---|---|
 | 1 | **Zaznaczenia różnic na obrazie** — ramki na obrazie badanym w miejscach różnych od wzorca | PM | od razu widać, gdzie spojrzeć jeszcze raz (rdzeń zadania §3) | W | M |
-| 2 | **Dobór wzorca z zapasu wzorców i podpis „porównano z: typ X”** | PM | operator nie szuka zdjęcia czystej naczepy (P8); wie, z czym porównano | W | M |
+| 2 | **Dobór wzorca z zapasu wzorców, podpis „porównano z: typ X” i wybór typu naczepy z listy jednym kliknięciem** (zawsze dostępny jako zapas, P26 B) | PM | operator nie szuka zdjęcia czystej naczepy (P8); wie, z czym porównano; gdy system pomyli typ, poprawia go jednym kliknięciem | W | M |
 | 3 | **Podgląd obok siebie z suwakiem** — wzorzec i obraz w jednym oknie, przesuwana granica | projektant | sprawdza zaznaczenie okiem w ułamku sekundy | W | N |
 | 4 | **Lista miejsc od najbardziej różnych** — klik skacze w to miejsce | projektant | kilka minut na auto (P6): przegląd miejsc po kolei, bez błądzenia po obrazie | W | N |
 | 5 | **Siła zaznaczenia** — kolor ramki zależny od tego, jak bardzo miejsce różni się od wzorca | projektant | łatwiej zdecydować, które sprawdzić najpierw | Ś | N |
@@ -34,7 +34,7 @@ Skróty: W = wysoki, Ś = średni, N = niski.
 - **P22:** pomysł 5 w części (kolor ramki tylko dla stref ryzyka); 9 odpada.
 - **P23:** najryzykowniejsze założenia Z1, Z2, Z3 w tej kolejności; Z1 i Z2 sprawdzamy jednym przebiegiem.
 
-Zakres pierwszej wersji: 1, 2, 3, 4, 6, 7, 8 + kolor ramki ze strefy ryzyka (5 w części). Poza zakresem: 9, 10 (jako funkcja).
+Zakres pierwszej wersji: 1, 2 (z wyborem typu naczepy z listy jako stałym zapasem, P26 B), 3, 4, 6, 7, 8 + kolor ramki ze strefy ryzyka (5 w części). Poza zakresem: 9, 10 (jako funkcja).
 
 UPROSZCZENIE: kolejka wielu obrazów (9) — jeden obraz naraz — dorobienie: średnie
 UPROSZCZENIE: tablica wyników jako funkcja (10) — liczby tylko w opisie i na slajdzie — dorobienie: małe
@@ -42,7 +42,7 @@ UPROSZCZENIE: kontenery, autokary, wagony — tylko naczepy — dorobienie: duż
 
 ## 3b. Dalsze odpowiedzi Artura (P25, P26)
 - **P25 B:** celem jest nie przeoczyć podwójnej podłogi, ale bez obietnicy „żadnej” w tekstach (P15). Cel zapisujemy w specu bez liczby; w opisie podajemy liczbę z pomiaru.
-- **P26 B:** operator zna typ naczepy z dokumentów przewozowych; gdy system dobierze wzorzec źle, wybiera typ z listy jednym kliknięciem. To zmienia P8 B (ekran dostaje wybór typu naczepy) — za zgodą Artura.
+- **P26 B:** operator zna typ naczepy z dokumentów przewozowych; gdy system dobierze wzorzec źle, wybiera typ z listy jednym kliknięciem. Wybór jest dostępny zawsze jako zapas (nie dopiero po „Z1 nie trzyma”). To zmienia P8 B — za zgodą Artura.
 
 ## 4. Założenia (wartość, użyteczność, wykonalność, opłacalność)
 Definicje (P9 A): skrytka jest „zaznaczona”, gdy zaznaczenie choć częściowo nachodzi na skrytkę albo jego środek leży w skrytce. Fałszywy alarm (FP) = czysty obraz z co najmniej jednym zaznaczeniem. Przeoczenie (FN) = skrytka bez zaznaczenia. FN liczymy razem i osobno: konstrukcja (podwójna podłoga, ściana przy kabinie, przeróbki) oraz towar w ładunku (P7, 01 §5, §7).
@@ -75,6 +75,7 @@ Macierz wpływ × ryzyko. „Skok wiary” zgodnie z P23: tylko Z1, Z2, Z3. Z2b 
 | Z4 | przegląd tekstów ekranu i README | brak zdań obiecujących skuteczność (P15, P16, P17) |
 | Z5 (kliknięcia) | przejście w MVP: obsługa zaznaczenia | najwyżej 1 kliknięcie na zaznaczenie |
 | Z6 | test akceptacji MVP: otwarcie raportu po zatwierdzeniu | raport zawiera miejsce i przedmiot kontroli |
+| wybór typu naczepy (P26 B) | test akceptacji MVP: operator zmienia typ naczepy na liście | najwyżej 1 kliknięcie; wzorzec się zmienia i porównanie odświeża się |
 
 „Pokaz do 2 min” to nasze ograniczenie na demo, nie kryterium tych założeń. Żadnej liczby z tej tabeli nie przenosimy do `docs/spec.md` jako kryterium akceptacji, dopóki nie jest zmierzona albo potwierdzona przez Artura.
 
@@ -85,12 +86,12 @@ Macierz wpływ × ryzyko. „Skok wiary” zgodnie z P23: tylko Z1, Z2, Z3. Z2b 
 Brak badań z operatorami (UPROSZCZENIE z punktu 1): zastępują je sztuczne dane i Artur przy przeglądzie MVP.
 
 ## 8. Drzewo decyzji
-- Z1 nie trzyma (wzorzec źle dobrany w pomiarze Programisty) → operator wybiera typ naczepy z listy jednym kliknięciem (P26 B); podpis „porównano z” zostaje.
-- Z2 nie trzyma (przeoczone podwójne podłogi w pomiarze) → strefy ryzyka (6) wskazują miejsce do ręcznego sprawdzenia bez twierdzenia o różnicy.
-- Z2b nie trzyma → ściana przy kabinie jako strefa ryzyka (6) bez twierdzenia o różnicy; wynik raportujemy osobno.
-- Z2c nie trzyma → towar w ładunku zapowiadamy jako ograniczenie w tekstach; FN osobno w opisie.
+- Z1 nie trzyma (wzorzec źle dobrany w pomiarze Programisty 0P; próg ustala Programista po pomiarze 0P) → wybór typu naczepy z listy (P26 B) i tak jest zawsze dostępny; poprawiamy dobór (więcej wzorców w bibliotece), podpis „porównano z” zostaje.
+- Z2 nie trzyma (przeoczone podwójne podłogi; próg ustala Programista po pomiarze 0P) → strefy ryzyka (6) wskazują miejsce do ręcznego sprawdzenia bez twierdzenia o różnicy.
+- Z2b nie trzyma (próg ustala Programista po pomiarze 0P) → ściana przy kabinie jako strefa ryzyka (6) bez twierdzenia o różnicy; wynik raportujemy osobno.
+- Z2c nie trzyma (próg ustala Programista po pomiarze 0P) → towar w ładunku zapowiadamy jako ograniczenie w tekstach; FN osobno w opisie.
 - Czas ≥ 1 min na obraz → upraszczamy porównanie (mniejsza rozdzielczość podglądu) albo zawężamy zbiór; wynik w opisie.
-- Z3 nie trzyma (niski odsetek zatwierdzonych) → pokazujemy tylko najbardziej różne miejsca, reszta zwinięta pod listą.
+- Z3 nie trzyma (niski odsetek zatwierdzonych; próg ustala Artur przy przeglądzie MVP) → pokazujemy tylko najbardziej różne miejsca, reszta zwinięta pod listą.
 - Wszystko trzyma → zakres bez zmian; następny krok: kontenery (P19).
 
 ## 9. Otwarte pytania do Artura
