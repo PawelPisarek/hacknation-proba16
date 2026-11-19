@@ -8,9 +8,9 @@ Podstawa: `docs/zadanie.md`, `docs/decyzje.md` (P6 w trakcie oglądania obrazu; 
 
 | # | Nazwa | Hasło (≤ 80 zn.) | Uzasadnienie |
 |---|---|---|---|
-| 1 | **Skrytka.AI** | Pokazuje operatorowi to, czego nie ma we wzorcu. (49 zn.) | Używa słowa, którego szuka operator (podwójna podłoga, ściana przy kabinie — P7), więc jest od razu zrozumiała, choć zawęża skojarzenie do skrytek, a nie towaru w ładunku. |
-| 2 | **Wzorzec** | Naczepa kontra wzorzec: różnice zaznaczone na obrazie. (53 zn.) | Krótka i wprost z zadania („obraz wzorcowy”), podkreśla wyróżnik z P8 (wzorzec dobiera system), ale nie mówi, że szukamy ukrytego towaru. |
-| 3 | **Prześwit** | Drugie spojrzenie na każdy obraz RTG, w trakcie oglądania. (58 zn.) | Polskie, jedno słowo, kojarzy się z prześwietleniem i z „czymś, co prześwituje”; pasuje do P6 (podpowiedź na żywo), ale sama nazwa nie tłumaczy, co narzędzie robi. |
+| 1 | **Skrytka.AI** | Pokazuje operatorowi to, czego nie ma we wzorcu. (48 zn.) | Używa słowa, którego szuka operator (podwójna podłoga, ściana przy kabinie — P7), więc jest od razu zrozumiała, choć zawęża skojarzenie do skrytek, a nie towaru w ładunku. |
+| 2 | **Wzorzec** | Naczepa kontra wzorzec: różnice zaznaczone na obrazie. (56 zn.) | Krótka i wprost z zadania („obraz wzorcowy”), podkreśla wyróżnik z P8 (wzorzec dobiera system), ale nie mówi, że szukamy ukrytego towaru. |
+| 3 | **Prześwit** | Drugie spojrzenie na każdy obraz RTG, w trakcie oglądania. (60 zn.) | Polskie, jedno słowo, kojarzy się z prześwietleniem i z „czymś, co prześwituje”; pasuje do P6 (podpowiedź na żywo), ale sama nazwa nie tłumaczy, co narzędzie robi. |
 
 Nazwy nie zawierają zapewnień o dostępności domeny ani znaku towarowego: tego nie sprawdzałem (brak dostępu do rejestrów w tym kroku) — do sprawdzenia przed publikacją.
 
