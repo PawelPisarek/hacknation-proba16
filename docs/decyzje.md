@@ -179,3 +179,4 @@ P31 15:05 Artur: Który wariant ekranu bierzemy? 1 (jeden duży obraz, lista z b
 P31 15:06 odpowiedź: wariant 3 (wzorzec obok badanego obrazu) + z wariantu 1 lista miejsc z boku; operator musi widzieć, z czym porównujemy (Artur w pokoju)
 15:08 Szef: P31 przyjęte (wariant 3 + lista z boku) → Programista makieta R1, Projektant spec
 15:08 Projektant: P31 wpisane do spec §7.2 (wariant 3 + lista z wariantu 1, lista od wysokiego); zdublowanej linii pytania P31 nie ma (jedna, wiersz 177)
+15:09 Programista: makieta R1 (P31: wariant 3 wzorzec obok badanego + lista miejsc z boku z wariantu 1; lista od wysokiego, stopień słownie wg P30 A; dane udawane spec §7.2) — makieta/index.html, https://pawelpisarek.github.io/hacknation-proba16/makieta/ , zrzut docs/zrzuty/makieta-R1.png
