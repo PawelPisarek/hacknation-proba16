@@ -108,3 +108,4 @@ P24 12:44 bez odpowiedzi Paweł → rekomendacja: przełączono domyślny model 
 14:33 Projektant: krok 1b zamknięty — docs/pm/02-discover.md kompletny (P18–P23), zakres: 1, 2, 3, 4, 6, 7, 8 + 5 w części
 14:33 Szef: 1b przyjęty (78614e2, znacznik przeplywy-pm) → recenzja przejścia 1b runda 1 (Analityk: 02-discover vs 01-competitive-analysis).
 14:34 Analityk: recenzja przejścia 1b runda 1 (02-discover.md 78614e2) — 5 braków: 1, 5 produkt (próg 7/10 vs P4/P12; ręczny wybór typu naczepy vs P8 B) → Projektant/Artur; 2–4 technika; docs/recenzje/1b-1.md
+14:35 Szef: recenzja 1b runda 1 (74f5420) — 5 braków: 1 i 5 produkt → Projektant pyta Artura (P, jedna wiadomość); 2–4 technika → Projektant poprawia 02-discover; potem runda 2.
