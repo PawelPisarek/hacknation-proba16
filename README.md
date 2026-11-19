@@ -6,7 +6,9 @@
 
 ## Co to jest
 
-Prześwit to narzędzie dla operatora RTG na granicy, który ma kilka minut na naczepę (obraz ok. 50 MB). Obecne narzędzie KAS wykrywa papierosy, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe. Prześwit podpowiada w trakcie oglądania obrazu: system sam dobiera wzorzec z biblioteki, porównuje z nim naczepę i zaznacza miejsca różne od wzorca — dodatki w ładunku oraz przeróbki konstrukcji (np. podwójną podłogę, ścianę przy kabinie). Wczytuje pliki BMP. Decyzję o kontroli fizycznej nadal podejmuje operator. Obrazów KAS nie mamy, więc pracujemy na własnym, sztucznym zbiorze naczep.
+Prześwit to narzędzie dla operatora RTG na granicy, który ma kilka minut na naczepę (obraz ok. 50 MB). Obecne narzędzie KAS wykrywa papierosy, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe. Prześwit podpowiada w trakcie oglądania obrazu: system sam dobiera wzorzec z biblioteki, porównuje z nim naczepę i zaznacza miejsca różne od wzorca — dodatki w ładunku oraz przeróbki konstrukcji (np. podwójną podłogę, ścianę przy kabinie). Wczytuje pliki BMP. Operator jednym kliknięciem zatwierdza albo odrzuca zaznaczenie, a raport zapisuje miejsce i przedmiot kontroli; decyzję o kontroli fizycznej nadal podejmuje operator.
+
+Zakres: pokazujemy tylko naczepy ciężarowe (dla nich mamy zbiór i pokaz); kontenery, autokary i wagony kolejowe to dalszy krok. Obrazów KAS nie mamy, więc pracujemy na własnym, sztucznym zbiorze naczep. Docelowo narzędzie ma działać bez chmury; w pokazie obliczenia robi usługa na karcie graficznej w sieci lokalnej.
 
 Dla kogo: operatorzy RTG Służby Celno-Skarbowej.
 
@@ -29,6 +31,8 @@ python -m rtg.uruchom --dane ~/dane/proba16/male --metody H1,H1t,H2,H2n,H2k --wy
 python -m rtg.ocena --prawda ~/dane/proba16/male/prawda.json --pred wyniki/male/H2.json
 ```
 
+Na zespołowej flocie: przez orkiestrator (`--klasa gpu-tlo` dla `rtg.uruchom`, `--maszyna dowolna` dla generatora).
+
 Szczegóły i format przewidywań: `docs/uruchomienie.md`, nagłówek `rtg/ocena.py`.
 
 ## Wyniki
@@ -46,11 +50,22 @@ Wyniki dotyczą zbioru sztucznego i mogą być lepsze niż na prawdziwych obraza
 
 ## Użyte narzędzia
 
-- **OpenMausBot** — zespół 5 botów przygotowany przed hackathonem (github.com/milind-soni/OpenMausBot, Apache-2.0).
+- **OpenMausBot** — platforma, na której pracuje zespół 5 botów przygotowany przed hackathonem (role w sekcji „Zespół”).
 - **Claude** (Anthropic) — modele, na których pracują boty.
-- **pm-skills** — skille produktowe (github.com/phuryn/pm-skills, MIT).
+- **pm-skills** — skille produktowe użyte przez boty (m.in. product-name, value-prop-statements, release-notes).
 - **Biblioteki** z `requirements.txt`: numpy, pillow, scipy, torch (z CUDA).
 
 ## Zespół
 
-Zespół „Hackathon”: Paweł (technika, wygląd, użyteczność), Artur (kształt produktu) oraz zespół botów OpenMausBot.
+Zespół „Hackathon”:
+
+- **Paweł** — technika, wygląd, użyteczność.
+- **Artur** — kształt produktu.
+
+Zespół botów OpenMausBot:
+
+- **Szef** — rozdział pracy i rozmowa z Pawłem.
+- **Projektant** — spec, ścieżka użytkownika, ekrany makiety.
+- **Analityk** — materiały, ryzyka, recenzje.
+- **Programista** — kod, makieta, wdrożenie.
+- **Prezenter** — README i teksty.
