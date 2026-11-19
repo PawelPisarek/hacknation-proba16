@@ -57,7 +57,7 @@ UPROSZCZENIE: deklarowany ładunek (palety) w testach — pominięty: testy to p
 12:10 Szef: 1a zamknięte — v5 75c848a, znacznik przeplywy-pm, Recenzja przejścia 3 (Analityk, 5117f52): brak braków zmieniających zakres lub kryteria.
 12:11 Szef: krok 6 — docs/nazwa.md (fd37b90, znaczniki product-name, value-prop-statements); recenzja 1 → Analityk; wybór nazwy → Artur jako P14 (Projektant). Duplikatu P1 w decyzje.md już nie ma.
 P14 12:11 Artur: Jak nazwiemy projekt: „Skrytka.AI”, „Wzorzec” czy „Prześwit”? (rekomendacja: Skrytka.AI — „Pokazuje operatorowi to, czego nie ma we wzorcu.”, operator od razu rozumie, o co chodzi) — czeka
-P14 12:12 dopisek do pytania (recenzja 1 nazwa.md, Analityk 3d10a77): „Skrytka.AI” sugeruje tylko skrytki, a P7 i P12 obejmują też towar w ładunku — czy to przeszkadza w wyborze nazwy? — czeka
+12:12 Projektant: dopisek do P14 (recenzja 1 nazwa.md, Analityk 3d10a77): „Skrytka.AI” sugeruje tylko skrytki, a P7 i P12 obejmują też towar w ładunku — czy to przeszkadza w wyborze nazwy?
 P15 12:12 Artur: W tekstach mówimy (A) „zaznacza tylko różnice, na czystym aucie nic” czy (B) „kilka zaznaczeń na auto” (z P13)? Rekomendacja: A — B brzmi jak obietnica fałszywych alarmów na czystym aucie — czeka
 P16 12:12 Artur: Teksty piszemy (A) ostrożnie: „system sam dobiera wzorzec z biblioteki”, bez „każdy obraz” i „bez zdjęcia czystej naczepy”, czy (B) śmiało, jak teraz? Rekomendacja: A — tego jeszcze nie zmierzyliśmy — czeka
 12:12 Szef: nazwa.md recenzja 1 (3d10a77, 5 braków): 1–3 produkt → Artur przez Projektanta (1 w P14); 4–5 technika → Prezenter. Znaczniki skilli na górze pliku zostają (format zlecenia Szefa).
