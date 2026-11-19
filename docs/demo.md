@@ -6,6 +6,8 @@ Podstawa: `docs/spec.md` §7.3 (ścieżka pokazu), §7.2 (ekrany). Nagrywa czło
 
 **Dane na ekranie (sztuczne, §7.2):** (a) czysta naczepa — 0 zaznaczeń; (b) podwójna podłoga — 2 zaznaczenia; (c) towar w ładunku i ściana przy kabinie — 4 zaznaczenia; (d) naczepa, której typ system dobiera źle: system wybiera „plandeka”, poprawny typ to „chłodnia” (nazwy przykładowe — Programista wpisuje je w makiecie tak samo). Pasek stanu zawsze pokazuje liczbę zaznaczeń z danego obrazu. Bez zdań obiecujących skuteczność (P15–P17, P25 B).
 
+**P38 B:** przy zapisie raportu z nieprzejrzanymi miejscami makieta pokazuje „Nieprzejrzane: N miejsc. Zapisać mimo to?”. W tym pokazie w (b) przejrzane są wszystkie 2 miejsca (wiersze 4–5), więc ostrzeżenie się nie pojawia i nie ma go w scenariuszu; gdyby operator zapisał raport wcześniej, trzeba potwierdzić (+ok. 3 s z rezerwy).
+
 **Zależność od P29 (teraz A):** „Zatwierdź” = sprawdzone, podejrzane — do kontroli; „Odrzuć” = pomyłka systemu, z powodem z krótkiej listy. Gdyby Artur zmienił na B (zamieniają się znaczenia przycisków), zmieniają się wiersze 4–5 (ekran i lektor) oraz okno raportu w wierszu 6.
 
 | # | sekunda | słowa | co widać na ekranie | co mówi lektor |
