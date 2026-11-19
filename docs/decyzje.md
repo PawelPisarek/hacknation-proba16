@@ -230,3 +230,4 @@ P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca;
 15:51 Szef: makieta R3 https://pawelpisarek.github.io/hacknation-proba16/makieta/ (ac5eedf) → krytyk Analityk (runda 3, ostatnia)
 15:51 Analityk: krytyk makiety R3 (ac5eedf): ocena 8/10, 2 braki (1 technika-poprawka: 0 miejsc dla innego typu; 1 produkt-wybór: raport z nieprzejrzanymi) → docs/recenzje/makieta-R3.md
 15:52 Szef: krytyk R3 8/10 (a4e4085) — makieta zamknięta po 3 rundach (P28); brak 1 (technika, poprawka: zły typ w a/b/c daje „0 miejsc”) → Programista; brak 2 (produkt: zapis raportu z »nieprzejrzane«) → Projektant pyta Artura jako P38 (rek. A)
+P38 15:52 Artur: Operator chce zapisać raport, choć nie przejrzał wszystkich zaznaczonych miejsc. A) zapisujemy, a w raporcie te miejsca są opisane jako „nieprzejrzane” (tak jest teraz), czy B) przed zapisem pojawia się ostrzeżenie? Rekomendacja: A. Plus: czy coś z ekranu wyrzucić? (rekomendacja: nic) — czeka
