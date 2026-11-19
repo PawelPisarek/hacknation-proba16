@@ -1,6 +1,6 @@
 # 01 — Analiza konkurencji (`/competitive-analysis`)
 
-Źródła: `docs/zadanie.md`, `docs/materialy.md`, `docs/decyzje.md` (P3: szukamy sami; P4: **B** — liczy się skuteczność, przede wszystkim żeby nie przeoczyć skrytki; P5: **A** — analiza służy uzasadnieniu wyróżnika w opisie i na pokazie).
+Źródła: `docs/zadanie.md`, `docs/materialy.md`, `docs/decyzje.md` (P3: szukamy sami; P4: **B** — liczy się skuteczność, przede wszystkim żeby nie przeoczyć skrytki; P5: **A** — analiza służy uzasadnieniu wyróżnika w opisie i na pokazie; P6: narzędzie podpowiada w trakcie oglądania obrazu; P7: boli oba — skrytki w konstrukcji i towar w ładunku, najczęściej podwójna podłoga albo ściana przy kabinie; P8: wzorzec system dobiera z biblioteki, bo operator zwykle nie ma czystego zdjęcia tej samej naczepy).
 Wyszukiwanie w sieci: listopad 2026, wyniki ze źródeł publicznych (linki w tekście). **Czego nie znalazłem, jest powiedziane wprost** (np. Nuctech, Multicontrol).
 
 ## 1. Kontekst (z zadania, bez pytań)
@@ -29,33 +29,33 @@ Automatyczna analiza obrazów RTG ładunków jest wg przeglądu [Automated X-ray
 Podejścia wschodzące (badania): uczenie wyłącznie na normalnych obrazach — m.in. detekcja anomalii na patchach dla kontenerów (Andrews i in., cytowane w [UCL](https://discovery.ucl.ac.uk/id/eprint/10062484/1/2nd%20revision%20in%20template%2002.pdf)), [nienadzorowana segmentacja anomalii w bagażu](https://arxiv.org/pdf/2107.07333) i [przegląd uczenia głębokiego w RTG](https://arxiv.org/pdf/2001.01293).
 
 ## 5. Przegląd metod wykrywania różnic i anomalii na obrazach RTG
-| Metoda | Jak działa | Plus | Minus / ryzyko dla nas |
-|---|---|---|---|
-| **Różnica pikselowa po wyrównaniu** (rejestracja, np. korelacja fazowa) | odjęcie wzorca od obrazu po wyrównaniu; różnica = kandydat | prosta, szybka, nie wymaga uczenia, wprost pasuje do pary „wzorzec–badany”; w ACXIS i patentach ([przykład](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5910973)) | wrażliwa na przesunięcia, skalę, szum → fałszywe alarmy; wzorzec musi być dopasowany do typu naczepy |
-| **Korelacja okno po oknie** (Zheng i in., w tym samym przeglądzie UCL) | lokalna korelacja z wzorcem | odporniejsza na szum niż piksel | wolniejsza, słabsza na drobiazgach |
-| **Autoenkoder / rekonstrukcja** | sieć uczona na czystych; duży błąd rekonstrukcji = anomalia | uczy się tylko na czystych (zgodnie z §5 zadania), bez przykładów anomalii | małe skrytki giną w uśrednieniu; próg trudny |
-| **Pamięć cech normalnych (typ PatchCore)** | porównanie cech fragmentów z bazą normalnych | silna w przemyśle, bez etykiet | **nie znalazłem testu na RTG ładunków**; może mylić się na zróżnicowanych scenach (wnioskowanie, nie wynik) |
-| **Nienadzorowana segmentacja anomalii** ([źródło](https://arxiv.org/pdf/2107.07333)) | maska anomalii bez etykiet (bagaż) | daje obszary do zaznaczenia (W4) | bagaż ≠ naczepa |
-| **Klasyfikacja „pusty / niepusty”** | etykieta całego obrazu | prosta | nie lokalizuje (nie spełnia W4/W10) |
-| **Detektor obiektów uczony na dodatkach** | wykrywa znane klasy | wysoka czułość na znane | wymaga przykładów anomalii — zadanie §5 ich nie gwarantuje |
+| Metoda | Jak działa | Plus | Minus / ryzyko dla nas | Wykonalność (czas < 1 min, 50 MB, karta 4 GB, offline) |
+|---|---|---|---|---|
+| **Różnica pikselowa po wyrównaniu** (rejestracja, np. korelacja fazowa) | odjęcie wzorca od obrazu po wyrównaniu; różnica = kandydat | prosta, szybka, nie wymaga uczenia, wprost pasuje do pary „wzorzec–badany”; w ACXIS i patentach ([przykład](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5910973)) | wrażliwa na przesunięcia, skalę, szum → fałszywe alarmy; wzorzec musi być dopasowany do typu naczepy | tania; kafelki/partie, offline; założenie do pomiaru |
+| **Korelacja okno po oknie** (Zheng i in., w tym samym przeglądzie UCL) | lokalna korelacja z wzorcem | odporniejsza na szum niż piksel | wolniejsza, słabsza na drobiazgach | średni koszt; do pomiaru przy 50 MB |
+| **Autoenkoder / rekonstrukcja** | sieć uczona na czystych; duży błąd rekonstrukcji = anomalia | uczy się tylko na czystych (zgodnie z §5 zadania), bez przykładów anomalii | małe skrytki giną w uśrednieniu; próg trudny | uczenie na karcie 4 GB tylko na kafelkach; wagi lokalne; założenie do pomiaru |
+| **Pamięć cech normalnych (typ PatchCore)** | porównanie cech fragmentów z bazą normalnych | silna w przemyśle, bez etykiet | **nie znalazłem testu na RTG ładunków**; może mylić się na zróżnicowanych scenach (wnioskowanie, nie wynik) | cechy wymagają lokalnych wag; pamięć/czas do pomiaru |
+| **Nienadzorowana segmentacja anomalii** ([źródło](https://arxiv.org/pdf/2107.07333)) | maska anomalii bez etykiet (bagaż) | daje obszary do zaznaczenia (W4) | bagaż ≠ naczepa | jw., cięższa; do pomiaru |
+| **Klasyfikacja „pusty / niepusty”** | etykieta całego obrazu | prosta | nie lokalizuje (nie spełnia W4/W10) | lekka, ale nie lokalizuje |
+| **Detektor obiektów uczony na dodatkach** | wykrywa znane klasy | wysoka czułość na znane | wymaga przykładów anomalii — zadanie §5 ich nie gwarantuje | wymaga etykiet anomalii, których nie mamy (§5) |
 
-Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejsca) najbliższe są: **różnica po wyrównaniu** jako podstawa i **model uczony na czystych** jako druga hipoteza do porównania; wybór potwierdzi pomiar FP/FN na zbiorze (decyzje 11:59, typ A). Liczb skuteczności z literatury nie przenoszę na nasze dane (inny zbiór) — jedyna liczba z wyszukiwania: slajd Rapiscan „96% wykrycia przy 3% fałszywych alarmów” dotyczy innego zadania i jest tu tylko przykładem rzędu wielkości (źródło wtórne, nieweryfikowane).
+Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejsca) najbliższe są: **różnica po wyrównaniu** jako podstawa i **model uczony na czystych** jako druga hipoteza do porównania; wybór potwierdzi pomiar FP/FN na zbiorze (decyzje 11:59, typ A). Liczb skuteczności z literatury nie przenoszę na nasze dane (inny zbiór) — liczb skuteczności konkurentów tu nie podaję (brak weryfikowalnego źródła).
 
 ## 6. Porównanie funkcji (soczewka: skuteczność, brak przeoczeń skrytki)
 | Zdolność | Nasze rozwiązanie (cel) | Rapiscan | Smiths AXR | Obecne narzędzie KAS |
 |---|---|---|---|---|
 | Porównanie ze wzorcem i wskazanie różnic | tak (podstawa) | tak (ten sam pojazd) | brak danych | nie |
 | Wskazanie miejsca na obrazie | tak (wymóg §3) | tak | brak danych | częściowo (papierosy) |
-| Małe skrytki w konstrukcji | cel główny | brak danych | brak danych | słabo (§1) |
+| Skrytki w konstrukcji (podwójna podłoga, ściana przy kabinie — P7) i towar w ładunku | cel (oba, P7) | brak danych | brak danych | słabo przy małych ilościach w konstrukcji (§1) |
 | Miara FP/FN na zbiorze testowym | tak (mierzymy) | nie publikuje na naszym zbiorze | nie | nie |
-| Praca bez internetu | tak (§9) | zwykle lokalnie, brak danych | brak danych | tak |
+| Praca bez internetu | tak (§9) | brak danych | brak danych | tak |
 | Otwarte, powtarzalne, do oceny | tak | nie | nie | nie |
 | Format `.bmp` ~50 MB, partie | tak (wymóg) | brak danych | brak danych | brak danych |
 
 ## 7. Szanse wyróżnienia (P5: do opisu i pokazu)
-1. **Skrytki, nie tylko papierosy** — nasz cel to drobne przeróbki konstrukcji, gdzie dzisiejsze narzędzie jest słabe (zadanie §1).
+1. **Skrytki w konstrukcji obok towaru w ładunku** (P7: oba) — tam, gdzie dzisiejsze narzędzie do papierosów jest słabe (zadanie §1); wskazujemy różnice ogólnie, nie tylko papierosy.
 2. **Wynik, który można sprawdzić** — raportujemy FP-obraz i FN-obraz oraz czułość wg rozmiaru dodatku (nie obiecujemy bez pomiaru).
-3. **Wzorzec z innego pojazdu tego samego typu**, nie tylko „ten sam pojazd przed/po” (zakres Rapiscan Vehicle Compare) — **założenie do potwierdzenia**: zbiór KAS ma pary/grupy „przed i po” (§7).
+3. **Wzorzec z biblioteki dla naczepy tego samego typu** (P8: operator zwykle nie ma czystego zdjęcia tej samej naczepy), a nie tylko „ten sam pojazd przed/po” (zakres Rapiscan Vehicle Compare). Uwaga: zadanie §7 opisuje dane jako pary/grupy „przed i po”; biblioteka wzorców z naszego zbioru to założenie wykonawcze do sprawdzenia w makiecie i danych.
 4. **Działa lokalnie** i **skaluje się partiami** (§3, §9).
 
 ## 8. Zagrożenia
@@ -64,16 +64,16 @@ Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejs
 3. Sztuczny zbiór (decyzje 11:59) może zawyżać wyniki względem prawdziwych obrazów KAS.
 
 ## 9. Rekomendacje
-- **Postawić na**: różnica po wyrównaniu + czytelne zaznaczenie miejsca + jawny pomiar FP/FN.
+- **Postawić na**: różnica po wyrównaniu ze wzorcem dobieranym z biblioteki + czytelne zaznaczenie miejsca + jawny pomiar FP/FN.
 - **Nadrobić (wymóg wejścia)**: `.bmp` 50 MB, partie, czas < 1 min.
-- **Pominąć**: rozpoznawanie papierosów (robi je istniejące narzędzie) i dopasowanie do manifestu (patenty — poza zadaniem).
+- **Pominąć**: dopasowanie do manifestu (patenty — poza zadaniem). Papierosów nie wyłączamy z zakresu (P7: boli także towar w ładunku); rozpoznawanie papierosów robi dziś osobne narzędzie KAS i go nie powielamy.
 
 ## 10. Czego nie wiem o produkcie (lista przed momentem (a))
 Każda pozycja to osobne pytanie do Artura z rekomendacją (numery w `docs/decyzje.md`):
-1. Kiedy operator sięga po narzędzie: w trakcie oglądania obrazu (podpowiedź) czy po własnej ocenie (kontrola końcowa)?
-2. Co dziś najbardziej boli: małe skrytki w konstrukcji pojazdu czy towar ukryty w ładunku?
-3. Skąd operator bierze wzorzec: sam wskazuje obraz porównawczy, czy system dobiera go z biblioteki?
-Pominięte, bo rozstrzyga zadanie: kto jest użytkownikiem (operator RTG, §1–2); jak sobie dziś radzi (ręcznie + narzędzie do papierosów, §1); praca bez internetu (§9); sztuczne dane (decyzje 11:59).
+1. Kiedy operator sięga po narzędzie — **P6: w trakcie oglądania obrazu** (kilka minut na auto).
+2. Co dziś najbardziej boli — **P7: oba** (skrytki w konstrukcji i towar w ładunku).
+3. Skąd operator bierze wzorzec — **P8: system dobiera z biblioteki**.
+Pominięte, bo rozstrzyga zadanie: cena i wejście na rynek (narzędzie wewnętrzne KAS, wdrożenie przez usługodawców IT KAS — §9); kto jest użytkownikiem (operator RTG, §1–2); jak sobie dziś radzi (ręcznie + narzędzie do papierosów, §1); praca bez internetu (§9); sztuczne dane (decyzje 11:59).
 
 <!-- skill: przeplywy-pm -->
 <!-- skill: competitor-analysis -->
