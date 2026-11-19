@@ -83,3 +83,9 @@ P19 12:19 Artur: Dla jakich pojazdów pokazujemy produkt: (A) tylko naczepy cię
 P20 12:19 Artur: Co operator robi z zaznaczeniem: (A) odznacza „sprawdzone / pomyłka”, a raport zapisuje się z miejscem i przedmiotem kontroli, czy (B) tylko ogląda zaznaczenia i pobiera raport? Rekomendacja: B na pierwszą wersję (szybciej, pokaz mieści się w 2 min); A jako następny krok — czeka
 12:19 Szef: nazwa.md wg P17 (974d7e9) → recenzja 3 (Analityk), ostatnia runda.
 12:20 Prezenter: README.md szkic (Prześwit, wg P16; makieta i ksefbot.pl jako [link po wdrożeniu]; komendy z docs/uruchomienie.md)
+P18 12:21 odpowiedź (Artur w pokoju): 1, 2, 3, 4, 6 — strefy ryzyka (6) zamiast tablicy wyników (10), bo podwójna podłoga i ściana przy kabinie to najczęstszy przypadek (P7); liczby z 10 trafiają do opisu, nie jako funkcja.
+P19 12:21 odpowiedź (Artur w pokoju): A — tylko naczepy ciężarowe; kontenery, autokary i wagony jako dalszy krok.
+P20 12:21 odpowiedź (Artur w pokoju): A — operator zatwierdza albo odrzuca zaznaczenie jednym kliknięciem; raport zapisuje miejsce i przedmiot kontroli (bez tego raport nic nie mówi o kontroli). Wynik z P20: pomysł 7 i zapis raportu (8) wchodzą do pierwszej wersji.
+P21 12:21 Artur: Co w wybranych pomysłach (1, 2, 3, 4, 6, 7 z P20) chcesz zmienić albo uprościć? Rekomendacja: nic — pokaz w 2 min mieści się z tym zestawem — czeka
+P22 12:21 Artur: Czy któryś odrzucony pomysł warto wziąć w części: 5 (kolor ramki zależny od siły różnicy) albo 9 (kolejka wielu obrazów)? Rekomendacja: 5 w części — kolor ramki tylko dla stref ryzyka (6); 9 nie — czeka
+P23 12:21 Artur: Najryzykowniejsze założenia do sprawdzenia najpierw: (Z1) system trafnie dobiera wzorzec z biblioteki (P8), (Z2) podwójną podłogę widać jako różnicę od wzorca, (Z3) przy kilku zaznaczeniach na auto operator im ufa i zdąży je obejrzeć (P13). Czy to te trzy, czy zamieniamy któreś? Rekomendacja: te trzy — czeka
