@@ -161,3 +161,4 @@ P29 14:47 odpowiedź: A, a przy „Odrzuć” operator wybiera powód z krótkie
 14:52 Prezenter: slajdy-2: slajd 9 bez nadmiarowej kropki, slajd 6 obrazek tylko po pomiarze (do tego czasu wariant bez liczb), README Użyte narzędzia + orkiestrator.
 14:59 Szef: 0P wznowione po restarcie (Programista); szkice 3 wariantów → Projektant (docs/pm/04-warianty.md), niezależne od 0P
 14:59 Projektant: docs/pm/04-warianty.md — 3 szkice wariantów ekranu dla Programisty (zlecenie Szefa)
+15:00 Programista: 0P pomiar bazowy (male pełny, 20 czystych/45 dodatków, karta OMEN zgl-4607, kod metod = 15e71fe, k=6): H2 FP 20/20 FN 0/45; H2o FP 18/20 FN 0/45; H2no FP 14/20 FN 0/45; H2ko FP 7/20 FN 0/45 — hipotezy: otwarcie maski, nauka szumu, top-3 wzorce zbijają FP — potwierdzone (najsilniej top-3); żadna nie podnosi FN. Wyniki: wyniki/0P/. Bazą do dalszej pracy H2ko.
