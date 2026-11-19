@@ -194,3 +194,10 @@ P34 15:12 Artur: Przykład „porównano z”: A — przy naczepie (b) typ jest 
 P35 15:12 Artur: Raport do pobrania: A — zestawienie (miejsce, przedmiot kontroli, decyzje) plus obraz z zaznaczeniami; B — samo zestawienie. Pola przykładowe (przejście, numery rejestracyjne) oznaczamy jako dane sztuczne. (makieta: https://pawelpisarek.github.io/hacknation-proba16/makieta/) — czeka
 P36 15:12 Artur: Małe miejsca na obrazie (np. nr 2): A — powiększamy numer i dodajemy krótki opis jak przy miejscu 1; B — zostawiamy jak jest. (makieta: https://pawelpisarek.github.io/hacknation-proba16/makieta/) — czeka
 P37 15:12 Artur: Co z ekranu wyrzucić? Krytyk proponuje usunąć napis „WZORZEC: plandeka” wewnątrz okna wzorca (powtarza nagłówek i pole wyboru typu): A — usuwamy; B — zostawiamy; albo wskaż coś innego. (makieta: https://pawelpisarek.github.io/hacknation-proba16/makieta/) — czeka
+P32 15:13 odpowiedź: A — odrzucenie tylko z powodem z listy (z P29; poprawka, nie pytanie) (Artur w pokoju)
+P33 15:13 odpowiedź: A — okno wzorca pokazuje to samo miejsce, przerywana ramka (poprawka makiety) (Artur w pokoju)
+P34 15:13 odpowiedź: A — „porównano z”: przy (b) typ dobry, zły dobór tylko przy (d) (poprawka makiety) (Artur w pokoju)
+P35 15:13 odpowiedź: A — raport: zestawienie + obraz z zaznaczeniami; pola przykładowe jako dane sztuczne (Artur w pokoju)
+P36 15:13 odpowiedź: A — małe miejsca: większy numer i krótki opis jak przy miejscu 1 (poprawka makiety) (Artur w pokoju)
+P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca; dodatkowo usuwamy z paska na dole zdanie ostrożności, zostaje w opisie (Artur w pokoju)
+15:13 Projektant: P32–P34, P36 to poprawki/wynik z P29 — Artur: takie rzeczy bez pytania; lista poprawek makiety dla Programisty: P32–P37
