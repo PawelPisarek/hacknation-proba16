@@ -14,7 +14,7 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | 991 zn. (0802220); liczby [__] po pomiarze 0P |
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
-| szkic docs/demo.md (pokaz do 2 min) | Prezenter | zlecone 14:44 |
+| szkic docs/demo.md (pokaz do 2 min) | Prezenter | wypchnięty 14:44, czeka na meldunek |
 
 Otwarte pytania: P29 Artur (Zatwierdź/Odrzuć — znaczenie), czeka
 Lista Artura na noc: —
