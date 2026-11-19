@@ -52,7 +52,7 @@ Wyniki dotyczą zbioru sztucznego i mogą być lepsze niż na prawdziwych obraza
 
 - **OpenMausBot** — platforma, na której pracuje zespół 5 botów przygotowany przed hackathonem (role w sekcji „Zespół”).
 - **Claude** (Anthropic) — modele, na których pracują boty.
-- **pm-skills** — skille produktowe użyte przez boty (m.in. product-name, value-prop-statements, release-notes).
+- **pm-skills** — skille produktowe użyte przez boty: competitor-analysis, brainstorm-ideas-new, product-name, value-prop-statements (znaczniki `<!-- skill: … -->` w `docs/`). Skill przeplywy-pm to skill zespołu na OpenMausBot, nie pm-skills.
 - **Biblioteki** z `requirements.txt`: numpy, pillow, scipy, torch (z CUDA).
 
 ## Zespół
