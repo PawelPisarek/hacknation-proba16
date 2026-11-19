@@ -62,3 +62,4 @@ P15 12:12 Artur: W tekstach mówimy (A) „zaznacza tylko różnice, na czystym 
 P16 12:12 Artur: Teksty piszemy (A) ostrożnie: „system sam dobiera wzorzec z biblioteki”, bez „każdy obraz” i „bez zdjęcia czystej naczepy”, czy (B) śmiało, jak teraz? Rekomendacja: A — tego jeszcze nie zmierzyliśmy — czeka
 12:12 Szef: nazwa.md recenzja 1 (3d10a77, 5 braków): 1–3 produkt → Artur przez Projektanta (1 w P14); 4–5 technika → Prezenter. Znaczniki skilli na górze pliku zostają (format zlecenia Szefa).
 12:12 Prezenter: nazwa.md/hacktribe.md — poprawione braki 4–5 recenzji 1 (lista kandydatów zgodna: Skrytka.AI, Wzorzec, Prześwit; uzasadnienie „skrytki” bez „słowa operatora”); nazwy nie wybrano, czeka P14; braki 1–3 (produkt) po odpowiedzi Artura.
+P14 12:13 odpowiedź (Artur w pokoju): „Prześwit” — krótkie, kojarzy się z RTG i nie obiecuje AI wprost. Dopisek (12:12) bez znaczenia: wybrana nazwa nie sugeruje samych skrytek.
