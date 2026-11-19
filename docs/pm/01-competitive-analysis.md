@@ -83,3 +83,9 @@ Pominięte, bo rozstrzyga zadanie: cena i wejście na rynek (narzędzie wewnętr
 
 <!-- skill: przeplywy-pm -->
 <!-- skill: competitor-analysis -->
+
+## Recenzja przejścia 3
+
+Zakres: różnica v4 (53377a0) → v5 (75c848a) względem `docs/decyzje.md` (P11: A, P13: A, linie 44 i 48). Zmiany: §7 pkt 5 „P11: A”, §8 pkt 2 „potwierdzone w P13: A (kilka zaznaczeń na auto, nie kilkadziesiąt)”, §10 P13 zamknięte. Wszystkie zgodne z odpowiedziami Artura; żadnej sprzeczności z P4/P6–P12 ani z zadaniem §6 nie ma.
+
+brak braków zmieniających zakres lub kryteria
