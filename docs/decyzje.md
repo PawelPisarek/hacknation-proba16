@@ -171,3 +171,5 @@ P30 15:03 Artur: Jak operator ma widzieć, jak bardzo miejsce różni się od wz
 15:03 Prezenter: opis HackTribe zgodny z P29 A (zatwierdza albo odrzuca z powodem z listy), 970 znaków; README już zgodne z P29.
 15:03 Szef: Paweł potwierdził: dane chronione tylko lokalnie (spec §7.6 pkt 4) zostaje
 P30 15:04 odpowiedź: A — trzy słowa (niski / średni / wysoki), bez liczb; lista ułożona od wysokiego (Artur w pokoju)
+15:05 Szef: warianty https://pawelpisarek.github.io/hacknation-proba16/makieta/warianty/1/ https://pawelpisarek.github.io/hacknation-proba16/makieta/warianty/2/ https://pawelpisarek.github.io/hacknation-proba16/makieta/warianty/3/
+15:05 Szef: P30 A przyjęte (Artur w pokoju); podwójna podłoga H2ko FN 0/10 (fc96c93) → Prezenter uzupełnia [__]
