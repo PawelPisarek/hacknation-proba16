@@ -31,3 +31,4 @@ P12 12:03 Artur: Czy szukamy: (A) tylko dodatków w ładunku i konstrukcji, a pr
 P6 12:04 odpowiedź: A — w trakcie oglądania obrazu; operator ma kilka minut na auto (Artur w pokoju)
 P7 12:04 odpowiedź: oba (skrytki w konstrukcji i towar w ładunku), najczęściej podwójna podłoga albo ściana przy kabinie (Artur w pokoju)
 P8 12:04 odpowiedź: B — system dobiera wzorzec z biblioteki; operator zwykle nie ma czystego zdjęcia tej samej naczepy (Artur w pokoju)
+12:04 Szef: krok 1a — docs/pm/01-competitive-analysis.md ze znacznikiem przeplywy-pm; recenzja przejścia runda 1 → Analityk.
