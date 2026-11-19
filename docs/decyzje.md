@@ -168,3 +168,4 @@ P29 14:47 odpowiedź: A, a przy „Odrzuć” operator wybiera powód z krótkie
 15:02 Szef: recenzja odbiorcy spec (Programista): braki 1–4 technika rozstrzygnięte wg rekomendacji Programisty (wgranie .bmp + 4 gotowe, typy plandeka/chłodnia/kontener na podwoziu/cysterna/skrzyniowa; raport PNG+JSON; strefy z geometrii wzorca, środek ramki; link publiczny tylko dane sztuczne, obraz KAS lokalnie z Dockerfile) → Projektant wpisuje; brak 5 produkt → P30 Artur (Projektant)
 P30 15:03 Artur: Jak operator ma widzieć, jak bardzo miejsce różni się od wzorca? A: trzy słowa (niski / średni / wysoki), bez liczb; B: liczba lub pasek. Rekomendacja: A — nie obiecujemy dokładności, której nie zmierzyliśmy (P15–P17). — czeka
 15:03 Projektant: braki 1–4 z recenzji odbiorcy spec.md (Programista) wpisane do spec §7.6 i 03-write-prd.md; brak 5 zadany jako P30
+15:03 Prezenter: opis HackTribe zgodny z P29 A (zatwierdza albo odrzuca z powodem z listy), 970 znaków; README już zgodne z P29.
