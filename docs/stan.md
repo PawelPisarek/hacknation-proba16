@@ -9,7 +9,7 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | zamknięte (P18–P23 odpowiedziane) |
 | 1b /discover → docs/pm/02-discover.md | Projektant | zamknięte (74f8b12, 3 rundy) |
 | recenzja przejścia 1b | Analityk | zamknięte po 3 rundach (P28: puszczamy dalej) |
-| 2 /write-prd → docs/spec.md | Projektant | recenzja odbiorcy (Programista, spec-odbiorca.md): 4 techn. → Projektant wpisuje; 1 produkt → P30 Artur |
+| 2 /write-prd → docs/spec.md | Projektant | zamknięte (eef0945, §7.6 po recenzji odbiorcy); P30 czeka |
 | 3 warianty ekranu (3 linki → Artur) | Projektant szkice → Programista | szkice 40ed041; makiety wariantów zlecone 15:01 |
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | liczby H2ko (404a0cb, 969 zn.); poprawka zdania wg P29 A; podwójna podłoga [__] czeka na Programistę |
@@ -17,5 +17,5 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | 54c2628 (105 s) |
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 
-Otwarte pytania: — (P29 A 14:47)
+Otwarte pytania: P30 Artur (stopień różnicy słownie) — czeka
 Lista Artura na noc: —
