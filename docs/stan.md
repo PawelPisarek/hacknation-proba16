@@ -9,8 +9,8 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione, łańcuch w toku); 20:00 
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | w toku |
 | 1b /discover po pytaniach (a)(b) → docs/pm/02 | Projektant | w toku |
 | recenzja przejścia 1b | Analityk | czeka na 1b |
-| 6 nazwa i hasło → docs/nazwa.md | Prezenter | recenzja 1: 5 braków; poprawka techn. w toku; P14 + braki produkt u Artura |
+| 6 nazwa i hasło → docs/nazwa.md | Prezenter | techn. poprawione 249bf90; czeka P14–P16 (Artur), potem poprawka + recenzja 2 |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | DRAFT 886d666; recenzja 3 po pomiarze |
 
-Otwarte pytania: P14 (nazwa, Artur, 12:11) + braki produkt z recenzji nazwa.md
+Otwarte pytania: P14 nazwa, P15 zaznaczenia na czystym, P16 ostrożny tekst (Artur, 12:11–12:12)
 Lista Artura na noc: —
