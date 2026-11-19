@@ -4,3 +4,4 @@
 11:59 Szef: dane — własny sztuczny zbiór naczep .bmp (czyste / z dodatkami), bo obrazów KAS nie mamy (ustalenie ludzi).
 11:59 Szef: liczenie — orkiestrator: na karcie OMENa (--klasa gpu-tlo, GTX 1050 4 GB), nigdy na procesorze; reszta --maszyna dowolna; każdy przebieg ≥ 2 hipotezy naraz.
 11:59 Szef: aplikacja pod linkiem dostaje wynik z usługi na karcie OMENa (sieć lokalna).
+P1 12:00 Paweł: Kto jest kim w próbie 16? Podaj podpisy urządzeń ludzi (np. „Opera on Mac”, „Artur telefon”) i role; czy jest ktoś poza Tobą i Arturem? — czeka
