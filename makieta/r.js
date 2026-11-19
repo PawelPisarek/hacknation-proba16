@@ -1,4 +1,4 @@
-// Makieta Prześwit R2 — UDAWANE DANE (spec §7.2), bez backendu. R1 (P31) + poprawki P32–P37; kolejność obrazów wg §7.3.
+// Makieta Prześwit R3 (R2 + recenzja makieta-R2.md) — UDAWANE DANE (spec §7.2), bez backendu. R1 (P31) + poprawki P32–P37; kolejność obrazów wg §7.3.
 const TYPY = ["plandeka", "chłodnia", "kontener na podwoziu", "cysterna", "skrzyniowa"];
 const POWODY = ["element konstrukcji", "ładunek zgodny z deklaracją", "cień lub zakłócenie obrazu", "inne"];
 const STREFY = { podloga: "podwójna podłoga", sciana: "ściana przy kabinie" };
@@ -21,7 +21,7 @@ const OBRAZY = {
   a: { plik: "naczepa_003.bmp", opis: "(a) czysta", dobrany: "plandeka", miejsca: { plandeka: [] } },
 };
 for (const o of Object.values(OBRAZY)) for (const t in o.miejsca) o.miejsca[t].sort((a, b) => RANGA[a.st] - RANGA[b.st]);
-const S = { obraz: OBRAZY[location.hash.slice(1)] ? location.hash.slice(1) : "b", typ: {}, dec: {}, wyb: 0, odrz: null };
+const S = { obraz: OBRAZY[location.hash.slice(1, 2)] ? location.hash.slice(1, 2) : "b", typ: {}, dec: {}, wyb: 0, odrz: null };
 function typ(k = S.obraz) { return S.typ[k] || OBRAZY[k].dobrany; }
 function miejsca(k = S.obraz) { return OBRAZY[k].miejsca[typ(k)] || []; }
 function klucz(i, k = S.obraz) { return k + "|" + typ(k) + "|" + i; }
@@ -32,7 +32,7 @@ function krotko(m) { return m.strefa ? STREFY[m.strefa] : m.kr; }
 
 // rysunek „RTG”: jasne tło, ciemniejsze = gęstsze. Wzorzec: to samo miejsce przerywaną ramką (P33), bez napisu w oknie (P37)
 function svgNaczepa(k, { wzorzec = false, wybrane = -1 } = {}) {
-  const o = OBRAZY[k], t = wzorzec ? typ(k) : (o.poprawny || typ(k));
+  const o = OBRAZY[k], t = wzorzec ? typ(k) : (o.poprawny || o.dobrany);   // R3: badany stały, typ zmienia tylko wzorzec i listę
   const ch = t === "chłodnia", cy = t === "cysterna";
   let s = `<svg class="rtg" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg">`;
   s += `<rect x="20" y="150" width="180" height="180" rx="14" fill="#9aa"/><rect x="40" y="170" width="70" height="60" fill="#dde"/>`;
@@ -62,7 +62,7 @@ function svgNaczepa(k, { wzorzec = false, wybrane = -1 } = {}) {
 }
 function htmlPasek() {   // P37: bez zdania ostrożności na pasku
   const n = miejsca().length, p = przejrzane();
-  return n ? `Przejrzano ${p} z ${n}<div class="pasek"><i style="width:${100 * p / n}%"></i></div>` : `0 miejsc — brak różnic od wzorca<div class="pasek"></div>`;
+  return n ? `Przejrzano ${p} z ${n}<div class="pasek"><i style="width:${100 * p / n}%"></i></div>` : `0 miejsc<div class="pasek"></div>`;
 }
 function htmlTyp() {
   return `porównano z: <select onchange="S.typ[S.obraz]=this.value;S.wyb=0;S.odrz=null;rysuj()">${TYPY.map(t => `<option ${t === typ() ? "selected" : ""}>${t}</option>`).join("")}</select>`;
@@ -88,7 +88,7 @@ function raport() {
   <p>Porównano z wzorcem: <b>${typ()}</b></p>
   <label>Miejsce kontroli <i class="szt">(dane sztuczne)</i><input id="mk" value="Przejście graniczne Koroszczyn, stanowisko RTG 2"></label>
   <label>Przedmiot kontroli <i class="szt">(dane sztuczne)</i><input id="pk" value="Naczepa WGM 4521X, ciągnik WGM 1187C"></label>
-  <ol>${ms.map((m, i) => { const d = decyzja(i); return `<li>${nazwa(m)} (różnica: ${m.st}) — ${!d ? "nieprzejrzane" : d.d === "z" ? "zatwierdzone (do kontroli)" : "odrzucone: " + d.powod}</li>`; }).join("") || "<li>brak miejsc różnych od wzorca</li>"}</ol>
+  <ol>${ms.map((m, i) => { const d = decyzja(i); return `<li>${nazwa(m)} (różnica: ${m.st}) — ${!d ? "nieprzejrzane" : d.d === "z" ? "zatwierdzone (do kontroli)" : "odrzucone: " + d.powod}</li>`; }).join("") || "<p>0 miejsc</p>"}</ol>
   <button class="btn gl" onclick="pobierz()">Zapisz raport (zestawienie + obraz PNG)</button> <button class="btn odrz" onclick="this.closest('.modal').remove()">Zamknij</button></div>`;
   document.body.appendChild(w);
 }
@@ -104,3 +104,12 @@ function pobierz() {   // P35: zestawienie (JSON) razem z obrazem PNG z zaznacze
   img.onload = () => { const g = c.getContext("2d"); g.fillStyle = "#f7f7f2"; g.fillRect(0, 0, 1000, 400); g.drawImage(img, 0, 0, 1000, 400); c.toBlob(b => pobierzPlik(b, baza + ".png")); };
   img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svgNaczepa(S.obraz));
 }
+
+// tryb zrzutu (#b-zrzut itd.): przykładowe decyzje jak w ścieżce pokazu §7.3 i otwarte okno raportu
+if (location.hash.endsWith("-zrzut")) addEventListener("load", () => {
+  const k = S.obraz;
+  if (k === "b") { S.dec[klucz(0)] = { d: "z" }; S.dec[klucz(1)] = { d: "o", powod: "cień lub zakłócenie obrazu" }; }
+  if (k === "c") S.dec[klucz(0)] = { d: "z" };
+  if (k === "d") S.typ.d = "chłodnia";
+  S.wyb = 0; rysuj(); raport(); document.body.classList.add("zrzut");
+});
