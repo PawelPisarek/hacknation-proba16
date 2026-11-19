@@ -9,12 +9,12 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | zamknięte (P18–P23 odpowiedziane) |
 | 1b /discover → docs/pm/02-discover.md | Projektant | zamknięte (74f8b12, 3 rundy) |
 | recenzja przejścia 1b | Analityk | zamknięte po 3 rundach (P28: puszczamy dalej) |
-| 2 /write-prd → docs/spec.md | Projektant | poprawka po recenzji 2 (a79ed53: 3 braki) |
+| 2 /write-prd → docs/spec.md | Projektant | recenzja 3 (270f410, Analityk) |
 | 3 warianty ekranu (3 linki → Artur) | Programista | po 0P |
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | 991 zn. (0802220); liczby [__] po pomiarze 0P |
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
-| szkic docs/demo.md (pokaz do 2 min) | Prezenter | recenzja 1 (0a0d09d, 120 s, Analityk) |
+| szkic docs/demo.md (pokaz do 2 min) | Prezenter | poprawka po recenzji 1 (a3a06a3: 5 braków), po slajdach |
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zlecone 14:47 |
 
 Otwarte pytania: P29 Artur (Zatwierdź/Odrzuć — znaczenie), czeka

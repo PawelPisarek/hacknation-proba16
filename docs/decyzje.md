@@ -147,3 +147,4 @@ P29 14:45 Artur: Co znaczą przyciski przy zaznaczeniu na ekranie: (A) „Zatwie
 P29 14:47 odpowiedź: A, a przy „Odrzuć” operator wybiera powód z krótkiej listy (np. element konstrukcji, ładunek zgodny, cień) (Artur w pokoju)
 14:46 Analityk: recenzja docs/demo.md (0a0d09d) runda 1 — 5 braków technika (brak obrazu (c), 2 z 4, 120 s bez zapasu, P29 bez notatki, puste typy w (d), plansza [__] bez wariantu); docs/recenzje/demo-1.md
 14:47 Prezenter: docs/slajdy.md — konspekt 10 slajdów (problem → rozwiązanie → ekrany → wyniki [__] → ograniczenia → dalsze kroki → narzędzia → zespół); PDF później.
+14:47 Szef: spec 270f410 → recenzja 2-3 (ostatnia, Analityk). demo-1 (a3a06a3): 5 braków technika → Prezenter poprawia po slajdach (cel ~105 s).
