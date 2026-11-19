@@ -23,7 +23,7 @@ Domeny ani znaku towarowego (kandydatów i wybranego „Prześwit”) nie sprawd
 ## Wartość dla operatora kontroli (3 zdania)
 
 1. Gdy oglądasz obraz naczepy, system sam dobiera wzorzec z biblioteki i zaznacza miejsca różne od wzorca.
-2. Łatwiej zauważysz małą skrytkę w podwójnej podłodze czy ścianie przy kabinie oraz obcy towar w ładunku, bo narzędzie pokazuje ci, gdzie spojrzeć jeszcze raz.
+2. Narzędzie pokazuje, gdzie obraz różni się od wzorca — tam warto spojrzeć jeszcze raz.
 3. Liczbę zaznaczeń na czystych obrazach i pominięć podamy z pomiaru: [__]; decyzję o kontroli fizycznej nadal podejmujesz ty.
 
 ## Recenzja 1

@@ -76,3 +76,4 @@ P17 12:16 Artur: Zdanie dla operatora „Łatwiej zauważysz małą skrytkę…,
 P17 12:18 odpowiedź (Artur w pokoju): A — „narzędzie pokazuje, gdzie obraz różni się od wzorca — tam warto spojrzeć jeszcze raz”. Wynika z P16. Reguła Artura: poprawki tego rodzaju (obietnica niezmierzonej skuteczności) wprowadzamy bez pytania.
 12:18 Szef: 1b /discover nie ruszył (brak docs/pm/02 i pytań a, b) → zlecony Projektantowi wprost.
 12:18 Szef: P17 A (Artur w pokoju) → Prezenter poprawia zdanie wartości. Zasada Artura: obietnice bez pomiaru poprawiamy na ostrożne (P16) bez pytania — recenzenci nie oznaczają ich jako „produkt”, tylko jako poprawkę wg P16.
+12:19 Prezenter: P17 A — zdanie 2 wartości w nazwa.md zastąpione ostrożnym; w hacktribe.md nie było podobnej obietnicy (opis 866 zn.); zasada Artura: niezmierzone obietnice poprawiam od razu na ostrożne (P16).
