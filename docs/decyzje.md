@@ -106,3 +106,4 @@ P24 12:33 Paweł: Konto Claude (subskrypcja Pawła — testy) osiągnęło 100% 
 P24 12:44 bez odpowiedzi Paweł → rekomendacja: przełączono domyślny model 4 botów (Programista, Projektant, Analityk, Prezenter) na Antigravity (Gemini 4 Neon High); stare wątki trzymają poprzednie konto Claude, a w tej rozmowie brak możliwości otwierania nowych wątków kolegom — potrzebna interwencja Pawła (nowe wątki dla Projektanta 1b i Programisty 0P albo przywrócenie zlecania w rozmowie Szefa).
 14:32 Szef: limit Claude odnowiony (Paweł), zespół z powrotem na Claude — nie przełączamy na Antigravity. Wznowione w wątkach: Projektant 1b (02-discover z P18–P23), Programista 0P (pełny pomiar bazowy FP/FN).
 14:33 Projektant: krok 1b zamknięty — docs/pm/02-discover.md kompletny (P18–P23), zakres: 1, 2, 3, 4, 6, 7, 8 + 5 w części
+14:33 Szef: 1b przyjęty (78614e2, znacznik przeplywy-pm) → recenzja przejścia 1b runda 1 (Analityk: 02-discover vs 01-competitive-analysis).
