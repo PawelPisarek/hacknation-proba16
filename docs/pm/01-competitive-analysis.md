@@ -39,7 +39,7 @@ Podejścia wschodzące (badania): uczenie wyłącznie na normalnych obrazach —
 | **Klasyfikacja „pusty / niepusty”** | etykieta całego obrazu | prosta | nie lokalizuje (nie spełnia W4/W10) | lekka, ale nie lokalizuje |
 | **Detektor obiektów uczony na dodatkach** | wykrywa znane klasy | wysoka czułość na znane | wymaga przykładów anomalii — zadanie §5 ich nie gwarantuje | wymaga etykiet anomalii, których nie mamy (§5) |
 
-Miejsca z P7 (podwójna podłoga, ściana przy kabinie) to obszary, gdzie wzorzec różni się najmniej od badanego obrazu — tam metody różnicowe są najbardziej narażone na fałszywe alarmy z powodu przesunięć; w pomiarze raportujemy wynik osobno dla dodatków w konstrukcji i w ładunku (założenie, do potwierdzenia na zbiorze).
+Hipoteza (bez źródła, do pomiaru): miejsca z P7 (podwójna podłoga, ściana przy kabinie) to obszary, gdzie wzorzec różni się najmniej od badanego obrazu, więc metody różnicowe mogą tam być najbardziej narażone na fałszywe alarmy z powodu przesunięć; w pomiarze raportujemy wynik osobno dla dodatków w konstrukcji i w ładunku.
 
 Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejsca) najbliższe są: **różnica po wyrównaniu** jako podstawa i **model uczony na czystych** jako druga hipoteza do porównania; wybór potwierdzi pomiar FP/FN na zbiorze (decyzje 11:59, typ A). Liczb skuteczności z literatury nie przenoszę na nasze dane (inny zbiór) — liczb skuteczności konkurentów tu nie podaję (brak weryfikowalnego źródła).
 
@@ -50,7 +50,7 @@ Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejs
 | **Dobór wzorca z biblioteki** (operator nie wskazuje go sam — P8; zwykle nie ma zdjęcia tej samej naczepy) | cel (osobna funkcja: system wybiera najbliższy wzorzec tego typu naczepy) | częściowo: „Similar Cargo” podsuwa podobne obrazy do oglądania obok siebie, nie liczy różnic | brak danych | nie |
 | Czytelność zaznaczeń w trakcie oglądania i czas odpowiedzi (P6: kilka minut na auto; zadanie §7: < 1 min) | cel: zaznaczenia widoczne od razu na obrazie operatora, wynik w < 1 min | brak danych | brak danych | nie dotyczy |
 | Wskazanie miejsca na obrazie | tak (wymóg §3) | tak | brak danych | częściowo (papierosy) |
-| Skrytki w konstrukcji (podwójna podłoga, ściana przy kabinie — P7) i towar w ładunku | cel (oba, P7) | brak danych | brak danych | słabo przy małych ilościach w konstrukcji (§1) |
+| Skrytki w konstrukcji (podwójna podłoga, ściana przy kabinie — P7) i towar w ładunku | cel (oba, P7); przeróbki konstrukcji obiecujemy (P12: B) | brak danych | brak danych | słabo przy małych ilościach w konstrukcji (§1) |
 | Miara FP/FN na zbiorze testowym | tak (mierzymy) | nie publikuje na naszym zbiorze | nie | nie |
 | Praca bez internetu | tak (§9) | brak danych | brak danych | tak |
 | Otwarte, powtarzalne, do oceny | tak | nie | nie | nie |
@@ -77,7 +77,8 @@ Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejs
 
 ## 10. Czego nie wiem o produkcie
 Zamknięte (odpowiedzi Artura): P6 — w trakcie oglądania obrazu, kilka minut na auto; P7 — oba rodzaje ukrycia, najczęściej podwójna podłoga albo ściana przy kabinie; P8 — wzorzec dobiera system z biblioteki.
-Otwarte (osobne pytania do Artura z rekomendacją, numery w `docs/decyzje.md`): P9 — kiedy uznajemy trafienie w skrytkę; P10 — jak opisujemy obecne narzędzie KAS; P11 — obietnica dużych plików i partii; P12 — czy obiecujemy przeróbki konstrukcji; **P13 — którą stronę wybieramy, gdy „nie przeoczyć skrytki” (P4) ściera się z „zero fałszywych alarmów na czystych” (zadanie §6)**.
+Zamknięte też: P9 — trafienie, gdy zaznaczenie choć częściowo nachodzi na skrytkę albo jego środek leży w skrytce; P10 — KAS papierosy wykrywa, ale przy małych ilościach w konstrukcji jest za słabe; P11 — dużych plików i partii nie obiecujemy przed pomiarem (stąd tylko wymóg wejścia); P12 — **obiecujemy też przeróbki konstrukcji** (podwójna podłoga najczęstsza).
+Otwarte: **P13 — którą stronę wybieramy, gdy „nie przeoczyć skrytki” (P4) ściera się z „zero fałszywych alarmów na czystych” (zadanie §6)**.
 Pominięte, bo rozstrzyga zadanie: cena i wejście na rynek (narzędzie wewnętrzne KAS, wdrożenie przez usługodawców IT KAS — §9); kto jest użytkownikiem (operator RTG, §1–2); jak sobie radzi dziś (ręcznie + narzędzie do papierosów, §1); praca bez internetu (§9); sztuczne dane (decyzje 11:59).
 
 <!-- skill: przeplywy-pm -->

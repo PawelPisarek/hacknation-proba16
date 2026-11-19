@@ -43,3 +43,4 @@ P9 12:07 odpowiedź (Artur w pokoju): A — wystarczy, że zaznaczenie choć cz�
 P10 12:07 odpowiedź (Artur w pokoju): A — KAS papierosy wykrywa, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe.
 P11 12:07 odpowiedź (Artur w pokoju): A — dużych plików i wielu obrazów naraz nie obiecujemy, dopóki nie zmierzymy; zostaje miejsce na liczby.
 P12 12:07 odpowiedź (Artur w pokoju): B — obiecujemy też przeróbki konstrukcji; podwójna podłoga to najczęstszy przypadek (P7), bez tego narzędzie nie ma sensu.
+12:07 Projektant: 1a runda 3 (Analityk): P12 B uwzględnione (przeróbki konstrukcji obiecujemy), P9–P11 w §10, §5 oznaczone jako hipoteza
