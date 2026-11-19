@@ -46,4 +46,13 @@ Oceniono `docs/nazwa.md` i `docs/hacktribe.md` (3061476) względem `docs/zadanie
 3. **technika** — `docs/nazwa.md`: nagłówek mówi „hasło kandydata 3 poniżej sprzed P16”, a tabela ma już nową wersję, przy tym „51 zn.” — faktycznie 53 znaki (liczone `wc -m`). Sekcja „Rekomendacja Skrytka.AI” stoi bez oznaczenia przy samej sekcji, że odrzucona (P14).
 4. **technika** — opis: „czyste obrazy z zaznaczeniem [__]” bez jednostki i definicji (liczba obrazów czy %; z P9: czysty obraz z ≥ 1 zaznaczeniem = fałszywy alarm); „pominięte dodatki [__]” bez określenia, czy wliczone przeróbki konstrukcji (P12). Wybrana nazwa „Prześwit”: dostępność domeny/znaku nie sprawdzona (zastrzeżenie dotyczy tylko kandydatów) — do sprawdzenia przed publikacją.
 
+
+## Recenzja 3
+
+Oceniono `docs/nazwa.md` i `docs/hacktribe.md` (974d7e9) względem `docs/zadanie.md` i `docs/decyzje.md` (P4–P17, zasada Artura z 12:17/12:18). Braki recenzji 2 zamknięte: 1 — P17 A (zdanie 2 wartości ostrożne), 2 — sekcje recenzji usunięte z hacktribe.md, 3 — hasło 53 zn. (zgodne z `wc -m`), Skrytka.AI oznaczona jako odrzucona (P14), 4 — opis z „[__] z [__]” i przeróbkami konstrukcji; domena i znak poza zakresem. Opis 867 znaków (limit 1000), hasło 50 zn. (limit 80).
+
+brak braków zmieniających zakres lub kryteria
+
+Uwaga niezmieniająca zakresu (technika): w `docs/hacktribe.md` linie „Recenzje 1–2: w historii git…” i „Poza zakresem DRAFTu…” są notatkami wewnętrznymi, nie tekstem do formularza — usunąć przy wklejaniu.
+
 <!-- skill: review -->
