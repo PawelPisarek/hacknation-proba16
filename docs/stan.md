@@ -1,4 +1,4 @@
-# Stan — 14:48 (sobota zespołu)
+# Stan — 14:50 (sobota zespołu)
 Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 14:32 po resecie limitu); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
 
 | zadanie | kto | status |
@@ -9,13 +9,13 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | zamknięte (P18–P23 odpowiedziane) |
 | 1b /discover → docs/pm/02-discover.md | Projektant | zamknięte (74f8b12, 3 rundy) |
 | recenzja przejścia 1b | Analityk | zamknięte po 3 rundach (P28: puszczamy dalej) |
-| 2 /write-prd → docs/spec.md | Projektant | po 3 rundach: poprawka końcowa (615c5f2), potem recenzja odbiorcy (Programista) |
+| 2 /write-prd → docs/spec.md | Projektant | zamknięte po 3 rundach (987a579); recenzja odbiorcy (Programista) po 0P |
 | 3 warianty ekranu (3 linki → Artur) | Programista | po 0P |
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | 991 zn. (0802220); liczby [__] po pomiarze 0P |
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | 54c2628 (105 s) |
-| konspekt docs/slajdy.md (≤ 10) | Prezenter | recenzja 1 (0d20a50, Analityk) |
+| konspekt docs/slajdy.md (≤ 10) | Prezenter | poprawka po recenzji 1 (570e39f, 4 braki techn.; licencje sprawdzone) |
 
 Otwarte pytania: — (P29 A 14:47)
 Lista Artura na noc: —
