@@ -140,3 +140,4 @@ P27 14:42 odpowiedź: tak — lista typów naczepy zawsze pod ręką (Artur w po
 14:44 Szef: recenzja 2-1 (b515119): 4 braki → Projektant poprawia 1–3 w spec; brak 4 (produkt: znaczenie Zatwierdź/Odrzuć) → Artur jako P (Projektant).
 P29 14:45 Artur: Co znaczą przyciski przy zaznaczeniu na ekranie: (A) „Zatwierdź” = sprawdzone, podejrzane — do kontroli, „Odrzuć” = pomyłka systemu, czy (B) „Zatwierdź” = sprawdzone, nic nie ma, „Odrzuć” = do kontroli? Rekomendacja: A — zgodnie z pomysłem 7 („sprawdzone / pomyłka”); raport pokaże, które miejsca trafiają do kontroli — czeka
 14:45 Projektant: recenzja kroku 2 runda 1 (Analityk, b515119): braki 1–3 poprawione w spec.md (reguły zaliczenia i „nie trzyma” A1–A4, A8 z zasadą liczby, A10 fałszywy alarm, 4 obrazy w 7.2, obraz (c) w ścieżce); brak 4 → P29 (w specu rekomendacja A tymczasowo)
+14:45 Szef: spec 6d389d1 (braki 1–3 poprawione, A10 nowe) → recenzja 2-2 (Analityk); P29 czeka na Artura.
