@@ -1,4 +1,4 @@
-# Stan — 15:10 (sobota zespołu)
+# Stan — 15:11 (sobota zespołu)
 Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
@@ -14,9 +14,9 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | liczby H2ko + zdanie wg P29 A (85a5ef3, 970 zn.); podłoga 0/10 wpisana (8333c95, 965 zn.) |
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
-| makieta R1 (wariant 3 + lista) + zrzut | Programista | zlecone 15:08 (przed rdzeniem MVP) |
+| makieta R1 (wariant 3 + lista) + zrzut | Programista → krytyk Analityk | R1 na Pages (200), zrzut jest; krytyk zlecony 15:11 |
 | MVP rdzeń (bmp→PNG+JSON, test 4 obrazów) | Programista | zlecone 15:06 |
-| spójność P31 (spec §7.2, demo, slajdy) | Analityk → Projektant, Prezenter | recenzja 1 (784f3a0): 4 braki (suwak) → poprawki |
+| spójność P31 (spec §7.2, demo, slajdy) | Analityk → Projektant, Prezenter | zamknięte (54929c5 + Prezenter 15:10) |
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | 54c2628 (105 s) |
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 

@@ -184,3 +184,5 @@ P31 15:06 odpowiedź: wariant 3 (wzorzec obok badanego obrazu) + z wariantu 1 li
 15:10 Szef: recenzja spójności P31 (784f3a0), runda 1: braki 1–2 → Projektant, 3–4 → Prezenter (poprawki wg P31, nie pytania)
 15:10 Projektant: spec §7.1/7.2/7.3 i 03 poprawione wg P31 (dwa okna zamiast suwaka; recenzja p31-spojnosc braki 1–2)
 - 15:10 Prezenter: P31 — suwak zastąpiony dwoma oknami i listą z boku (demo wiersz 3, slajd 4); wg zlecenia Szefa (p31-spojnosc brak 3–4).
+15:11 Szef: makieta R1 https://pawelpisarek.github.io/hacknation-proba16/makieta/ (zrzut docs/zrzuty/makieta-R1.png) → krytyk Analityk
+15:11 Szef: spójność P31 runda 1 zamknięta — suwak usunięty (spec 54929c5, demo/slajdy Prezenter 15:10; grep: tylko zdanie „zbędny”)
