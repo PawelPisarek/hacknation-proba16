@@ -18,3 +18,7 @@ P4 12:01 odpowiedź: B — skuteczność, przede wszystkim żeby nie przeoczyć 
 P5 12:01 odpowiedź: A — uzasadnienie wyróżnika w opisie i na pokazie (Artur w pokoju)
 P2 12:02 odpowiedź: zbędne — P1 (Paweł) (zamknięte na zlecenie Szefa)
 12:02 Szef: cofnięte przez Szefa — wpis 12:01 o trafieniu (IoU/środek w ramce) to parametr produktu; idzie do Artura jako P (Projektant); do odpowiedzi skrypt oceny liczy obie miary (IoU ≥ 0,1 i środek w ramce) obok siebie.
+12:03 Projektant: pominięte (perspektywa porównania, cel analizy) — z P4/P5; (kto jest użytkownikiem, jak sobie radzi dziś, praca offline, sztuczne dane) — z zadania §1–2, §9 i decyzji 11:59
+P6 12:03 Artur: Kiedy operator sięga po narzędzie: (A) w trakcie oglądania obrazu, jako podpowiedź, czy (B) po własnej ocenie, jako kontrola końcowa? — czeka
+P7 12:03 Artur: Co dziś najbardziej boli: (A) małe skrytki w konstrukcji pojazdu, czy (B) towar ukryty w samym ładunku? — czeka
+P8 12:03 Artur: Skąd operator bierze obraz wzorcowy: (A) sam wskazuje obraz porównawczy, czy (B) system dobiera go z biblioteki? — czeka
