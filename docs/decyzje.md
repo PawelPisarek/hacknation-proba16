@@ -65,3 +65,4 @@ P16 12:12 Artur: Teksty piszemy (A) ostrożnie: „system sam dobiera wzorzec z 
 P14 12:13 odpowiedź (Artur w pokoju): „Prześwit” — krótkie, kojarzy się z RTG i nie obiecuje AI wprost. Dopisek (12:12) bez znaczenia: wybrana nazwa nie sugeruje samych skrytek.
 P15 12:14 odpowiedź (Artur w pokoju): ani A, ani B — w tekstach: „zaznacza miejsca różne od wzorca” + liczba z pomiaru (A obiecuje niezmierzone, a w P13 Artur zgodził się na kilka fałszywych alarmów).
 P16 12:14 odpowiedź (Artur w pokoju): A — ostrożnie: „system sam dobiera wzorzec z biblioteki”, bez „na każdy obraz” i „bez zdjęcia czystej naczepy”.
+12:13 Szef: poprawiona linia dopisku do P14 (nie jest pytaniem, bez „czeka”). P14 zamknięte: Prześwit (Artur w pokoju) → Prezenter wpisuje nazwę w docs/hacktribe.md i docs/nazwa.md.
