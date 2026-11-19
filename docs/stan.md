@@ -1,5 +1,5 @@
-# Stan — 14:29 (sobota zespołu)
-Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, wszyscy stoją od 12:34); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
+# Stan — 14:33 (sobota zespołu)
+Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 14:32 po resecie limitu); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
 
 | zadanie | kto | status |
 |---|---|---|
@@ -8,10 +8,10 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, wszyscy stoją o
 | 1a /competitive-analysis + przegląd modeli → docs/pm/01 | Projektant | zamknięte (75c848a, recenzja 5117f52) |
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | czeka na reset 14:30 |
 | 1b /discover → docs/pm/02-discover.md | Projektant | czeka na reset 14:30 (P18–P23 odp.) |
-| recenzja przejścia 1b | Analityk | czeka na 1b (model → Antigravity) |
-| 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5; model → Antigravity) |
+| recenzja przejścia 1b | Analityk | czeka na 1b |
+| 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | DRAFT zamknięty (c3832e5); liczby [__] po pomiarze 0P |
 | szkic README.md | Prezenter | zamknięte (recenzja 3 6303dee); liczby i linki później |
 
-Otwarte pytania: — (P24 zamknięte rekomendacją 12:44; blokada techniczna: brak zlecania nowych wątków z tej rozmowy)
+Otwarte pytania: — (P24 zamknięte rekomendacją 12:44; blokada zdjęta 14:32, zespół na Claude)
 Lista Artura na noc: —
