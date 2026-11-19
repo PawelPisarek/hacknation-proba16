@@ -148,3 +148,4 @@ P29 14:47 odpowiedź: A, a przy „Odrzuć” operator wybiera powód z krótkie
 14:46 Analityk: recenzja docs/demo.md (0a0d09d) runda 1 — 5 braków technika (brak obrazu (c), 2 z 4, 120 s bez zapasu, P29 bez notatki, puste typy w (d), plansza [__] bez wariantu); docs/recenzje/demo-1.md
 14:47 Prezenter: docs/slajdy.md — konspekt 10 slajdów (problem → rozwiązanie → ekrany → wyniki [__] → ograniczenia → dalsze kroki → narzędzia → zespół); PDF później.
 14:47 Szef: spec 270f410 → recenzja 2-3 (ostatnia, Analityk). demo-1 (a3a06a3): 5 braków technika → Prezenter poprawia po slajdach (cel ~105 s).
+14:47 Analityk: recenzja przejścia 2 (write-prd) runda 3 (spec.md 270f410/a839c85) — 3 braki technika (P20 „jednym kliknięciem” vs A5 po P29; „2 z 4” w §7.2 nadal; powód odrzucenia bez kryterium w A7); docs/recenzje/2-3.md
