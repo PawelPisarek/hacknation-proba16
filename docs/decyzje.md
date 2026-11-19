@@ -221,3 +221,4 @@ P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca;
 - 15:31 Prezenter: demo wg recenzji R1 — raport po obrazie (b) przed (c) (wiersz 6), P33 przerywana ramka w wierszu 3, „to wybrany przykład” w wierszu 9, pola raportu = dane sztuczne (P35); suma 105 s.
 15:31 Szef: demo poprawione (ec163a9, 105 s), spec §7.3 (9806891) → recenzja demo R2 Analityk; Programista: kolejność raportu w makiecie R2
 15:31 Analityk: recenzja demo R2 (ec163a9): brak braków zmieniających zakres lub kryteria → docs/recenzje/demo-R2.md
+15:31 Szef: demo R2 (8d5c214) — brak braków; docs/demo.md ec163a9 zamknięty (105 s)

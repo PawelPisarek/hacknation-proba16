@@ -18,7 +18,7 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | MVP rdzeń (bmp→PNG+JSON, test 4 obrazów) | Programista | zlecone 15:06 |
 | spójność P31 (spec §7.2, demo, slajdy) | Analityk → Projektant, Prezenter | zamknięte (54929c5 + Prezenter 15:10) |
 | recenzja hacktribe | Analityk → Prezenter | zamknięte R3 (c307203), tekst 43490f8 999 zn. |
-| szkic docs/demo.md (pokaz do 2 min) | Prezenter | 54c2628 (105 s); R1 3 braki → ec163a9 + spec 9806891; R2 zlecona 15:31 |
+| szkic docs/demo.md (pokaz do 2 min) | Prezenter | zamknięte: ec163a9 (105 s), recenzja R2 8d5c214 |
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 
 Otwarte pytania: —
