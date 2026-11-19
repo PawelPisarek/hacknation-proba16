@@ -1,5 +1,5 @@
-# Stan — 12:44 (sobota zespołu)
-Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +59 min, zespół stoi); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
+# Stan — 12:48 (sobota zespołu)
+Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +63 min, wszyscy stoją od 12:34); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
 
 | zadanie | kto | status |
 |---|---|---|
