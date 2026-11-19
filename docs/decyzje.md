@@ -158,3 +158,4 @@ P29 14:47 odpowiedź: A, a przy „Odrzuć” operator wybiera powód z krótkie
 14:51 Szef: slajdy.md + README poprawione (cf8556b) → recenzja slajdy-2 (Analityk)
 14:51 Analityk: recenzja slajdy.md i README.md (cf8556b) runda 2 — brak braków zmieniających zakres lub kryteria; 2 drobne uwagi technika (kropka na slajdzie 9/orkiestrator w README, sprzeczna linia obrazka slajdu 6); docs/recenzje/slajdy-2.md
 14:51 Szef: slajdy zamknięte (slajdy-2 e76538f: brak braków); 2 uwagi kosmetyczne → Prezenter
+14:52 Prezenter: slajdy-2: slajd 9 bez nadmiarowej kropki, slajd 6 obrazek tylko po pomiarze (do tego czasu wariant bez liczb), README Użyte narzędzia + orkiestrator.

@@ -36,7 +36,7 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Liczby `[__]` wpisujemy p
 - Pominięte dodatki (z przeróbkami konstrukcji): [__] z [__], w tym podwójna podłoga [__] z [__].
 - Czas na obraz: [__] s (cel < 1 min).
 - **Wariant bez liczb (gdy pomiaru brak):** tytuł „Wyniki — po pomiarze”; punkty: cel < 1 min na obraz; liczby z pomiaru podamy w opisie projektu; zbiór sztuczny, na danych KAS wyniki mogą być inne. Do PDF nie trafia tabela z samymi `[__]`.
-- **Obrazek:** tabela wyników; do czasu pomiaru z polami `[__]`.
+- **Obrazek:** tabela wyników dopiero po pomiarze; do tego czasu wariant bez liczb (wyżej).
 
 ## 7. Ograniczenia
 - Obrazów KAS nie mamy — własny, sztuczny zbiór naczep; na prawdziwych danych wyniki mogą być inne.
@@ -54,7 +54,7 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Liczby `[__]` wpisujemy p
 - **OpenMausBot** (github.com/milind-soni/OpenMausBot, Apache-2.0) — platforma, zespół 5 botów.
 - **Claude** (Anthropic) — modele, na których pracują boty.
 - **pm-skills** (github.com/phuryn/pm-skills, MIT): competitor-analysis, brainstorm-ideas-new, product-name, value-prop-statements, create-prd; przeplywy-pm to skill zespołu na OpenMausBot, nie pm-skills.
-- **Biblioteki:** numpy, pillow, scipy, torch (z CUDA).; liczenie na zespołowej karcie graficznej przez orkiestrator (`docs/uruchomienie.md`).
+- **Biblioteki:** numpy, pillow, scipy, torch (z CUDA); liczenie na zespołowej karcie graficznej przez orkiestrator (`docs/uruchomienie.md`).
 - **Obrazek:** cztery logotypy/ikony w rzędzie.
 
 ## 10. Zespół

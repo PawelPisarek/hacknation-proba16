@@ -55,6 +55,7 @@ Wyniki dotyczą zbioru sztucznego i mogą być lepsze niż na prawdziwych obraza
 - **Claude** (Anthropic) — modele, na których pracują boty.
 - **pm-skills** — skille produktowe użyte przez boty: competitor-analysis, brainstorm-ideas-new, product-name, value-prop-statements, create-prd (znaczniki `<!-- skill: … -->` w `docs/`). Skill przeplywy-pm to skill zespołu na OpenMausBot, nie pm-skills.
 - **Biblioteki** z `requirements.txt`: numpy, pillow, scipy, torch (z CUDA).
+- **Orkiestrator zespołu** — liczenie na zespołowej karcie graficznej (`docs/uruchomienie.md`).
 
 ## Zespół
 
