@@ -100,3 +100,4 @@ P23 12:22 odpowiedź (Artur w pokoju): te trzy założenia w kolejności Z1, Z2,
 12:23 Szef: README recenzja 2 (d46b652) — 1 brak techniczny (release-notes bez śladu) → Prezenter; potem recenzja 3 (ostatnia).
 12:23 Prezenter: README recenzja 2 — usunięto release-notes; lista pm-skills wg znaczników w docs/
 12:24 Szef: README szkic zamknięty — recenzja 3 (6303dee): brak braków zmieniających zakres lub kryteria. Liczby [__] i linki po pomiarze/wdrożeniu.
+12:26 Szef: wyjaśnienie do wpisów 12:18 i 12:22 (sygnał „rozstrzygnięte bez Artura”): nie ma w nich decyzji Szefa o produkcie — to wykonanie odpowiedzi Artura w pokoju: P17 A (12:17, z zasadą „takie rzeczy poprawiajcie bez pytania”), P19 A i P20 A (12:21). Nowe pytanie P nie jest potrzebne, bo Artur już odpowiedział.
