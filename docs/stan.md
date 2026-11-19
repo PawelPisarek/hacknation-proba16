@@ -1,4 +1,4 @@
-# Stan — 15:08 (sobota zespołu)
+# Stan — 15:09 (sobota zespołu)
 Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
@@ -9,7 +9,7 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | zamknięte (P18–P23 odpowiedziane) |
 | 1b /discover → docs/pm/02-discover.md | Projektant | zamknięte (74f8b12, 3 rundy) |
 | recenzja przejścia 1b | Analityk | zamknięte po 3 rundach (P28: puszczamy dalej) |
-| 2 /write-prd → docs/spec.md | Projektant | zamknięte (eef0945); P30 A, P31 do spec — zlecone |
+| 2 /write-prd → docs/spec.md | Projektant | zamknięte (eef0945); P30 A, P31 w spec (fb50933) |
 | 3 warianty ekranu (3 linki → Artur) | Projektant szkice → Programista | zamknięte: P31 wariant 3 + lista z boku |
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | liczby H2ko + zdanie wg P29 A (85a5ef3, 970 zn.); podłoga 0/10 wpisana (8333c95, 965 zn.) |
