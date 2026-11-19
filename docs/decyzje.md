@@ -120,3 +120,4 @@ P26 14:37 odpowiedź: B — operator zna typ naczepy z dokumentów przewozowych;
 14:38 Projektant: recenzja 1b runda 2 (Analityk, da05454) braki 1–4 poprawione w 02-discover.md wg rozstrzygnięć Szefa 14:37 (Z3 po MVP z Arturem, próba z generatora 0P bez liczby 30, Z5 ≤1 kliknięcie i <1 min, Z6 w teście MVP, Z2b/Z2c w przebiegu Z2 poza skokiem wiary, gałęzie drzewa); wpisane też P25 B i P26 B (wybór typu naczepy zapasem)
 14:38 Szef: poprawka 1b po recenzji 2 (26f93d8) z P25 B i P26 B (Artur w pokoju) → recenzja 1b runda 3, ostatnia (Analityk).
 14:39 Analityk: recenzja przejścia 1b runda 3 (02-discover.md 26f93d8) — 3 braki (1 produkt: P26 B poza zakresem pierwszej wersji; 2 technika: brak kryterium „nie trzyma”; 3 technika: brak testu wyboru typu); docs/recenzje/1b-3.md
+14:40 Szef: P25 B, P26 B → Prezenter dopasowuje README.md i docs/hacktribe.md (bez obietnicy „żadnej”, wybór typu naczepy jako zapas).
