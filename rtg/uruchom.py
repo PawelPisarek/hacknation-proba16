@@ -12,7 +12,7 @@ import torch
 from PIL import Image, ImageDraw
 
 from rtg.metody import Porownywacz
-from rtg.ocena import linia, ocen
+from rtg.ocena import linia, ocen, przeglad_progow
 
 
 def podglad(a, ramki, prawda_ramki, f, sciezka):
@@ -66,6 +66,9 @@ def main():
              f" | nauka {t_n:.1f}s | karta max {torch.cuda.max_memory_allocated() / 2**20:.0f} MB")
         print(l, flush=True)
         linie.append(l)
+        for p in przeglad_progow(prawda, wyn):
+            print(m + p, flush=True)
+            linie.append(m + p)
     open(os.path.join(a.wyjscie, "oceny.txt"), "w").write("\n".join(linie) + "\n")
 
 

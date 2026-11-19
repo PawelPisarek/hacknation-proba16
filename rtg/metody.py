@@ -26,6 +26,10 @@ WARIANTY = {
     "H2": dict(skale=True, lokalnie=True, tol=3, nauka=False, top=1),
     "H2n": dict(skale=True, lokalnie=True, tol=3, nauka=True, top=1),
     "H2k": dict(skale=True, lokalnie=True, tol=3, nauka=False, top=3),
+    # „o” = tolerancja 5x5 + otwarcie maski 3x3 (usuwa ślady cieńsze niż 3 px — krawędzie słupków, dachu)
+    "H2o": dict(skale=True, lokalnie=True, tol=5, nauka=False, top=1, otwarcie=3),
+    "H2no": dict(skale=True, lokalnie=True, tol=5, nauka=True, top=1, otwarcie=3),
+    "H2ko": dict(skale=True, lokalnie=True, tol=5, nauka=False, top=3, otwarcie=3),
 }
 
 
@@ -40,7 +44,7 @@ def wczytaj(sciezka, dev, f=None):
     im = Image.open(sciezka)
     if im.mode != "L":
         im = im.convert("L")
-    x = torch.from_numpy(np.asarray(im)).to(dev, non_blocking=True)
+    x = torch.from_numpy(np.array(im)).to(dev, non_blocking=True)
     H, W = x.shape
     if f is None:
         f = max(1, round(H / 1000))
@@ -122,13 +126,33 @@ def wyrownaj(stale, ruchome, skale, lokalnie):
     ny, nx = (h - T) // S + 1, (w - T) // S + 1
     ky, kx, sz = korelacja_fazowa(ps, pr)
     dobre = (sz > 0.08) & (ps.std((1, 2)) > 0.02)
-    ky = torch.where(dobre, ky, torch.zeros_like(ky)).reshape(1, 1, ny, nx)
-    kx = torch.where(dobre, kx, torch.zeros_like(kx)).reshape(1, 1, ny, nx)
+    # model afiniczny pola (obrót, skala pionowa) z pewnych kafli; nim wypełniamy kafle bez faktury
+    cy = (torch.arange(ny, device=dev).float() * S + T / 2)[:, None].expand(ny, nx).reshape(-1)
+    cx = (torch.arange(nx, device=dev).float() * S + T / 2)[None, :].expand(ny, nx).reshape(-1)
+    X = torch.stack([torch.ones_like(cx), cx / w, cy / h], 1)
+    for k_ in range(2):
+        Xd = X[dobre]
+        if Xd.shape[0] < 6:
+            ay = ax = torch.zeros(3, device=dev)
+            break
+        ay = torch.linalg.lstsq(Xd, ky[dobre][:, None]).solution[:, 0]
+        ax = torch.linalg.lstsq(Xd, kx[dobre][:, None]).solution[:, 0]
+        res = (ky - X @ ay).abs() + (kx - X @ ax).abs()
+        dobre = dobre & (res < 3)
+    ky = torch.where(dobre, ky, X @ ay).reshape(1, 1, ny, nx)
+    kx = torch.where(dobre, kx, X @ ax).reshape(1, 1, ny, nx)
+    # pole = model afiniczny w każdym pikselu + wygładzona reszta z kafli
+    py = torch.arange(h, device=dev, dtype=torch.float32)[:, None] / h
+    px = torch.arange(w, device=dev, dtype=torch.float32)[None, :] / w
     pole = []
-    for k in (ky, kx):
+    for k, a_ in ((ky, ay), (kx, ax)):
+        k = k - (X @ a_).reshape(1, 1, ny, nx)
         k = F.pad(k, (1, 1, 1, 1), mode="replicate")
         k = F.unfold(k, 3).median(1).values.reshape(1, 1, ny, nx).clamp(-6, 6)
-        pole.append(F.interpolate(k, size=(h, w), mode="bilinear", align_corners=False)[0, 0])
+        k = F.interpolate(k, size=(ny * S, nx * S), mode="bilinear", align_corners=False)
+        k = F.pad(k, (T // 2 - S // 2, max(0, w - nx * S - T // 2 + S // 2), T // 2 - S // 2,
+                      max(0, h - ny * S - T // 2 + S // 2)), mode="replicate")[0, 0, :h, :w]
+        pole.append(a_[0] + a_[1] * px + a_[2] * py + k)
     return siatka(h, w, dev, sx, dx, dy, pole=pole)
 
 
@@ -218,6 +242,11 @@ class Porownywacz:
             z_min = z if z_min is None else torch.minimum(z_min, z)
             d_min = d if d_min is None else torch.minimum(d_min, d)
         maska = (z_min > self.k) & (d_min > self.d_min)
+        o = self.p.get("otwarcie", 0)
+        if o:
+            m = maska.float()[None, None]
+            m = 1 - F.max_pool2d(1 - m, o, 1, o // 2)
+            maska = F.max_pool2d(m, o, 1, o // 2)[0, 0] > 0.5
         maska_np = maska.cpu().numpy()  # mała maska (~2 Mpx) — tylko etykietowanie obszarów
         z_np = z_min.cpu().numpy()
         etyk, n = ndimage.label(maska_np)

@@ -74,6 +74,18 @@ def linia(metoda, w):
     return " | ".join(cz)
 
 
+def przeglad_progow(prawda, pred, progi=(6, 10, 15, 20, 30, 40, 60)):
+    """Krótkie linie FP/FN (miara P9A) przy odcięciu ramek o wyniku z poniżej progu."""
+    out = []
+    for p in progi:
+        pr = {"obrazy": {k: dict(v, ramki=[r for r in v["ramki"] if r[4] >= p]) for k, v in pred["obrazy"].items()}}
+        w = ocen(prawda, pr)
+        out.append(f"  z>={p}: FP={w['FP']}/{w['czyste']} FN[P9A]={w['P9A']['all']}/{w['dodatki']} "
+                   f"(przeróbki {w['P9A']['przer']}/{w['przer']}, ładunek {w['P9A']['lad']}/{w['lad']}) "
+                   f"FN[IoU]={w['IoU']['all']} fałszywe {w['P9A']['falszywe']}")
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--prawda", required=True)
