@@ -204,3 +204,4 @@ P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca;
 15:14 Szef: P32–P37 A przyjęte (Artur w pokoju) → Programista makieta R2; Projektant spec; Prezenter demo/slajdy. Artur: poprawek błędów i tego, co wynika z jego odpowiedzi, nie zadajemy jako P — rozstrzyga zespół z recenzentem
 15:14 Projektant: P32–P37 (odpowiedzi Artura 15:13) wpisane do spec §7.2 i 03-write-prd.md
 15:19 Szef: recenzja docs/hacktribe.md R1 → Analityk (poza łańcuchem)
+15:20 Analityk: recenzja hacktribe R1 (8333c95): 3 braki (2 produkt, 1 technika), liczby H2ko zgodne → docs/recenzje/hacktribe-R1.md
