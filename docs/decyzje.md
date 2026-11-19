@@ -208,3 +208,4 @@ P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca;
 15:20 Szef: recenzja hacktribe R1 (b5263f2): 3 braki = poprawki (P37 A, fakt, układ pliku) → Prezenter, bez pytań do Artura
 - 15:20 Prezenter: hacktribe wg recenzji R1 — dodane zdanie ostrożności (P37 A), „m.in. podwójną podłogę” zamiast „najczęściej” (P25), sekcja „Do formularza” oddzielona od notatek; opis 998 zn.
 15:21 Szef: hacktribe poprawiony (8a7b2f2, 998 zn.) → recenzja R2 Analityk
+15:21 Analityk: recenzja hacktribe R2 (8a7b2f2): braki 1–3 z R1 zamknięte; 1 nowy brak produkt (zgubione 'dane chronione tylko lokalnie', P. 15:03) → docs/recenzje/hacktribe-R2.md
