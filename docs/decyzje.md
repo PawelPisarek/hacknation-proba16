@@ -173,3 +173,4 @@ P30 15:03 Artur: Jak operator ma widzieć, jak bardzo miejsce różni się od wz
 P30 15:04 odpowiedź: A — trzy słowa (niski / średni / wysoki), bez liczb; lista ułożona od wysokiego (Artur w pokoju)
 15:05 Szef: warianty https://pawelpisarek.github.io/hacknation-proba16/makieta/warianty/1/ https://pawelpisarek.github.io/hacknation-proba16/makieta/warianty/2/ https://pawelpisarek.github.io/hacknation-proba16/makieta/warianty/3/
 15:05 Szef: P30 A przyjęte (Artur w pokoju); podwójna podłoga H2ko FN 0/10 (fc96c93) → Prezenter uzupełnia [__]
+15:05 Programista: makiety 3 wariantów (04-warianty 40ed041, dane udawane spec §7.2) na gh-pages: https://pawelpisarek.github.io/hacknation-proba16/makieta/warianty/1/ , /2/ , /3/ — HTTP 200 ×3. Wspólne: 4 obrazy (a)–(d), wybór typu (d: plandeka→chłodnia), Zatwierdź 1 klik / Odrzuć + powód, pasek, raport JSON do pobrania. 0P: H2ko FN podwójna podłoga 0 z 10 (wyniki/0P/README.md).
