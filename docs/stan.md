@@ -10,5 +10,5 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione, łańcuch w toku); 20:00 
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | gotowe, recenzja 1 (Analityk) |
 | recenzja 1a | Analityk | czeka na docs/pm/01 |
 
-Otwarte pytania: P1 Paweł (kto jest kim); P2–P5 Artur (Projektant)
+Otwarte pytania: P2–P5 Artur (Projektant)
 Lista Artura na noc: —
