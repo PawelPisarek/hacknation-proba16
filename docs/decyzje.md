@@ -82,3 +82,4 @@ P18 12:19 Artur: Który zestaw 3–5 pomysłów bierzemy dalej (lista 1–10 w w
 P19 12:19 Artur: Dla jakich pojazdów pokazujemy produkt: (A) tylko naczepy ciężarowe (dla nich mamy zbiór i pokaz), a kontenery, autokary i wagony zapowiadamy jako dalszy krok, czy (B) obiecujemy od razu wszystkie rodzaje z zadania? Rekomendacja: A — czeka
 P20 12:19 Artur: Co operator robi z zaznaczeniem: (A) odznacza „sprawdzone / pomyłka”, a raport zapisuje się z miejscem i przedmiotem kontroli, czy (B) tylko ogląda zaznaczenia i pobiera raport? Rekomendacja: B na pierwszą wersję (szybciej, pokaz mieści się w 2 min); A jako następny krok — czeka
 12:19 Szef: nazwa.md wg P17 (974d7e9) → recenzja 3 (Analityk), ostatnia runda.
+12:20 Prezenter: README.md szkic (Prześwit, wg P16; makieta i ksefbot.pl jako [link po wdrożeniu]; komendy z docs/uruchomienie.md)
