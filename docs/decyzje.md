@@ -38,3 +38,4 @@ P13 12:05 Artur: Gdy nie da się mieć obu naraz, co ważniejsze: (A) nie przeoc
 12:05 Projektant: recenzja 1a runda 2 braki produkt 1–3 przyjęte: dobór wzorca (P8) jako osobna funkcja w porównaniu i rekomendacjach; miejsca z P7 w metodach i rekomendacjach; P6 (na żywo, < 1 min) w szansach i rekomendacjach; §10 przepisany (zamknięte P6–P8, otwarte P9–P13); partie z wyróżnika na wymóg
 12:06 Szef: 1a recenzja przejścia runda 1 (Analityk, 891cada) — 5 braków; 1–3 to nieuwzględnione odpowiedzi Artura P6–P12 (bez nowych pytań), 4–5 technika; poprawka → Projektant.
 12:06 Projektant: 1a — sekcje „Recenzja przejścia” usunięte z pliku kroku (zapis recenzji w historii git: 891cada, 0d9c8eb); liczba 96%/3% usunięta, brak źródła; priorytet przy kolizji celów: mniej przeoczeń (P4 B). Odpowiedzi P9–P12 w tym dzienniku jeszcze nie ma — nie wpisuję.
+12:06 Szef: docs/hacktribe.md poprawka 1 (Prezenter, e7fbbde, wg P8, P10–P12) → recenzja 2 (Analityk).
