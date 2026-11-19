@@ -1,11 +1,11 @@
 # 02 — Odkrywanie (`/discover`) — kompletny (po wyborze Artura P18–P23)
 
-Źródła: `docs/zadanie.md`, `docs/pm/01-competitive-analysis.md`, `docs/decyzje.md` (P4–P17). Produkt nowy (nie ma użytkowników ani danych z użycia), nazwa robocza: **Prześwit** (P14).
+Źródła: `docs/zadanie.md`, `docs/pm/01-competitive-analysis.md`, `docs/decyzje.md` (P4–P23). Produkt nowy (nie ma użytkowników ani danych z użycia), nazwa robocza: **Prześwit** (P14).
 
 ## 1. Kontekst odkrywania (z zadania i ustaleń, bez pytań)
 - **Co badamy:** narzędzie, które pokazuje operatorowi RTG miejsca różne od wzorca (zadanie §2–3).
 - **Co już wiemy:** użytkownik to operator RTG KAS; ma kilka minut na auto (P6); wzorzec dobiera system (P8, P16); boli i skrytka w konstrukcji, i towar w ładunku — najczęściej podwójna podłoga albo ściana przy kabinie (P7, P12); ważniejsze nie przeoczyć niż uniknąć kilku fałszywych alarmów (P4, P13); trafienie wg P9; obecne narzędzie KAS słabe przy małych ilościach w konstrukcji (P10); wydajność i partie dopiero po pomiarze (P11); teksty ostrożnie (P15–P17).
-- **Jaką decyzję ustawia odkrywanie:** co wchodzi do pierwszej działającej wersji i do pokazu (do 2 min).
+- **Jaką decyzję ustawia odkrywanie:** co wchodzi do pierwszej działającej wersji i do pokazu. „Pokaz do 2 min” to nasze ograniczenie (cel zespołu), nie odpowiedź Artura ani wymóg zadania.
 - UPROSZCZENIE: brak badań z operatorami — rozmowy z użytkownikami zastępuje wiedza Artura i opis zadania — dorobienie: rozmowy po hackathonie.
 
 ## 2. Pomysły (rozbieżna faza; produkt nowy — perspektywy: PM, projektant, inżynier)
@@ -41,43 +41,57 @@ UPROSZCZENIE: tablica wyników jako funkcja (10) — liczby tylko w opisie i na 
 UPROSZCZENIE: kontenery, autokary, wagony — tylko naczepy — dorobienie: duże (nowy zbiór)
 
 ## 4. Założenia (wartość, użyteczność, wykonalność, opłacalność)
+Definicje (P9 A): skrytka jest „zaznaczona”, gdy zaznaczenie choć częściowo nachodzi na skrytkę albo jego środek leży w skrytce. Fałszywy alarm (FP) = czysty obraz z co najmniej jednym zaznaczeniem. Przeoczenie (FN) = skrytka bez zaznaczenia. FN liczymy razem i osobno: konstrukcja (podwójna podłoga, ściana przy kabinie, przeróbki) oraz towar w ładunku (P7, 01 §5, §7).
+
 | # | Rodzaj | Założenie | Ryzyko | Wpływ |
 |---|---|---|---|---|
-| Z1 | wykonalność | system trafnie dobiera wzorzec z biblioteki (P8) | W | W |
+| Z1 | wykonalność | system trafnie dobiera wzorzec z biblioteki (P8 B). Uwaga z 01 §7 pkt 3: P8 B koliduje z zadaniem §7 — traktujemy jako założenie do pomiaru | W | W |
 | Z2 | wykonalność | podwójną podłogę widać jako różnicę od wzorca (P7) | W | W |
+| Z2b | wykonalność | ścianę przy kabinie widać jako różnicę od wzorca (P7) | W | W |
+| Z2c | wykonalność | towar w ładunku (dodatki) widać jako różnicę od wzorca (P7, P12) | Ś | W |
 | Z3 | użyteczność | przy kilku zaznaczeniach na auto operator im ufa i zdąży je obejrzeć (P13) | W | W |
-| Z4 | wartość | zaznaczenia pomagają operatorowi spojrzeć jeszcze raz — nie obiecujemy skuteczności (P16, P17) | Ś | W |
-| Z5 | użyteczność | jedno kliknięcie zatwierdź/odrzuć mieści się w kilku minutach na auto (P6) | Ś | Ś |
+| Z4 | wartość | zaznaczenia pomagają spojrzeć jeszcze raz — nie obiecujemy skuteczności (P16, P17) | Ś | W |
+| Z5 | użyteczność | zatwierdź/odrzuć jednym kliknięciem mieści się w kilku minutach na auto (P6) | Ś | Ś |
 | Z6 | opłacalność | raport z miejscem i przedmiotem kontroli wystarcza do ewidencji | N | Ś |
 
 ## 5. Priorytety
-Macierz wpływ × ryzyko: Z1, Z2, Z3 w prawym górnym rogu — „skok wiary”. Kolejność sprawdzania wg P23: Z1 i Z2 razem, potem Z3. Z4–Z6 po nich.
+Macierz wpływ × ryzyko: Z1, Z2, Z2b, Z3 w prawym górnym rogu — „skok wiary”. Kolejność wg P23: Z1 i Z2 jednym przebiegiem (Z2b i Z2c w tym samym przebiegu, bo to te same obrazy), potem Z3. Z4–Z6 po nich.
 
 ## 6. Eksperymenty
-| Założenie | Eksperyment | Kryterium sukcesu (kryterium akceptacji w specu) |
-|---|---|---|
-| Z1 + Z2 (jeden przebieg) | prototyp na sztucznych naczepach .bmp: dla każdego obrazu system dobiera wzorzec i zaznacza różnice; porównanie z wiedzą o skrytkach | dobrany wzorzec zgodny z typem naczepy w co najmniej 9/10 obrazów (założenie); podwójna podłoga zaznaczona w co najmniej 7/10 obrazów z taką skrytką (założenie) |
-| Z3 | próba na czystych i „brudnych” obrazach: ile zaznaczeń na czystym aucie, czy lista z kolejnością da się przejrzeć w kilka minut | na czystym aucie zaznaczeń nie ma lub są nieliczne (P13); lista mieści się na jednym ekranie |
-| Z4 | przegląd tekstów ekranu i README pod kątem obietnic | brak zdań obiecujących skuteczność (P16, P17) |
-| Z5 | przejście ścieżki pokazu ze stoperem | główna ścieżka w demo do 2 min |
+Próba (założenie robocze, do potwierdzenia z Programistą): co najmniej 30 obrazów z daną skrytką na każdy mierzony rodzaj i 30 czystych. Przy 10 obrazach ułamki typu 9/10 nie mają sensu. Wyniki podajemy jako „n z N” (np. 27 z 30), nie jako procent.
 
-Progi 9/10 i 7/10 to założenia robocze bez źródła — do potwierdzenia przy pierwszym przebiegu.
+| Założenie | Eksperyment | Kryterium sukcesu (kandydat na kryterium akceptacji) |
+|---|---|---|
+| Z1 | dla każdego obrazu system dobiera wzorzec z biblioteki | trafny typ naczepy — próg po pomiarze (założenie) |
+| Z2 | zaznaczenia na obrazach z podwójną podłogą, FN osobno | przeoczenia podwójnej podłogi — próg czeka na odpowiedź Artura (P25); do tego czasu bez liczby w specu |
+| Z2b | zaznaczenia na obrazach ze ścianą przy kabinie, FN osobno | próg po pomiarze (założenie); raportowane osobno od Z2 |
+| Z2c | zaznaczenia na obrazach z towarem w ładunku, FN osobno | próg po pomiarze (założenie); raportowane osobno od konstrukcji |
+| czas | czas od wczytania obrazu do wyniku | poniżej 1 minuty na obraz (zadanie §7, 01 §9) |
+| Z3 | czyste obrazy: liczba zaznaczeń na obraz (rozkład) + próba: operator ocenia na obrazach z kilkoma zaznaczeniami, czy zaznaczenia uznaje za pomocne i czy obejrzy wszystkie na liście | miara zaufania: odsetek zaznaczeń zatwierdzonych jako trafne lub sensowne do sprawdzenia (P20 A: kliknięcia zatwierdź/odrzuć); liczba zaznaczeń „kilka, nie kilkadziesiąt” (P13) — próg po pomiarze |
+| Z4 | przegląd tekstów ekranu i README | brak zdań obiecujących skuteczność (P16, P17) |
+| Z5 | przejście ścieżki pokazu ze stoperem | nasze ograniczenie: pokaz do 2 min |
+
+Fałszywe alarmy liczymy wg P9 (czysty obraz z ≥ 1 zaznaczeniem) i raportujemy razem z FN. Żadnej liczby z tej tabeli nie przenosimy do `docs/spec.md` jako kryterium akceptacji, dopóki nie jest zmierzona albo potwierdzona przez Artura.
 
 ## 7. Plan odkrywania
-1. Dobór wzorca + podwójna podłoga (Z1, Z2) — pierwszy przebieg na zbiorze naczep.
-2. Czysta naczepa i kilka zaznaczeń (Z3).
+1. Dobór wzorca + konstrukcja i ładunek (Z1, Z2, Z2b, Z2c) — jeden przebieg na zbiorze naczep, plus czas na obraz.
+2. Czyste naczepy i kilka zaznaczeń (Z3).
 3. Teksty ekranu (Z4) i stoper ścieżki (Z5) — po makiecie.
 
 Brak badań z operatorami (UPROSZCZENIE z punktu 1): zastępują je sztuczne dane i ustalenia Artura.
 
 ## 8. Drzewo decyzji
-- Z1 nie trzyma → ręczny wybór typu naczepy na ekranie, podpis „porównano z” zostaje.
+- Z1 nie trzyma → dopracowujemy dobór wzorca (więcej wzorców w bibliotece). Ręczny wybór typu naczepy przez operatora zmieniłby P8 B — tylko za zgodą Artura (P26); do czasu odpowiedzi nie wchodzi do zakresu.
 - Z2 nie trzyma → strefy ryzyka (6) wskazują miejsce do ręcznego sprawdzenia bez twierdzenia o różnicy.
 - Z3 nie trzyma → pokazujemy tylko najbardziej różne miejsca, reszta zwinięta pod listą.
 - Wszystko trzyma → zakres bez zmian; następny krok: kontenery (P19).
 
-## 9. Dalej
-Wybór ekranu i ścieżki (moment c) przed `/write-prd`; eksperymenty i ryzyka wracają w `docs/spec.md` jako kryteria akceptacji.
+## 9. Otwarte pytania do Artura
+- **P25** — dopuszczalne przeoczenia podwójnej podłogi (próg).
+- **P26** — ręczny wybór typu naczepy jako zapas, gdy dobór wzorca zawiedzie.
+
+## 10. Dalej
+Wybór ekranu i ścieżki (moment c) przed `/write-prd`; eksperymenty i ryzyka wracają w `docs/spec.md` jako kryteria akceptacji (tylko zmierzone lub potwierdzone).
 
 <!-- skill: przeplywy-pm -->
 <!-- skill: brainstorm-ideas-new -->
