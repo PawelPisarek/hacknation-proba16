@@ -178,3 +178,4 @@ P31 15:05 Artur: Który wariant ekranu bierzemy? 1 (jeden duży obraz, lista z b
 15:06 Prezenter: wpisane 0 z 10 (podwójna podłoga, H2ko, wyniki/0P fc96c93) w hacktribe, README, demo, slajdy; P30 A (stopień różnicy: niski/średni/wysoki, lista od wysokiego) w slajdzie 4 i demo (wiersz 4); brak [__] w 4 plikach.
 P31 15:06 odpowiedź: wariant 3 (wzorzec obok badanego obrazu) + z wariantu 1 lista miejsc z boku; operator musi widzieć, z czym porównujemy (Artur w pokoju)
 15:08 Szef: P31 przyjęte (wariant 3 + lista z boku) → Programista makieta R1, Projektant spec
+15:08 Projektant: P31 wpisane do spec §7.2 (wariant 3 + lista z wariantu 1, lista od wysokiego); zdublowanej linii pytania P31 nie ma (jedna, wiersz 177)
