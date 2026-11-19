@@ -60,3 +60,4 @@ P14 12:11 Artur: Jak nazwiemy projekt: „Skrytka.AI”, „Wzorzec” czy „Pr
 P14 12:12 dopisek do pytania (recenzja 1 nazwa.md, Analityk 3d10a77): „Skrytka.AI” sugeruje tylko skrytki, a P7 i P12 obejmują też towar w ładunku — czy to przeszkadza w wyborze nazwy? — czeka
 P15 12:12 Artur: W tekstach mówimy (A) „zaznacza tylko różnice, na czystym aucie nic” czy (B) „kilka zaznaczeń na auto” (z P13)? Rekomendacja: A — B brzmi jak obietnica fałszywych alarmów na czystym aucie — czeka
 P16 12:12 Artur: Teksty piszemy (A) ostrożnie: „system sam dobiera wzorzec z biblioteki”, bez „każdy obraz” i „bez zdjęcia czystej naczepy”, czy (B) śmiało, jak teraz? Rekomendacja: A — tego jeszcze nie zmierzyliśmy — czeka
+12:12 Szef: nazwa.md recenzja 1 (3d10a77, 5 braków): 1–3 produkt → Artur przez Projektanta (1 w P14); 4–5 technika → Prezenter. Znaczniki skilli na górze pliku zostają (format zlecenia Szefa).
