@@ -236,3 +236,4 @@ P38 15:53 odpowiedź: B — jedno ostrzeżenie „Nieprzejrzane: N miejsc. Zapis
 - 15:53 Prezenter: README, hacktribe, demo, slajdy do stanu makiety R3 — link do makiety (HTTP 200), zrzuty R3, zaznaczenie „udawane dane”; ksefbot.pl daje 530 → placeholder zostaje; opis hacktribe bez zmian.
 15:54 Szef: P38 B przyjęte → zadanie 01 (MVP) + makieta (ostrzeżenie) → Programista; demo.md sprawdzić ostrzeżenie → Prezenter
 - 15:54 Prezenter: P38 B — demo bez zmiany kroków (w (b) przejrzane 2 z 2 przed zapisem), dopisana notatka o ostrzeżeniu „Nieprzejrzane: N miejsc. Zapisać mimo to?”; suma 105 s.
+15:59 Szef: Analityk → docs/odbior-mvp.md (sprawdzenia odbioru P29–P38 + testy spec)
