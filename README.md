@@ -6,7 +6,7 @@
 
 ## Co to jest
 
-Prześwit to narzędzie dla operatora RTG na granicy, który ma kilka minut na naczepę (obraz ok. 50 MB). Obecne narzędzie KAS wykrywa papierosy, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe. Prześwit podpowiada w trakcie oglądania obrazu: system sam dobiera wzorzec z biblioteki, porównuje z nim naczepę i zaznacza miejsca różne od wzorca — dodatki w ładunku oraz przeróbki konstrukcji (np. podwójną podłogę, ścianę przy kabinie). Wczytuje pliki BMP. Operator jednym kliknięciem zatwierdza albo odrzuca zaznaczenie, a raport zapisuje miejsce i przedmiot kontroli; decyzję o kontroli fizycznej nadal podejmuje operator.
+Prześwit to narzędzie dla operatora RTG na granicy, który ma kilka minut na naczepę (obraz ok. 50 MB). Obecne narzędzie KAS wykrywa papierosy, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe. Prześwit podpowiada w trakcie oglądania obrazu: system sam dobiera wzorzec z biblioteki (gdy dobierze źle, operator wybiera typ naczepy z listy jednym kliknięciem), porównuje z nim naczepę i zaznacza miejsca różne od wzorca — dodatki w ładunku oraz przeróbki konstrukcji (np. podwójną podłogę, ścianę przy kabinie). Wczytuje pliki BMP. Operator jednym kliknięciem zatwierdza albo odrzuca zaznaczenie, a raport zapisuje miejsce i przedmiot kontroli; decyzję o kontroli fizycznej nadal podejmuje operator.
 
 Zakres: pokazujemy tylko naczepy ciężarowe (dla nich mamy zbiór i pokaz); kontenery, autokary i wagony kolejowe to dalszy krok. Obrazów KAS nie mamy, więc pracujemy na własnym, sztucznym zbiorze naczep. Docelowo narzędzie ma działać bez chmury; w pokazie obliczenia robi usługa na karcie graficznej w sieci lokalnej.
 
@@ -43,6 +43,7 @@ Na naszym sztucznym zbiorze (pomiar):
 |---|---|
 | czyste obrazy z zaznaczeniem | [__] z [__] |
 | pominięte dodatki (w tym przeróbki konstrukcji) | [__] z [__] |
+| w tym przeoczona podwójna podłoga | [__] z [__] |
 | czas na obraz (cel < 1 min) | [__] s |
 | duże pliki i wiele obrazów naraz | [__] (po pomiarze) |
 

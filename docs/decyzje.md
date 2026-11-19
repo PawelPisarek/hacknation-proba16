@@ -121,3 +121,4 @@ P26 14:37 odpowiedź: B — operator zna typ naczepy z dokumentów przewozowych;
 14:38 Szef: poprawka 1b po recenzji 2 (26f93d8) z P25 B i P26 B (Artur w pokoju) → recenzja 1b runda 3, ostatnia (Analityk).
 14:39 Analityk: recenzja przejścia 1b runda 3 (02-discover.md 26f93d8) — 3 braki (1 produkt: P26 B poza zakresem pierwszej wersji; 2 technika: brak kryterium „nie trzyma”; 3 technika: brak testu wyboru typu); docs/recenzje/1b-3.md
 14:40 Szef: P25 B, P26 B → Prezenter dopasowuje README.md i docs/hacktribe.md (bez obietnicy „żadnej”, wybór typu naczepy jako zapas).
+14:40 Prezenter: README i hacktribe wg P25 B (liczba przeoczonych podwójnych podłóg z pomiaru [__] z [__], bez „żadnej”) i P26 B (wybór typu naczepy z listy jednym kliknięciem jako zapas); opis 994 zn.
