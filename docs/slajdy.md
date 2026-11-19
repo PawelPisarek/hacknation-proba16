@@ -32,9 +32,9 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Liczby `[__]` wpisujemy p
 - **Obrazek:** zrzut obrazu (d) z listą typów oraz okna raportu.
 
 ## 6. Wyniki (pomiar na sztucznym zbiorze)
-- Czyste obrazy z zaznaczeniem: [__] z [__].
-- Pominięte dodatki (z przeróbkami konstrukcji): [__] z [__], w tym podwójna podłoga [__] z [__].
-- Czas na obraz: [__] s (cel < 1 min).
+- Czyste obrazy z zaznaczeniem: 7 z 20 (zbiór sztuczny).
+- Pominięte dodatki (z przeróbkami konstrukcji): 0 z 45, w tym podwójna podłoga [__] z [__] (zbiór sztuczny).
+- Czas na obraz: 1,1 s (cel < 1 min); wzorzec dobrany trafnie 37 z 40.
 - **Wariant bez liczb (gdy pomiaru brak):** tytuł „Wyniki — po pomiarze”; punkty: cel < 1 min na obraz; liczby z pomiaru podamy w opisie projektu; zbiór sztuczny, na danych KAS wyniki mogą być inne. Do PDF nie trafia tabela z samymi `[__]`.
 - **Obrazek:** tabela wyników dopiero po pomiarze; do tego czasu wariant bez liczb (wyżej).
 

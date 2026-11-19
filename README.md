@@ -37,14 +37,15 @@ Szczegóły i format przewidywań: `docs/uruchomienie.md`, nagłówek `rtg/ocena
 
 ## Wyniki
 
-Na naszym sztucznym zbiorze (pomiar):
+Na naszym sztucznym zbiorze (pomiar metody H2ko, zbiór `male`, 40 obrazów; szczegóły: `wyniki/0P/README.md`):
 
 | miara | wynik |
 |---|---|
-| czyste obrazy z zaznaczeniem | [__] z [__] |
-| pominięte dodatki (w tym przeróbki konstrukcji) | [__] z [__] |
+| czyste obrazy z zaznaczeniem | 7 z 20 |
+| pominięte dodatki (w tym przeróbki konstrukcji) | 0 z 45 (36 przeróbek konstrukcji, 9 w ładunku) |
 | w tym przeoczona podwójna podłoga | [__] z [__] |
-| czas na obraz (cel < 1 min) | [__] s |
+| czas na obraz (cel < 1 min) | 1,1 s |
+| trafność doboru wzorca | 37 z 40 |
 | duże pliki i wiele obrazów naraz | [__] (po pomiarze) |
 
 Wyniki dotyczą zbioru sztucznego i mogą być lepsze niż na prawdziwych obrazach KAS.

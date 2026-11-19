@@ -19,7 +19,7 @@ Podstawa: `docs/spec.md` §7.3 (ścieżka pokazu), §7.2 (ekrany). Nagrywa czło
 | 7 | 58–72 | ≤28 | Obraz (d): podpis „porównano z: typ plandeka” (zły) → lista typów u góry → klik „chłodnia” → wzorzec i zaznaczenia się odświeżają | Gdy system dobierze zły wzorzec, operator zna typ z dokumentów i wybiera go z listy jednym kliknięciem. Lista jest zawsze pod ręką. |
 | 8 | 72–82 | ≤20 | „Zapisz raport” → okno raportu: obraz z zaznaczeniami, decyzje, pola „miejsce kontroli” i „przedmiot kontroli” | Raport zapisuje miejsce i przedmiot kontroli, żeby kontrola fizyczna wiedziała, gdzie patrzeć. |
 | 9 | 82–88 | ≤12 | Obraz (a): czysta naczepa, w tym pokazie bez zaznaczeń; pasek „0 miejsc” | Na tej czystej naczepie w pokazie nie ma zaznaczeń. |
-| 10 | 88–105 | ≤34 | **SLAJD** (nie ekran makiety): wyniki pomiaru — wariant z liczbami: czyste obrazy z zaznaczeniem [__] z [__]; pominięte dodatki [__] z [__], w tym podwójna podłoga [__] z [__]; czas [__] s na obraz (cel < 1 min) | Wyniki na sztucznym zbiorze: czyste obrazy z zaznaczeniem [__] z [__], pominięte dodatki [__] z [__], czas [__] s na obraz. Obrazów KAS nie mamy, więc na prawdziwych danych wyniki mogą być inne. |
+| 10 | 88–105 | ≤34 | **SLAJD** (nie ekran makiety): wyniki pomiaru — wariant z liczbami: czyste obrazy z zaznaczeniem 7 z 20; pominięte dodatki 0 z 45, w tym podwójna podłoga [__] z [__]; czas 1,1 s na obraz (cel < 1 min) | Wyniki na sztucznym zbiorze: czyste obrazy z zaznaczeniem 7 z 20, pominięte dodatki 0 z 45, czas 1,1 s na obraz. Obrazów KAS nie mamy, więc na prawdziwych danych wyniki mogą być inne. |
 
 Łącznie: 105 s (0–105).
 
