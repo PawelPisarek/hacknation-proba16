@@ -1,6 +1,6 @@
 # Prześwit — konspekt slajdów (DRAFT, 10 slajdów, docelowo PDF)
 
-Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących skuteczność (P15–P17, P25 B). Obrazki to zrzuty z makiety (sztuczne dane).
+Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących skuteczność (P15–P17, P25 B). Obrazki to zrzuty z makiety R3 na udawanych danych; prawdziwa wersja dopiero powstaje.
 
 ## 1. Prześwit
 - Zaznacza na obrazie RTG miejsca różne od wzorca.
@@ -21,7 +21,7 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących s
 - **Obrazek:** schemat: obraz → wzorzec z biblioteki → zaznaczone różnice → decyzja operatora.
 
 ## 4. Ekran: porównanie
-- Obraz z ramkami i dwa okna obok siebie (wzorzec i obraz badany) oraz lista miejsc z boku; zrzut z makiety R1 (docs/zrzuty/makieta-R1.png, w przygotowaniu).
+- Obraz z ramkami i dwa okna obok siebie (wzorzec i obraz badany) oraz lista miejsc z boku; zrzut z makiety R3 (docs/zrzuty/makieta-R3-b.png).
 - Lista miejsc po prawej od wysokiego stopnia różnicy; stopień to trzy słowa: niski / średni / wysoki, bez liczb (P30 A).
 - Pasek stanu zgodny z obrazem: (b) „Przejrzano 2 z 2”, (c) „Przejrzano 0 z 4”, (a) „0 miejsc”.
 - **Obrazek:** zrzut głównego ekranu makiety (obraz (b), podwójna podłoga).
@@ -29,7 +29,7 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących s
 ## 5. Ekran: wybór typu i raport
 - Gdy wzorzec dobrany źle, operator wybiera typ naczepy z listy jednym kliknięciem; lista zawsze pod ręką.
 - „Zapisz raport”: miejsce kontroli, przedmiot kontroli oraz powód każdego odrzucenia.
-- **Obrazek:** zrzut obrazu (d) z listą typów oraz okna raportu.
+- **Obrazek:** zrzut obrazu (d) z listą typów (docs/zrzuty/makieta-R3-d.png) oraz okna raportu.
 
 ## 6. Wyniki (pomiar na sztucznym zbiorze)
 - Czyste obrazy z zaznaczeniem: 7 z 20 (zbiór sztuczny).
@@ -60,5 +60,5 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących s
 ## 10. Zespół
 - Paweł — technika, wygląd, użyteczność; Artur — kształt produktu.
 - Boty: Szef (rozdział pracy), Projektant (spec), Analityk (materiały, recenzje), Programista (kod, makieta), Prezenter (teksty).
-- Linki: repo, makieta [link po wdrożeniu], ksefbot.pl [link po wdrożeniu].
+- Linki: repo, makieta https://pawelpisarek.github.io/hacknation-proba16/makieta/, ksefbot.pl [link po wdrożeniu].
 - **Obrazek:** zdjęcie zespołu lub 2 awatary ludzi i 5 ikon botów.

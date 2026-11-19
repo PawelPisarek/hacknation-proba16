@@ -8,6 +8,8 @@
 
 **Link do repozytorium:** https://github.com/PawelPisarek/hacknation-proba16
 
+**Link do makiety (udawane dane, prawdziwa wersja dopiero powstaje):** https://pawelpisarek.github.io/hacknation-proba16/makieta/
+
 **Opis (limit 1000 znaków):**
 
 Operator RTG na granicy ma kilka minut na naczepę ciężarową. Obecne narzędzie KAS wykrywa papierosy, ale przy małych ilościach ukrytych w konstrukcji jest za słabe. Prześwit podpowiada w trakcie oglądania: system sam dobiera wzorzec z biblioteki (gdy dobierze źle, operator wybiera typ naczepy z listy jednym kliknięciem), porównuje z nim naczepę i zaznacza miejsca różne od wzorca — dodatki w ładunku i przeróbki konstrukcji, m.in. podwójną podłogę. Narzędzie pokazuje, gdzie obraz różni się od wzorca — tam warto spojrzeć jeszcze raz. Operator zatwierdza zaznaczenie albo odrzuca je z powodem z listy; raport zapisuje miejsce i przedmiot kontroli. Wynik na zbiorze sztucznym: czyste obrazy z zaznaczeniem 7 z 20; pominięte dodatki 0 z 45, w tym podwójna podłoga 0 z 10; czas 1,1 s na obraz; wzorzec dobrany trafnie 37 z 40. Duże pliki — po pomiarze; kontenery, autokary, wagony — dalszy krok. Obrazy liczone tylko lokalnie, bez chmury; obrazów KAS nie mamy.

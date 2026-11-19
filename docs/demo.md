@@ -1,6 +1,6 @@
 # Scenariusz pokazu — Prześwit (DRAFT, ok. 105 s)
 
-Podstawa: `docs/spec.md` §7.3 (ścieżka pokazu), §7.2 (ekrany). Nagrywa człowiek. Link do makiety: [link po wdrożeniu].
+Podstawa: `docs/spec.md` §7.3 (ścieżka pokazu), §7.2 (ekrany). Nagrywa człowiek. Link do makiety (udawane dane): https://pawelpisarek.github.io/hacknation-proba16/makieta/
 
 **Czas:** 105 s łącznie, czyli 15 s zapasu do limitu 120 s (na kliknięcia i ładowanie). Lektor czyta najwyżej ok. 2 słowa na sekundę; liczba słów w kolumnie „słowa” jest limitem dla wiersza.
 

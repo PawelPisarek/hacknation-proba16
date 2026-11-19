@@ -13,8 +13,8 @@ Zakres: pokazujemy tylko naczepy ciężarowe (dla nich mamy zbiór i pokaz); kon
 Dla kogo: operatorzy RTG Służby Celno-Skarbowej.
 
 - Repozytorium: https://github.com/PawelPisarek/hacknation-proba16
-- Makieta: [link po wdrożeniu]
-- Wersja na ksefbot.pl: [link po wdrożeniu]
+- Makieta (klikalna, udawane dane; prawdziwa wersja dopiero powstaje): https://pawelpisarek.github.io/hacknation-proba16/makieta/
+- Wersja na ksefbot.pl: [link po wdrożeniu] (adres ksefbot.pl odpowiadał 19.11 kodem 530, więc go nie podajemy)
 
 ## Uruchomienie
 
