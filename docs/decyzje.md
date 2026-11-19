@@ -201,3 +201,4 @@ P35 15:13 odpowiedź: A — raport: zestawienie + obraz z zaznaczeniami; pola pr
 P36 15:13 odpowiedź: A — małe miejsca: większy numer i krótki opis jak przy miejscu 1 (poprawka makiety) (Artur w pokoju)
 P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca; dodatkowo usuwamy z paska na dole zdanie ostrożności, zostaje w opisie (Artur w pokoju)
 15:13 Projektant: P32–P34, P36 to poprawki/wynik z P29 — Artur: takie rzeczy bez pytania; lista poprawek makiety dla Programisty: P32–P37
+15:14 Szef: P32–P37 A przyjęte (Artur w pokoju) → Programista makieta R2; Projektant spec; Prezenter demo/slajdy. Artur: poprawek błędów i tego, co wynika z jego odpowiedzi, nie zadajemy jako P — rozstrzyga zespół z recenzentem
