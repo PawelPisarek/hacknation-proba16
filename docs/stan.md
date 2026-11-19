@@ -1,4 +1,4 @@
-# Stan — 12:13 (sobota zespołu)
+# Stan — 12:14 (sobota zespołu)
 Najbliższy kamień: ~11:45 docs/spec.md (spóźnione, łańcuch w toku); 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
@@ -9,8 +9,8 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione, łańcuch w toku); 20:00 
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | w toku |
 | 1b /discover po pytaniach (a)(b) → docs/pm/02 | Projektant | w toku |
 | recenzja przejścia 1b | Analityk | czeka na 1b |
-| 6 nazwa i hasło → docs/nazwa.md | Prezenter | techn. poprawione 249bf90; P14 = Prześwit; nazwa wpisywana; P15–P16 czekają |
+| 6 nazwa i hasło → docs/nazwa.md | Prezenter | techn. poprawione 249bf90; P14 Prześwit, P15, P16 wpisywane; potem recenzja 2 |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | DRAFT 886d666; recenzja 3 po pomiarze |
 
-Otwarte pytania: P15 zaznaczenia na czystym, P16 ostrożny tekst (Artur, 12:12)
+Otwarte pytania: —
 Lista Artura na noc: —

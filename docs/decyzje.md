@@ -67,3 +67,4 @@ P15 12:14 odpowiedź (Artur w pokoju): ani A, ani B — w tekstach: „zaznacza 
 P16 12:14 odpowiedź (Artur w pokoju): A — ostrożnie: „system sam dobiera wzorzec z biblioteki”, bez „na każdy obraz” i „bez zdjęcia czystej naczepy”.
 12:13 Szef: poprawiona linia dopisku do P14 (nie jest pytaniem, bez „czeka”). P14 zamknięte: Prześwit (Artur w pokoju) → Prezenter wpisuje nazwę w docs/hacktribe.md i docs/nazwa.md.
 12:14 Prezenter: wybrana nazwa Prześwit (P14) wpisana w docs/hacktribe.md i docs/nazwa.md; hasło „Zaznacza na obrazie RTG miejsca różne od wzorca.” (50 zn., wg P15/P16); opisu i wartości nie zmieniam do osobnego zlecenia.
+12:14 Szef: P15, P16 zamknięte (Artur w pokoju) → Prezenter wpisuje je razem z P14 w docs/hacktribe.md i docs/nazwa.md; potem recenzja 2 (Analityk).
