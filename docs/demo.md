@@ -12,7 +12,7 @@ Podstawa: `docs/spec.md` §7.3 (ścieżka pokazu), §7.2 (ekrany). Nagrywa czło
 |---|---|---|---|---|
 | 1 | 0–10 | ≤20 | Ekran startowy: nazwa Prześwit i hasło „Zaznacza na obrazie RTG miejsca różne od wzorca.” | Operator RTG ma kilka minut na naczepę. Obecne narzędzie KAS słabo wykrywa małe ilości ukryte w konstrukcji. |
 | 2 | 10–19 | ≤18 | Wczytanie obrazu (b) „naczepa_017.bmp”; pojawiają się 2 ramki i podpis „porównano z: typ chłodnia”; pasek „Przejrzano 0 z 2 miejsc” | System sam dobiera wzorzec z biblioteki i zaznacza miejsca różne od wzorca. |
-| 3 | 19–26 | ≤14 | Suwak przesuwa podział wzorzec ↔ obraz badany | Suwakiem porównuję wzorzec z obrazem — widać, gdzie naczepa się różni. |
+| 3 | 19–26 | ≤14 | Dwa okna obok siebie: wzorzec i obraz badany, lista miejsc z boku | Wzorzec i obraz obok siebie — widać, gdzie naczepa się różni. |
 | 4 | 26–38 | ≤24 | Prawa kolumna: klik w pierwsze miejsce (strefa podwójnej podłogi) → obraz przewija się → „Zatwierdź”; pasek „Przejrzano 1 z 2” | Lista idzie od wysokiego stopnia różnicy. Klikam pierwsze miejsce, w strefie podwójnej podłogi, i zatwierdzam: do kontroli. |
 | 5 | 38–46 | ≤16 | Drugie miejsce → „Odrzuć” → powód z listy („cień”); pasek „Przejrzano 2 z 2” | Drugie odrzucam jako pomyłkę i wybieram powód. Decyzję o kontroli fizycznej podejmuje operator. |
 | 6 | 46–58 | ≤24 | Obraz (c): 4 zaznaczenia, na liście dwie strefy: ściana przy kabinie i towar w ładunku; pasek „Przejrzano 0 z 4” | Tu są dwie różne strefy: ściana przy kabinie i towar w ładunku. Przeróbki konstrukcji i dodatki pokazujemy tak samo. |

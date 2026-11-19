@@ -21,7 +21,7 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących s
 - **Obrazek:** schemat: obraz → wzorzec z biblioteki → zaznaczone różnice → decyzja operatora.
 
 ## 4. Ekran: porównanie
-- Obraz z ramkami i suwak wzorzec / obraz badany.
+- Obraz z ramkami i dwa okna obok siebie (wzorzec i obraz badany) oraz lista miejsc z boku; zrzut z makiety R1 (docs/zrzuty/makieta-R1.png, w przygotowaniu).
 - Lista miejsc po prawej od wysokiego stopnia różnicy; stopień to trzy słowa: niski / średni / wysoki, bez liczb (P30 A).
 - Pasek stanu zgodny z obrazem: (b) „Przejrzano 2 z 2”, (c) „Przejrzano 0 z 4”, (a) „0 miejsc”.
 - **Obrazek:** zrzut głównego ekranu makiety (obraz (b), podwójna podłoga).
