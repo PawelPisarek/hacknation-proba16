@@ -96,3 +96,4 @@ P22 12:22 odpowiedź (Artur w pokoju): jak rekomendacja — 5 w części (kolor 
 P23 12:22 odpowiedź (Artur w pokoju): te trzy założenia w kolejności Z1, Z2, Z3; Z1 i Z2 sprawdzamy jednym przebiegiem.
 12:22 Szef: README recenzja 1 (a97a85c) — 5 braków; 1–2 „produkt” już rozstrzygnięte przez Artura (P19 A, P20 A) → Prezenter wpisuje brzmienie z decyzji, bez nowego pytania; 3–5 technika → Prezenter. Potem recenzja 2.
 12:22 Prezenter: README poprawiony wg recenzji 1 (P19 A, P20 A, role botów, bez adresów/licencji bez źródła w repo, bez chmury + orkiestrator)
+12:23 Szef: README poprawka po recenzji 1 — 8011933; recenzja 2 (Analityk) zlecona.
