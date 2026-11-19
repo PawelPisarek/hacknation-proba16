@@ -57,7 +57,7 @@ Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejs
 | Format `.bmp` ~50 MB, partie | tak (wymóg) | brak danych | brak danych | brak danych |
 
 ## 7. Szanse wyróżnienia (P5: do opisu i pokazu)
-1. **Skrytki w konstrukcji obok towaru w ładunku** (P7: oba) — tam, gdzie dzisiejsze narzędzie do papierosów jest słabe (zadanie §1); wskazujemy różnice ogólnie, nie tylko papierosy.
+1. **Skrytki w konstrukcji obok towaru w ładunku** (P7: oba) — tam, gdzie dzisiejsze narzędzie do papierosów jest słabe (zadanie §1); wskazujemy różnice względem wzorca, nie tylko papierosy.
 2. **Wynik, który można sprawdzić** — raportujemy FP-obraz i FN-obraz oraz czułość wg rozmiaru dodatku (nie obiecujemy bez pomiaru).
 3. **Wzorzec z biblioteki dla naczepy tego samego typu** (P8: operator zwykle nie ma czystego zdjęcia tej samej naczepy), a nie tylko „ten sam pojazd przed/po” (zakres Rapiscan Vehicle Compare). Uwaga: zadanie §7 opisuje dane jako pary/grupy „przed i po”; biblioteka wzorców z naszego zbioru to założenie wykonawcze do sprawdzenia w makiecie i danych.
 4. **Podpowiedź w trakcie oglądania obrazu** (P6): operator ma kilka minut na auto, więc zaznaczenia muszą być czytelne od razu, a wynik w < 1 min (zadanie §7). To wymóg użyteczności, a wyróżnik tylko jeśli pokażemy to w demo.
@@ -65,7 +65,7 @@ Wniosek metodyczny: dla zadania (wzorzec + uczenie na czystych + wskazanie miejs
 
 ## 8. Zagrożenia
 1. Rapiscan i inni oferują porównanie od dawna — wyróżnia nas wynik na naszym zbiorze, nie sama idea.
-2. Zero fałszywych alarmów (§6) a czułość na małe skrytki (P4: nie przeoczyć) — kompromis do jawnego pokazania; którą stronę wybieramy przy konflikcie — pytanie P13 do Artura (do odpowiedzi nie rozstrzygamy).
+2. Zero fałszywych alarmów (§6) a czułość na małe skrytki (P4: nie przeoczyć) — kompromis do jawnego pokazania; przy konflikcie priorytetem jest mniej przeoczeń (P4: B, Artur: „żeby nie przeoczyć skrytki”); P13 to potwierdzi lub zmieni.
 3. Sztuczny zbiór (decyzje 11:59) może zawyżać wyniki względem prawdziwych obrazów KAS.
 
 ## 9. Rekomendacje
@@ -82,13 +82,3 @@ Pominięte, bo rozstrzyga zadanie: cena i wejście na rynek (narzędzie wewnętr
 
 <!-- skill: przeplywy-pm -->
 <!-- skill: competitor-analysis -->
-
-## Recenzja przejścia 1
-
-Porównano z `docs/zadanie.md` i `docs/decyzje.md` (P3–P8; P6–P8 odpowiedziane 12:04, po napisaniu pliku). Listy punktów skilla `przesluchanie-hackathon` nie miałem w klonie — sprawdzone tylko pytania i „pominięte”. Braki od najważniejszego:
-
-1. **produkt** — P8: „system dobiera wzorzec z biblioteki; operator zwykle nie ma czystego zdjęcia tej samej naczepy”. Plik opiera się na „ten sam pojazd przed/po” (tabela §6, §7 pkt 3 jako „założenie do potwierdzenia”, §10 pkt 3 jako pytanie). Odpowiedź je zamyka, ale analiza nie wyciąga wniosku: dobór wzorca z biblioteki jest osobną funkcją (konkurent Rapiscan „Similar Cargo” oraz ACXIS robią to inaczej) i brakuje jej w porównaniu i w „Postawić na”.
-2. **produkt** — P7: „oba (skrytki w konstrukcji i towar w ładunku), najczęściej podwójna podłoga albo ściana przy kabinie”. Plik ustawia „cel główny” tylko na małe skrytki w konstrukcji (§6, §7 pkt 1) i pomija towar w ładunku (zadanie §1 mówi o obu) oraz konkretne miejsca (podwójna podłoga, ściana przy kabinie) w porównaniu funkcji i metodach (§5).
-3. **produkt** — P6: „w trakcie oglądania obrazu; operator ma kilka minut na auto”. Plik tego nie uwzględnia: brak wymogu czytelności zaznaczeń na żywo i czasu odpowiedzi względem „kilku minut” (zadanie §7: < 1 min) w szansach i rekomendacjach; §10 nadal wylicza pytania 1–3 jako niewiadome, choć P6–P8 zamknięte.
-4. **technika** — sprzeczność wewnątrz pliku: §7 pkt 4 „skaluje się partiami” jako szansa wyróżnienia, a §9 „Nadrobić (wymóg wejścia): partie” — brak wyniku, który to potwierdza (P11 czeka; wyróżnikiem nie jest nic, co niezmierzone). Ujednolicić: wymóg, nie wyróżnik.
-5. **technika** — liczba „96% wykrycia przy 3% fałszywych alarmów” (§5) pochodzi ze źródła wtórnego, nieweryfikowanego, bez linku; liczbę bez źródła usunąć albo podać źródło. Do tego P4 B („nie przeoczyć”) kontra §6 zadania („na czystych nic”): plik nazywa kompromis, ale nie podaje, którą stronę wybieramy, gdy się ścierają (pytanie do Artura — wpis, nie rekomendacja).
