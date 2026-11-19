@@ -5,3 +5,8 @@
 11:59 Szef: liczenie — orkiestrator: na karcie OMENa (--klasa gpu-tlo, GTX 1050 4 GB), nigdy na procesorze; reszta --maszyna dowolna; każdy przebieg ≥ 2 hipotezy naraz.
 11:59 Szef: aplikacja pod linkiem dostaje wynik z usługi na karcie OMENa (sieć lokalna).
 P1 12:00 Paweł: Kto jest kim w próbie 16? Podaj podpisy urządzeń ludzi (np. „Opera on Mac”, „Artur telefon”) i role; czy jest ktoś poza Tobą i Arturem? — czeka
+12:00 Projektant: pominięte (produkt i kategoria dla /competitive-analysis) — z zadania: narzędzie wspierające operatora RTG, porównuje obraz naczepy ze wzorcem i wskazuje „dodatki”
+P1 12:00 Artur: Jak podpisuje się Twoja wiadomość w tym pokoju (nazwa urządzenia, np. „Opera on Mac”)? — czeka
+P2 12:00 Artur: Czy sami szukamy podobnych rozwiązań do porównania (obecne narzędzie KAS do papierosów, gotowe systemy skanerów, ogólne podejścia)? — czeka
+P3 12:00 Artur: Co ma być głównym wyznacznikiem porównania: (A) co widzi operator i na ile ufa wskazaniu (czytelność zaznaczeń, mało fałszywych alarmów), czy (B) sama skuteczność wykrywania w liczbach? — czeka
+P4 12:00 Artur: Do czego posłuży to porównanie: (A) do uzasadnienia, czym się wyróżniamy w opisie i na pokazie, czy (B) do wyboru funkcji? — czeka
