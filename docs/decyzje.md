@@ -75,3 +75,4 @@ P17 12:16 Artur: Zdanie dla operatora „Łatwiej zauważysz małą skrytkę…,
 12:16 Prezenter: recenzja 2 nazwa.md — braki 2–4 (technika) poprawione: hacktribe.md bez sekcji recenzji (263c9aa, 67e6458), nazwa.md hasło 53 zn. i Skrytka.AI odrzucona (P14), opis z „[__] z [__]”; domena/znak poza zakresem DRAFTu; opis 866 zn.
 P17 12:18 odpowiedź (Artur w pokoju): A — „narzędzie pokazuje, gdzie obraz różni się od wzorca — tam warto spojrzeć jeszcze raz”. Wynika z P16. Reguła Artura: poprawki tego rodzaju (obietnica niezmierzonej skuteczności) wprowadzamy bez pytania.
 12:18 Szef: 1b /discover nie ruszył (brak docs/pm/02 i pytań a, b) → zlecony Projektantowi wprost.
+12:18 Szef: P17 A (Artur w pokoju) → Prezenter poprawia zdanie wartości. Zasada Artura: obietnice bez pomiaru poprawiamy na ostrożne (P16) bez pytania — recenzenci nie oznaczają ich jako „produkt”, tylko jako poprawkę wg P16.
