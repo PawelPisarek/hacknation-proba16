@@ -17,7 +17,7 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | makieta R1 (wariant 3 + lista) + zrzut | Programista → krytyk Analityk | R1 7/10; P32–P37 A → R2 1 brak (pkt 4 lokalnie, 50885ac) → 43490f8 (999 zn.); R3 zlecona 15:22 |
 | MVP rdzeń (bmp→PNG+JSON, test 4 obrazów) | Programista | zlecone 15:06 |
 | spójność P31 (spec §7.2, demo, slajdy) | Analityk → Projektant, Prezenter | zamknięte (54929c5 + Prezenter 15:10) |
-| recenzja hacktribe | Analityk → Prezenter | R1 3 braki → poprawione 8a7b2f2 (998 zn.); R2 1 brak (pkt 4 lokalnie, 50885ac) → 43490f8 (999 zn.); R3 zlecona 15:22 |
+| recenzja hacktribe | Analityk → Prezenter | zamknięte R3 (c307203), tekst 43490f8 999 zn. |
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | 54c2628 (105 s) |
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 

@@ -213,3 +213,4 @@ P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca;
 - 15:22 Prezenter: hacktribe wg recenzji R2 — przywrócone ustalenie Pawła (dane chronione tylko lokalnie): „Obrazy liczone tylko lokalnie, bez chmury; obrazów KAS nie mamy.”; opis 999 zn.
 15:22 Szef: hacktribe poprawiony (43490f8, 999 zn.) → recenzja R3 Analityk
 15:22 Analityk: recenzja hacktribe R3 (43490f8): brak braków zmieniających zakres lub kryteria → docs/recenzje/hacktribe-R3.md
+15:22 Szef: hacktribe R3 (c307203) — brak braków; docs/hacktribe.md 43490f8 gotowy do wklejenia o 20:00 (link do makiety dopisać po R2)
