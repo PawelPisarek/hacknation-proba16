@@ -44,3 +44,4 @@ P10 12:07 odpowiedź (Artur w pokoju): A — KAS papierosy wykrywa, ale przy ma�
 P11 12:07 odpowiedź (Artur w pokoju): A — dużych plików i wielu obrazów naraz nie obiecujemy, dopóki nie zmierzymy; zostaje miejsce na liczby.
 P12 12:07 odpowiedź (Artur w pokoju): B — obiecujemy też przeróbki konstrukcji; podwójna podłoga to najczęstszy przypadek (P7), bez tego narzędzie nie ma sensu.
 12:07 Projektant: 1a runda 3 (Analityk): P12 B uwzględnione (przeróbki konstrukcji obiecujemy), P9–P11 w §10, §5 oznaczone jako hipoteza
+12:07 Szef: recenzja 2 docs/hacktribe.md (Analityk, 67e6458) — braki 1–2 zamknięte odpowiedziami Artura P8 B i P12 B (odpowiedź zamyka punkt; bez ponownego pytania); jak sprawdzimy przeróbki konstrukcji → generator ma przeróbki z ramką prawdy i skrypt liczy je jak dodatki (Programista); brak 3 i 4 → Prezenter (krótko: podpowiedź w trakcie oglądania; liczby po pomiarze, skrócić tekst pod nie); brak 5 → Projektant wpisuje P9–P12.
