@@ -56,3 +56,4 @@ UPROSZCZENIE: deklarowany ładunek (palety) w testach — pominięty: testy to p
 12:09 Szef: krok 6 (nazwa, hasło → docs/nazwa.md) zlecony Prezenterowi; wybór nazwy pójdzie do Artura.
 12:10 Szef: 1a zamknięte — v5 75c848a, znacznik przeplywy-pm, Recenzja przejścia 3 (Analityk, 5117f52): brak braków zmieniających zakres lub kryteria.
 12:11 Szef: krok 6 — docs/nazwa.md (fd37b90, znaczniki product-name, value-prop-statements); recenzja 1 → Analityk; wybór nazwy → Artur jako P14 (Projektant). Duplikatu P1 w decyzje.md już nie ma.
+P14 12:11 Artur: Jak nazwiemy projekt: „Skrytka.AI”, „Wzorzec” czy „Prześwit”? (rekomendacja: Skrytka.AI — „Pokazuje operatorowi to, czego nie ma we wzorcu.”, operator od razu rozumie, o co chodzi) — czeka
