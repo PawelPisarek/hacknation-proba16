@@ -6,7 +6,7 @@
 
 ## Co to jest
 
-Prześwit to narzędzie dla operatora RTG na granicy, który ma kilka minut na naczepę (obraz ok. 50 MB). Obecne narzędzie KAS wykrywa papierosy, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe. Prześwit podpowiada w trakcie oglądania obrazu: system sam dobiera wzorzec z biblioteki (gdy dobierze źle, operator wybiera typ naczepy z listy jednym kliknięciem), porównuje z nim naczepę i zaznacza miejsca różne od wzorca — dodatki w ładunku oraz przeróbki konstrukcji (np. podwójną podłogę, ścianę przy kabinie). Wczytuje pliki BMP. Operator jednym kliknięciem zatwierdza albo odrzuca zaznaczenie, a raport zapisuje miejsce i przedmiot kontroli; decyzję o kontroli fizycznej nadal podejmuje operator.
+Prześwit to narzędzie dla operatora RTG na granicy, który ma kilka minut na naczepę (obraz ok. 50 MB). Obecne narzędzie KAS wykrywa papierosy, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe. Prześwit podpowiada w trakcie oglądania obrazu: system sam dobiera wzorzec z biblioteki (gdy dobierze źle, operator wybiera typ naczepy z listy jednym kliknięciem), porównuje z nim naczepę i zaznacza miejsca różne od wzorca — dodatki w ładunku oraz przeróbki konstrukcji (np. podwójną podłogę, ścianę przy kabinie). Wczytuje pliki BMP. „Zatwierdź” to jedno kliknięcie, a przy „Odrzuć” operator wybiera powód z listy (element konstrukcji / ładunek zgodny z deklaracją / cień lub zakłócenie obrazu / inne); raport zapisuje miejsce i przedmiot kontroli oraz powód każdego odrzucenia; decyzję o kontroli fizycznej nadal podejmuje operator.
 
 Zakres: pokazujemy tylko naczepy ciężarowe (dla nich mamy zbiór i pokaz); kontenery, autokary i wagony kolejowe to dalszy krok. Obrazów KAS nie mamy, więc pracujemy na własnym, sztucznym zbiorze naczep. Docelowo narzędzie ma działać bez chmury; w pokazie obliczenia robi usługa na karcie graficznej w sieci lokalnej.
 
@@ -53,7 +53,7 @@ Wyniki dotyczą zbioru sztucznego i mogą być lepsze niż na prawdziwych obraza
 
 - **OpenMausBot** — platforma, na której pracuje zespół 5 botów przygotowany przed hackathonem (role w sekcji „Zespół”).
 - **Claude** (Anthropic) — modele, na których pracują boty.
-- **pm-skills** — skille produktowe użyte przez boty: competitor-analysis, brainstorm-ideas-new, product-name, value-prop-statements (znaczniki `<!-- skill: … -->` w `docs/`). Skill przeplywy-pm to skill zespołu na OpenMausBot, nie pm-skills.
+- **pm-skills** — skille produktowe użyte przez boty: competitor-analysis, brainstorm-ideas-new, product-name, value-prop-statements, create-prd (znaczniki `<!-- skill: … -->` w `docs/`). Skill przeplywy-pm to skill zespołu na OpenMausBot, nie pm-skills.
 - **Biblioteki** z `requirements.txt`: numpy, pillow, scipy, torch (z CUDA).
 
 ## Zespół
