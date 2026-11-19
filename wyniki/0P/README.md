@@ -11,5 +11,7 @@ Ocena: `python -m rtg.ocena --prawda ~/dane/proba16/male/prawda.json --pred wyni
 | H2no (H2o + nauka szumu z biblioteki) | 14/20 | 0/45 | 1/45 | 230 | 0,56 s |
 | H2ko (H2o + 3 najlepsze wzorce) | **7/20** | **0/45** | 1/45 | 36 | 1,11 s |
 
+H2ko osobno wg rodzaju (FN P9A, zgl-4607): podwójna podłoga 0 z 10, ściana przy kabinie 0 z 15, belka 0 z 9, dach 0 z 1, drzwi 0 z 1, ładunek 0 z 9 — wynika wprost z FN 0/45 i liczności w prawda.json, bez nowego liczenia.
+
 Dobór wzorca trafny 37/40 we wszystkich. Wniosek: H2ko najlepsza; FN zero, ale FP 7/20 (35%) — do zbicia (próg, łączenie wzorców).
 Potwierdzenie H2 w osobnym przebiegu 14:3x (zgl-4636): FP 20/20, FN 0/45 — zgodne.

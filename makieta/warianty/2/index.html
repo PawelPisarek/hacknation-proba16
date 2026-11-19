@@ -1,0 +1,18 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prześwit — wariant 2: kolejka miejsc</title><link rel="stylesheet" href="../wspolne.css"><script src="../wspolne.js"></script>
+<style>.uk{display:grid;grid-template-columns:2fr 1fr;gap:10px;padding:10px 14px}@media(max-width:760px){.uk{grid-template-columns:1fr}}
+.kol{display:flex;gap:6px;flex-wrap:wrap;padding:8px 14px}.kol button{border:1px solid #889;background:#fff;border-radius:6px;padding:4px 10px}
+.kol button.akt{outline:3px solid #2b6cb0}.zb{display:grid;grid-template-columns:1fr 1fr;gap:6px}.mini{max-width:340px;margin-top:8px}</style></head><body><div id="app"></div><script>
+function kadr(m) { const r = m.r, w = Math.max(r[2] - r[0], 160) + 120, h = w * 0.75, cx = (r[0] + r[2]) / 2, cy = (r[1] + r[3]) / 2; return [cx - w / 2, cy - h / 2, w, h]; }
+function rysuj() {
+  const o = OBRAZY[S.obraz], ms = miejsca(); if (S.wyb >= ms.length) S.wyb = 0; const m = ms[S.wyb], n = ms.length, kon = n && przejrzane() === n;
+  document.getElementById("app").innerHTML = `<header><b>Prześwit</b><span>${o.plik}</span><span>${htmlTyp()}</span><span>${n ? `Przejrzano ${przejrzane()} z ${n}` : "0 miejsc"}</span></header>${htmlObrazy()}
+  ${n ? `<div class="kol">Kolejka: ${ms.map((x, i) => `<button class="${i === S.wyb ? "akt" : ""}" onclick="S.wyb=${i};rysuj()"><span class="${x.strefa ? "ryzyko" : ""}">${i + 1} ${nazwa(x)}</span>${decyzja(i) ? (decyzja(i).d === "z" ? " ✓" : " ✗") : ""}</button>`).join("")}</div>
+  <div class="uk"><div><b>Powiększenie miejsca ${S.wyb + 1} z ${n}</b><div class="zb"><div>badany${svgNaczepa(S.obraz, { kadr: kadr(m), wybrane: S.wyb })}</div><div>wzorzec${svgNaczepa(S.obraz, { kadr: kadr(m), wzorzec: true })}</div></div>
+  <div class="mini">Cała naczepa:${svgNaczepa(S.obraz, { wybrane: S.wyb })}</div></div>
+  <div class="miejsce"><div>Strefa: <span class="${m.strefa ? "ryzyko" : ""}">${m.strefa ? STREFY[m.strefa] : "poza strefą ryzyka — " + m.co}</span></div><div>Stopień różnicy: <b>${m.st}</b></div>${htmlDecyzja(S.wyb)}
+  <p><button class="btn odrz" ${S.wyb ? "" : "disabled"} onclick="S.wyb--;rysuj()">&lt; Poprzednie</button> <button class="btn odrz" ${S.wyb < n - 1 ? "" : "disabled"} onclick="S.wyb++;rysuj()">Następne &gt;</button></p>
+  ${kon ? `<button class="btn gl" onclick="raport()">Koniec kolejki — Zapisz raport</button>` : ""}</div></div>`
+  : `<div class="uk"><div>${svgNaczepa(S.obraz)}</div><div class="miejsce pusto">0 miejsc — brak różnic od wzorca<br><br><button class="btn gl" onclick="raport()">Zapisz raport</button></div></div>`}
+  <div class="stopka">${htmlPasek()}${OSTR}</div>`;
+}
+rysuj();</script></body></html>
