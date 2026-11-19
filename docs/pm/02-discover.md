@@ -55,7 +55,7 @@ Definicje (P9 A): skrytka jest „zaznaczona”, gdy zaznaczenie choć częścio
 | Z2c | wykonalność | towar w ładunku widać jako różnicę od wzorca (P7, P12) — sprawdzane w przebiegu Z2, poza „skokiem wiary” | Ś | W |
 | Z3 | użyteczność | przy kilku zaznaczeniach na auto operator im ufa i zdąży je obejrzeć (P13) | W | W |
 | Z4 | wartość | zaznaczenia pomagają spojrzeć jeszcze raz — nie obiecujemy skuteczności (P16, P17) | Ś | W |
-| Z5 | użyteczność | obsługa zaznaczeń jest szybka: najwyżej 1 kliknięcie na zaznaczenie (P20 A), wynik w mniej niż 1 min na obraz (zadanie §7, 01 §9) | Ś | Ś |
+| Z5 | użyteczność | obsługa zaznaczeń jest szybka: najwyżej 1 kliknięcie na zaznaczenie (P20 A; po P29 A „Odrzuć” = 2 kliknięcia, patrz spec A5), wynik w mniej niż 1 min na obraz (zadanie §7, 01 §9) | Ś | Ś |
 | Z6 | opłacalność | raport zawiera miejsce i przedmiot kontroli (P20 A) | N | Ś |
 
 ## 5. Priorytety
