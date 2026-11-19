@@ -73,7 +73,7 @@ Założenia Z1–Z6 i drzewo decyzji: `docs/pm/02-discover.md`. P8 B koliduje z 
 2. **Raport:** obraz PNG z ramkami oraz plik JSON z miejscem i przedmiotem kontroli, ramkami oraz decyzją i powodem przy każdej ramce.
 3. **Strefy ryzyka:** wyznaczane z geometrii wzorca danego typu — pas nad podłogą przestrzeni ładunkowej i pas przy ścianie od kabiny. Ramka należy do strefy, gdy jej środek leży w tej strefie.
 4. **Dane chronione:** pod publicznym linkiem są tylko dane sztuczne. Obraz od KAS przetwarza się wyłącznie lokalnie, w uruchomieniu z Dockerfile, bez wysyłania poza komputer.
-5. **Stopień różnicy na liście miejsc:** do odpowiedzi Artura (P30) tymczasowo trzy poziomy słownie (niski / średni / wysoki), bez liczb i procentów (rekomendacja).
+5. **Stopień różnicy na liście miejsc:** przy każdym miejscu trzy słowa: niski / średni / wysoki, bez liczb i procentów; lista miejsc ułożona od wysokiego (P30, Artur w pokoju).
 
 ## 8. Wydanie
 **Pierwsza wersja:** funkcje 1–4, 6–8 z punktu 7.1, tylko naczepy.
