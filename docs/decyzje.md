@@ -169,3 +169,4 @@ P29 14:47 odpowiedź: A, a przy „Odrzuć” operator wybiera powód z krótkie
 P30 15:03 Artur: Jak operator ma widzieć, jak bardzo miejsce różni się od wzorca? A: trzy słowa (niski / średni / wysoki), bez liczb; B: liczba lub pasek. Rekomendacja: A — nie obiecujemy dokładności, której nie zmierzyliśmy (P15–P17). — czeka
 15:03 Projektant: braki 1–4 z recenzji odbiorcy spec.md (Programista) wpisane do spec §7.6 i 03-write-prd.md; brak 5 zadany jako P30
 15:03 Prezenter: opis HackTribe zgodny z P29 A (zatwierdza albo odrzuca z powodem z listy), 970 znaków; README już zgodne z P29.
+15:03 Szef: Paweł potwierdził: dane chronione tylko lokalnie (spec §7.6 pkt 4) zostaje
