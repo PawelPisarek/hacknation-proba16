@@ -2,13 +2,13 @@
 <!-- skill: value-prop-statements -->
 # Nazwa i hasło projektu (krok 6)
 
-Podstawa: `docs/zadanie.md`, `docs/decyzje.md` (P6 w trakcie oglądania obrazu; P8 wzorzec z biblioteki; P10 obecne narzędzie KAS słabe przy małych ilościach w konstrukcji; P11 bez obietnic o dużych plikach przed pomiarem; P12 przeróbki konstrukcji; P13 nie przeoczyć skrytki, kilka zaznaczeń na auto), `docs/pm/01-competitive-analysis.md` (konkurenci: Rapiscan Vehicle Compare, Smiths AXR, ACXIS — nazwy opisowe, w stylu „porównanie”, „kontrola”). Nazwa w `docs/hacktribe.md` bez zmian; wybór należy do Artura.
+Podstawa: `docs/zadanie.md`, `docs/decyzje.md` (P6 w trakcie oglądania obrazu; P8 wzorzec z biblioteki; P10 obecne narzędzie KAS słabe przy małych ilościach w konstrukcji; P11 bez obietnic o dużych plikach przed pomiarem; P12 przeróbki konstrukcji; P13 nie przeoczyć skrytki, kilka zaznaczeń na auto), `docs/pm/01-competitive-analysis.md` (konkurenci: Rapiscan Vehicle Compare, Smiths AXR, ACXIS — nazwy opisowe, w stylu „porównanie”, „kontrola”). Lista kandydatów jest zgodna z `docs/hacktribe.md` (Skrytka.AI, Wzorzec, Prześwit; wcześniejsze RTG-Różnica zastąpiono Prześwitem). Wybór nazwy należy do Artura (P14); w opisie HackTribe nazwy nie wybrano.
 
 ## 3 kandydaci
 
 | # | Nazwa | Hasło (≤ 80 zn.) | Uzasadnienie |
 |---|---|---|---|
-| 1 | **Skrytka.AI** | Pokazuje operatorowi to, czego nie ma we wzorcu. (48 zn.) | Używa słowa, którego szuka operator (podwójna podłoga, ściana przy kabinie — P7), więc jest od razu zrozumiała, choć zawęża skojarzenie do skrytek, a nie towaru w ładunku. |
+| 1 | **Skrytka.AI** | Pokazuje operatorowi to, czego nie ma we wzorcu. (48 zn.) | Nazywa to, co mają znaleźć miejsca z P7 (podwójna podłoga, ściana przy kabinie) i przeróbki z P12, więc jest od razu zrozumiała, choć zawęża skojarzenie do skrytek, a nie towaru w ładunku (słowo „skrytka” to nasz wybór, nie sformułowanie z zadania ani z odpowiedzi Artura). |
 | 2 | **Wzorzec** | Naczepa kontra wzorzec: różnice zaznaczone na obrazie. (56 zn.) | Krótka i wprost z zadania („obraz wzorcowy”), podkreśla wyróżnik z P8 (wzorzec dobiera system), ale nie mówi, że szukamy ukrytego towaru. |
 | 3 | **Prześwit** | Drugie spojrzenie na każdy obraz RTG, w trakcie oglądania. (60 zn.) | Polskie, jedno słowo, kojarzy się z prześwietleniem i z „czymś, co prześwituje”; pasuje do P6 (podpowiedź na żywo), ale sama nazwa nie tłumaczy, co narzędzie robi. |
 

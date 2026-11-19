@@ -61,3 +61,4 @@ P14 12:12 dopisek do pytania (recenzja 1 nazwa.md, Analityk 3d10a77): „Skrytka
 P15 12:12 Artur: W tekstach mówimy (A) „zaznacza tylko różnice, na czystym aucie nic” czy (B) „kilka zaznaczeń na auto” (z P13)? Rekomendacja: A — B brzmi jak obietnica fałszywych alarmów na czystym aucie — czeka
 P16 12:12 Artur: Teksty piszemy (A) ostrożnie: „system sam dobiera wzorzec z biblioteki”, bez „każdy obraz” i „bez zdjęcia czystej naczepy”, czy (B) śmiało, jak teraz? Rekomendacja: A — tego jeszcze nie zmierzyliśmy — czeka
 12:12 Szef: nazwa.md recenzja 1 (3d10a77, 5 braków): 1–3 produkt → Artur przez Projektanta (1 w P14); 4–5 technika → Prezenter. Znaczniki skilli na górze pliku zostają (format zlecenia Szefa).
+12:12 Prezenter: nazwa.md/hacktribe.md — poprawione braki 4–5 recenzji 1 (lista kandydatów zgodna: Skrytka.AI, Wzorzec, Prześwit; uzasadnienie „skrytki” bez „słowa operatora”); nazwy nie wybrano, czeka P14; braki 1–3 (produkt) po odpowiedzi Artura.

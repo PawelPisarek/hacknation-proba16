@@ -4,11 +4,11 @@
 
 ## Nazwa projektu (`product-name`) — 3 propozycje
 
-1. **RTG-Różnica** — mówi, co robi: pokazuje różnice między obrazem wzorcowym a kontrolowanym.
-2. **Skrytka.AI** — odwołanie do tego, czego szuka operator (skrytki w konstrukcji naczepy); łatwe do zapamiętania.
-3. **Wzorzec** — krótkie; od „obrazu wzorcowego”, względem którego liczone są odstępstwa.
+1. **Skrytka.AI** — nazwa od skrytek (podwójna podłoga, ściana przy kabinie), których szuka operator wg P7; łatwe do zapamiętania.
+2. **Wzorzec** — krótkie; od „obrazu wzorcowego”, względem którego liczone są odstępstwa.
+3. **Prześwit** — polskie, jedno słowo; kojarzy się z prześwietleniem obrazu RTG i podpowiedzią w trakcie oglądania (P6).
 
-Nazwa nie jest wybrana — wybór w kroku 6 (`product-name`).
+Nazwa nie jest wybrana — lista zgodna z `docs/nazwa.md`; wybór czeka na odpowiedź Artura (P14).
 
 ## Nazwa zespołu
 
