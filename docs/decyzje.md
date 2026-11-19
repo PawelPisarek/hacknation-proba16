@@ -107,3 +107,4 @@ P24 12:44 bez odpowiedzi Paweł → rekomendacja: przełączono domyślny model 
 14:32 Szef: limit Claude odnowiony (Paweł), zespół z powrotem na Claude — nie przełączamy na Antigravity. Wznowione w wątkach: Projektant 1b (02-discover z P18–P23), Programista 0P (pełny pomiar bazowy FP/FN).
 14:33 Projektant: krok 1b zamknięty — docs/pm/02-discover.md kompletny (P18–P23), zakres: 1, 2, 3, 4, 6, 7, 8 + 5 w części
 14:33 Szef: 1b przyjęty (78614e2, znacznik przeplywy-pm) → recenzja przejścia 1b runda 1 (Analityk: 02-discover vs 01-competitive-analysis).
+14:34 Analityk: recenzja przejścia 1b runda 1 (02-discover.md 78614e2) — 5 braków: 1, 5 produkt (próg 7/10 vs P4/P12; ręczny wybór typu naczepy vs P8 B) → Projektant/Artur; 2–4 technika; docs/recenzje/1b-1.md
