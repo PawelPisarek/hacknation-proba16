@@ -1,4 +1,4 @@
-# Stan — 15:51 (sobota zespołu)
+# Stan — 15:52 (sobota zespołu)
 Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
@@ -14,12 +14,12 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | gotowy: 43490f8 (999 zn.), recenzja R3 c307203 |
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
-| makieta R1/R2 (wariant 3 + lista) + zrzut | Programista → krytyk Analityk | R1 7/10; R2 8/10 (30b5830); R3 ac5eedf → krytyk R3 zlecony 15:51 |
+| makieta R1/R2 (wariant 3 + lista) + zrzut | Programista → krytyk Analityk | R1 7/10; R2 8/10 (30b5830); R3 ac5eedf 8/10 (a4e4085) — zamknięte; poprawka złego typu → Programista |
 | MVP rdzeń (bmp→PNG+JSON, test 4 obrazów) | Programista | zlecone 15:06 |
 | spójność P31 (spec §7.2, demo, slajdy) | Analityk → Projektant, Prezenter | zamknięte (54929c5 + Prezenter 15:10) |
 | recenzja hacktribe | Analityk → Prezenter | zamknięte R3 (c307203), tekst 43490f8 999 zn. |
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | zamknięte: ec163a9 (105 s), recenzja R2 8d5c214 |
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 
-Otwarte pytania: —
+Otwarte pytania: P38 (Artur, zapis raportu z nieprzejrzanymi; rek. A) — Projektant
 Lista Artura na noc: —
