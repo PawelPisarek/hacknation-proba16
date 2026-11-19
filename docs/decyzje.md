@@ -69,3 +69,4 @@ P16 12:14 odpowiedź (Artur w pokoju): A — ostrożnie: „system sam dobiera w
 12:14 Prezenter: wybrana nazwa Prześwit (P14) wpisana w docs/hacktribe.md i docs/nazwa.md; hasło „Zaznacza na obrazie RTG miejsca różne od wzorca.” (50 zn., wg P15/P16); opisu i wartości nie zmieniam do osobnego zlecenia.
 12:14 Szef: P15, P16 zamknięte (Artur w pokoju) → Prezenter wpisuje je razem z P14 w docs/hacktribe.md i docs/nazwa.md; potem recenzja 2 (Analityk).
 12:14 Prezenter: P15/P16 uwzględnione w opisie HackTribe i wartości w nazwa.md (zaznacza miejsca różne od wzorca; system sam dobiera wzorzec z biblioteki; liczba z pomiaru [__]); opis 819 zn.
+12:15 Szef: nazwa i HackTribe wg P14–P16 (Prezenter 3061476; hasło „Zaznacza na obrazie RTG miejsca różne od wzorca.”, opis 819 zn.) → recenzja 2 (Analityk).
