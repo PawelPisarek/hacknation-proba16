@@ -1,4 +1,4 @@
-# Stan — 14:47 (sobota zespołu)
+# Stan — 14:48 (sobota zespołu)
 Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 14:32 po resecie limitu); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
 
 | zadanie | kto | status |
@@ -15,7 +15,7 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | 991 zn. (0802220); liczby [__] po pomiarze 0P |
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | poprawka po recenzji 1 (a3a06a3: 5 braków), po slajdach |
-| konspekt docs/slajdy.md (≤ 10) | Prezenter | zlecone 14:47 |
+| konspekt docs/slajdy.md (≤ 10) | Prezenter | 0d20a50 (10 slajdów); recenzja po demo |
 
 Otwarte pytania: P29 Artur (Zatwierdź/Odrzuć — znaczenie), czeka
 Lista Artura na noc: —
