@@ -10,3 +10,4 @@ P2 12:00 Artur: Jak podpisuje się Twoja wiadomość w tym pokoju (nazwa urządz
 P3 12:00 Artur: Czy sami szukamy podobnych rozwiązań do porównania (obecne narzędzie KAS do papierosów, gotowe systemy skanerów, ogólne podejścia)? — czeka
 P4 12:00 Artur: Co ma być głównym wyznacznikiem porównania: (A) co widzi operator i na ile ufa wskazaniu (czytelność zaznaczeń, mało fałszywych alarmów), czy (B) sama skuteczność wykrywania w liczbach? — czeka
 P5 12:00 Artur: Do czego posłuży to porównanie: (A) do uzasadnienia, czym się wyróżniamy w opisie i na pokazie, czy (B) do wyboru funkcji? — czeka
+12:01 Szef: trafienie przy liczeniu FN/FP — zaznaczenie trafia dodatek, gdy IoU ≥ 0,1 z ramką prawdy albo środek zaznaczenia leży w ramce dodatku; czysty obraz z ≥ 1 zaznaczeniem = FP obrazowy (propozycja Analityka z docs/materialy.md, zadanie §6 nie rozstrzyga).
