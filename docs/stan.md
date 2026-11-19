@@ -1,4 +1,4 @@
-# Stan — 15:52 (sobota zespołu)
+# Stan — 15:54 (sobota zespołu)
 Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
@@ -21,5 +21,5 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | zamknięte: ec163a9 (105 s), recenzja R2 8d5c214 |
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 
-Otwarte pytania: P38 (Artur, zapis raportu z nieprzejrzanymi; rek. A) — Projektant
+Otwarte pytania: —
 Lista Artura na noc: P29–P38 z makiety do MVP (docs/zadania/01-mvp-z-makiety.md); materiały do stanu faktycznego

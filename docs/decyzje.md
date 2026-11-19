@@ -234,3 +234,4 @@ P38 15:52 Artur: Operator chce zapisać raport, choć nie przejrzał wszystkich 
 15:52 Szef: makieta zamknięta → noc: docs/zadania/01-mvp-z-makiety.md (P29–P38 do MVP) → Programista po rdzeniu; Prezenter — materiały do stanu makiety R3
 P38 15:53 odpowiedź: B — jedno ostrzeżenie „Nieprzejrzane: N miejsc. Zapisać mimo to?”, po potwierdzeniu zapis z „nieprzejrzane” w raporcie (P4: przeoczenie gorsze niż jedno kliknięcie więcej); z ekranu nic nie wyrzucamy — Artur w pokoju
 - 15:53 Prezenter: README, hacktribe, demo, slajdy do stanu makiety R3 — link do makiety (HTTP 200), zrzuty R3, zaznaczenie „udawane dane”; ksefbot.pl daje 530 → placeholder zostaje; opis hacktribe bez zmian.
+15:54 Szef: P38 B przyjęte → zadanie 01 (MVP) + makieta (ostrzeżenie) → Programista; demo.md sprawdzić ostrzeżenie → Prezenter
