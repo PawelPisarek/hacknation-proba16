@@ -17,3 +17,4 @@ P3 12:01 odpowiedź: tak, szukamy sami (Artur w pokoju)
 P4 12:01 odpowiedź: B — skuteczność, przede wszystkim żeby nie przeoczyć skrytki (Artur w pokoju)
 P5 12:01 odpowiedź: A — uzasadnienie wyróżnika w opisie i na pokazie (Artur w pokoju)
 P2 12:02 odpowiedź: zbędne — P1 (Paweł) (zamknięte na zlecenie Szefa)
+12:02 Szef: cofnięte przez Szefa — wpis 12:01 o trafieniu (IoU/środek w ramce) to parametr produktu; idzie do Artura jako P (Projektant); do odpowiedzi skrypt oceny liczy obie miary (IoU ≥ 0,1 i środek w ramce) obok siebie.
