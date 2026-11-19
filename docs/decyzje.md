@@ -22,3 +22,5 @@ P2 12:02 odpowiedź: zbędne — P1 (Paweł) (zamknięte na zlecenie Szefa)
 P6 12:03 Artur: Kiedy operator sięga po narzędzie: (A) w trakcie oglądania obrazu, jako podpowiedź, czy (B) po własnej ocenie, jako kontrola końcowa? — czeka
 P7 12:03 Artur: Co dziś najbardziej boli: (A) małe skrytki w konstrukcji pojazdu, czy (B) towar ukryty w samym ładunku? — czeka
 P8 12:03 Artur: Skąd operator bierze obraz wzorcowy: (A) sam wskazuje obraz porównawczy, czy (B) system dobiera go z biblioteki? — czeka
+12:03 Szef: recenzja 1 docs/hacktribe.md (Analityk, 263c9aa) — 5 braków; 1–3 „produkt” → Projektant pyta Artura; 4–5 technika → Prezenter.
+12:03 Szef: nazwa zespołu „Hackathon” (ustalenie Pawła z poprzednich prób); nazwa projektu — otwarta do kroku 6 (product-name); w opisie HackTribe nie podajemy reguły trafienia (czeka P6), tylko po wyniku FP/FN.
