@@ -1,4 +1,4 @@
-# Stan — 15:09 (sobota zespołu)
+# Stan — 15:10 (sobota zespołu)
 Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
@@ -16,7 +16,7 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
 | makieta R1 (wariant 3 + lista) + zrzut | Programista | zlecone 15:08 (przed rdzeniem MVP) |
 | MVP rdzeń (bmp→PNG+JSON, test 4 obrazów) | Programista | zlecone 15:06 |
-| spójność P31 (spec §7.2, demo, slajdy) | Analityk | zlecone 15:09 |
+| spójność P31 (spec §7.2, demo, slajdy) | Analityk → Projektant, Prezenter | recenzja 1 (784f3a0): 4 braki (suwak) → poprawki |
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | 54c2628 (105 s) |
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 
