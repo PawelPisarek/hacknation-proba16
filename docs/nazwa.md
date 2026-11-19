@@ -23,3 +23,15 @@ Nazwy nie zawierają zapewnień o dostępności domeny ani znaku towarowego: teg
 1. Gdy oglądasz obraz naczepy, narzędzie samo dobiera pasujący wzorzec i zaznacza miejsca, które się od niego różnią, więc nie potrzebujesz zdjęcia czystej naczepy.
 2. Łatwiej zauważysz małą skrytkę w podwójnej podłodze czy ścianie przy kabinie oraz obcy towar w ładunku, bo narzędzie pokazuje ci, gdzie spojrzeć jeszcze raz.
 3. Celem jest kilka zaznaczeń na auto, nie kilkadziesiąt, a decyzję o kontroli fizycznej nadal podejmujesz ty (liczby fałszywych alarmów i pominięć podamy po pomiarze).
+
+## Recenzja 1
+
+Oceniono `docs/nazwa.md` (fd37b90) względem `docs/zadanie.md` i `docs/decyzje.md` (P4, P6–P13). Braki od najważniejszego:
+
+1. **produkt** — rekomendowana „Skrytka.AI” zawęża produkt do skrytek, a P7 („oba”: konstrukcja i ładunek) i P12 B (przeróbki) obejmują więcej; plik sam to przyznaje, a mimo to rekomenduje. Hasło („czego nie ma we wzorcu”) też nie mówi o towarze w ładunku. Rozstrzygnięcie: rekomendować nazwę zgodną z P7 albo wprost pokazać Arturowi tę cenę wyboru.
+2. **produkt** — zdanie 3 wartości: „kilka zaznaczeń na auto, nie kilkadziesiąt” (P13) obok zadania §6 (na czystych obrazach nic nie zaznaczać; każdy alarm = FP) może zostać odczytane jako obietnica fałszywych alarmów. Brak rozróżnienia, że chodzi o kompromis z P13, a cel to zero na czystych.
+3. **produkt** — zdanie 1 („nie potrzebujesz zdjęcia czystej naczepy”) i hasło kandydata 3 („na każdy obraz”) obiecują dobór wzorca i pokrycie bez pomiaru; P11 wymaga wstrzymania obietnic do pomiaru, a założenie P8 B jest sprzeczne z §7 zadania (pary „przed/po”). Brak zastrzeżenia.
+4. **technika** — plik pisze „Nazwa w `docs/hacktribe.md` bez zmian”, ale lista w hacktribe to RTG-Różnica / Skrytka.AI / Wzorzec, a tu Skrytka.AI / Wzorzec / Prześwit (RTG-Różnica wypadła, Prześwit doszedł) — sprzeczność między plikami bez wyjaśnienia.
+5. **technika** — uzasadnienie 1 „słowo, którego szuka operator (P7)” bez źródła: P7 mówi o podwójnej podłodze i ścianie przy kabinie, nie o słowie „skrytka”. Znaczniki `<!-- skill: … -->` stoją na początku pliku, nie na końcu.
+
+<!-- skill: review -->
