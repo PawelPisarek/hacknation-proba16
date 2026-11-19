@@ -71,3 +71,4 @@ P16 12:14 odpowiedź (Artur w pokoju): A — ostrożnie: „system sam dobiera w
 12:14 Prezenter: P15/P16 uwzględnione w opisie HackTribe i wartości w nazwa.md (zaznacza miejsca różne od wzorca; system sam dobiera wzorzec z biblioteki; liczba z pomiaru [__]); opis 819 zn.
 12:15 Szef: nazwa i HackTribe wg P14–P16 (Prezenter 3061476; hasło „Zaznacza na obrazie RTG miejsca różne od wzorca.”, opis 819 zn.) → recenzja 2 (Analityk).
 12:16 Szef: nazwa/HackTribe recenzja 2 (4c7a0b8, 4 braki): 1 produkt → Artur przez Projektanta; 2–4 technika → Prezenter. Domeny i znaku towarowego nie sprawdzamy w DRAFT (Szef).
+P17 12:16 Artur: Zdanie dla operatora „Łatwiej zauważysz małą skrytkę…, bo narzędzie pokazuje ci, gdzie spojrzeć jeszcze raz” obiecuje skuteczność, której nie zmierzyliśmy. (A) piszemy ostrożnie: „narzędzie pokazuje, gdzie obraz różni się od wzorca — tam warto spojrzeć jeszcze raz”, czy (B) zostawiamy jak jest? Rekomendacja: A, zgodnie z P16 — czeka
