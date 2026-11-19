@@ -130,3 +130,4 @@ P28 14:41 odpowiedź: tak, puszczamy dalej. O rundy sprawdzania nie pytamy ani P
 P27 14:41 wycofane (Paweł w P28: o rundy sprawdzania nie pytamy Artura) → puszczamy dalej.
 14:41 Szef: 1b zamyka się poprawką Projektanta po recenzji 3 (bez rundy 4); potem od razu /write-prd → docs/spec.md. Prezenter skraca opis HackTribe do ≤ 1000 znaków po wpisaniu liczb.
 P27 14:42 odpowiedź: tak — lista typów naczepy zawsze pod ręką (Artur w pokoju); kolejna runda sprawdzania nie jest sprawą Artura, decyduje zespół → idziemy dalej wg rekomendacji, drobne braki jako ryzyka w opisie produktu
+14:41 Prezenter: opis hacktribe skrócony (1041 zn. z [__], ok. 1033 po wpisaniu liczb do 3 cyfr; limit 1000); zachowane P19 A, P20 A, P25 B, P26 B.
