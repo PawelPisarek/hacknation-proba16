@@ -146,3 +146,4 @@ P29 14:45 Artur: Co znaczą przyciski przy zaznaczeniu na ekranie: (A) „Zatwie
 14:46 Projektant: recenzja kroku 2 runda 2 (Analityk, a79ed53) braki 1–3 poprawione w spec.md i 03-write-prd.md: A1 = 0 przeoczeń chyba że Programista zapisze inny próg po 0P; „kilka, nie kilkadziesiąt” — robocza z 0P do MVP, ostateczna Artur przy przeglądzie MVP (A8 = A10); A8 (1) jako „n z N”
 P29 14:47 odpowiedź: A, a przy „Odrzuć” operator wybiera powód z krótkiej listy (np. element konstrukcji, ładunek zgodny, cień) (Artur w pokoju)
 14:46 Analityk: recenzja docs/demo.md (0a0d09d) runda 1 — 5 braków technika (brak obrazu (c), 2 z 4, 120 s bez zapasu, P29 bez notatki, puste typy w (d), plansza [__] bez wariantu); docs/recenzje/demo-1.md
+14:47 Prezenter: docs/slajdy.md — konspekt 10 slajdów (problem → rozwiązanie → ekrany → wyniki [__] → ograniczenia → dalsze kroki → narzędzia → zespół); PDF później.
