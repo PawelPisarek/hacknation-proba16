@@ -217,3 +217,4 @@ P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca;
 15:29 Szef: recenzja docs/demo.md R1 → Analityk
 15:30 Analityk: recenzja demo R1 (demo.md): 3 braki produkt (raport po (d) bez decyzji; brak P33 w opisie wiersza 3; wiersz 9 może brzmieć jak obietnica) → docs/recenzje/demo-R1.md
 15:30 Szef: demo R1 (1804ae4) 3 braki = poprawki; rozstrzygnięcie: raport zapisujemy po (b), przed (c) (na (d) brak decyzji) → Projektant spec §7.3, Prezenter demo
+15:30 Projektant: spec §7.3 i 03-write-prd: „Zapisz raport” przeniesiony po (b), przed (c) (poprawka błędu z recenzji demo-R1, brak 1; bez pytania do Artura)
