@@ -1,4 +1,4 @@
-# Stan — 14:41 (sobota zespołu)
+# Stan — 14:43 (sobota zespołu)
 Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 14:32 po resecie limitu); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
 
 | zadanie | kto | status |
@@ -9,7 +9,8 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | zamknięte (P18–P23 odpowiedziane) |
 | 1b /discover → docs/pm/02-discover.md | Projektant | zamknięte (74f8b12, 3 rundy) |
 | recenzja przejścia 1b | Analityk | zamknięte po 3 rundach (P28: puszczamy dalej) |
-| 2 /write-prd → docs/spec.md | Projektant | w toku od 14:41 |
+| 2 /write-prd → docs/spec.md | Projektant | recenzja 1 (12a4072, Analityk) |
+| 3 warianty ekranu (3 linki → Artur) | Programista | po 0P |
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | DRAFT zamknięty (c3832e5); liczby [__] po pomiarze 0P |
 | README + hacktribe wg P25 B, P26 B | Prezenter | 24e73db; skracanie opisu ≤ 1000 zn. w toku |

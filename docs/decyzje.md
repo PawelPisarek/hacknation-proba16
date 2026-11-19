@@ -134,3 +134,4 @@ P27 14:42 odpowiedź: tak — lista typów naczepy zawsze pod ręką (Artur w po
 14:41 Prezenter: opis hacktribe skrócony (991 zn. z [__], ok. 983 po wpisaniu liczb do 3 cyfr; limit 1000; usunięte: „(obraz ok. 50 MB)”, „Wczytuje BMP.”, „na naszym zbiorze”); zachowane P19 A, P20 A, P25 B, P26 B.
 14:42 Projektant: krok /write-prd → docs/spec.md (P25 B, P26 B w specu); moment (c) pominięty na zlecenie Szefa po P28 — układ ekranu to propozycja, zapisana w specu jako ryzyko; P27 wycofane (Paweł w P28)
 14:41 Szef: 1b zamknięty (74f8b12, poprawka po recenzji 3; bez rundy 4 wg P28) → /write-prd → docs/spec.md (Projektant, w toku).
+14:43 Szef: spec.md (12a4072) → recenzja przejścia 2-1 (Analityk). Trzy warianty ekranu zrobi Programista po 0P, zanim powstanie makieta; Artur wybiera z linków (ryzyko z spec §9). HackTribe 991 zn. (0802220) przyjęte.
