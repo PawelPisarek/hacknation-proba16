@@ -22,4 +22,4 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 
 Otwarte pytania: P38 (Artur, zapis raportu z nieprzejrzanymi; rek. A) — Projektant
-Lista Artura na noc: —
+Lista Artura na noc: P29–P38 z makiety do MVP (docs/zadania/01-mvp-z-makiety.md); materiały do stanu faktycznego
