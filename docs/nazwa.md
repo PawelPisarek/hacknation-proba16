@@ -2,7 +2,7 @@
 <!-- skill: value-prop-statements -->
 # Nazwa i hasło projektu (krok 6)
 
-**Wybrane: Prześwit (P14)** — hasło: „Zaznacza na obrazie RTG miejsca różne od wzorca.” (50 zn.; zgodne z P15 i P16: „zaznacza miejsca różne od wzorca”, „system sam dobiera wzorzec z biblioteki”, liczba z pomiaru [__]). Poniżej kandydaci i rekomendacja z kroku 6 jako historia (rekomendacja Skrytka.AI nie została przyjęta; hasło kandydata 3 poniżej sprzed P16).
+**Wybrane: Prześwit (P14)** — hasło: „Zaznacza na obrazie RTG miejsca różne od wzorca.” (50 zn.; zgodne z P15 i P16: „zaznacza miejsca różne od wzorca”, „system sam dobiera wzorzec z biblioteki”, liczba z pomiaru [__]). Poniżej kandydaci i rekomendacja z kroku 6 jako historia (rekomendacja Skrytka.AI nie została przyjęta).
 
 Podstawa: `docs/zadanie.md`, `docs/decyzje.md` (P6 w trakcie oglądania obrazu; P8 wzorzec z biblioteki; P10 obecne narzędzie KAS słabe przy małych ilościach w konstrukcji; P11 bez obietnic o dużych plikach przed pomiarem; P12 przeróbki konstrukcji; P13 nie przeoczyć skrytki, kilka zaznaczeń na auto), `docs/pm/01-competitive-analysis.md` (konkurenci: Rapiscan Vehicle Compare, Smiths AXR, ACXIS — nazwy opisowe, w stylu „porównanie”, „kontrola”). Lista kandydatów jest zgodna z `docs/hacktribe.md` (Skrytka.AI, Wzorzec, Prześwit; wcześniejsze RTG-Różnica zastąpiono Prześwitem). Wybór: Prześwit (P14, Artur).
 
@@ -12,11 +12,11 @@ Podstawa: `docs/zadanie.md`, `docs/decyzje.md` (P6 w trakcie oglądania obrazu; 
 |---|---|---|---|
 | 1 | **Skrytka.AI** | Pokazuje operatorowi to, czego nie ma we wzorcu. (48 zn.) | Nazywa to, co mają znaleźć miejsca z P7 (podwójna podłoga, ściana przy kabinie) i przeróbki z P12, więc jest od razu zrozumiała, choć zawęża skojarzenie do skrytek, a nie towaru w ładunku (słowo „skrytka” to nasz wybór, nie sformułowanie z zadania ani z odpowiedzi Artura). |
 | 2 | **Wzorzec** | Naczepa kontra wzorzec: różnice zaznaczone na obrazie. (56 zn.) | Krótka i wprost z zadania („obraz wzorcowy”), podkreśla wyróżnik z P8 (wzorzec dobiera system), ale nie mówi, że szukamy ukrytego towaru. |
-| 3 | **Prześwit** | Drugie spojrzenie na obraz RTG, w trakcie oglądania. (51 zn.; wersja sprzed P16 miała „na każdy obraz”) | Polskie, jedno słowo, kojarzy się z prześwietleniem i z „czymś, co prześwituje”; pasuje do P6 (podpowiedź na żywo), ale sama nazwa nie tłumaczy, co narzędzie robi. |
+| 3 | **Prześwit** | Drugie spojrzenie na obraz RTG, w trakcie oglądania. (53 zn.; hasło tego kandydata po P16, bez „na każdy obraz”) | Polskie, jedno słowo, kojarzy się z prześwietleniem i z „czymś, co prześwituje”; pasuje do P6 (podpowiedź na żywo), ale sama nazwa nie tłumaczy, co narzędzie robi. |
 
-Nazwy nie zawierają zapewnień o dostępności domeny ani znaku towarowego: tego nie sprawdzałem (brak dostępu do rejestrów w tym kroku) — do sprawdzenia przed publikacją.
+Domeny ani znaku towarowego (kandydatów i wybranego „Prześwit”) nie sprawdzamy — poza zakresem DRAFTu; do sprawdzenia przed publikacją.
 
-## Rekomendacja
+## Rekomendacja Skrytka.AI — odrzucona (P14: Prześwit)
 
 **Skrytka.AI**, z hasłem „Pokazuje operatorowi to, czego nie ma we wzorcu.” Powód: to jedyna z trzech nazw, którą operator zrozumie bez objaśnień, a hasło dopowiada resztę (porównanie ze wzorcem). Pasuje do priorytetu z P4/P13 (nie przeoczyć skrytki) i do tego, że obecne narzędzie KAS jest słabe właśnie przy małych ilościach ukrytych w konstrukcji (P10). Przeróbki konstrukcji (P12) to też skrytki. Gdyby Artur chciał nazwę szerszą niż „skrytka” (obejmującą też towar w ładunku), druga w kolejności jest **Wzorzec**.
 
