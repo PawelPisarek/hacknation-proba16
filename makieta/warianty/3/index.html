@@ -1,0 +1,14 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prześwit — wariant 3: obok siebie</title><link rel="stylesheet" href="../wspolne.css"><script src="../wspolne.js"></script>
+<style>.uk{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px 14px}@media(max-width:760px){.uk{grid-template-columns:1fr}}
+.nr{display:inline-flex;gap:4px;flex-wrap:wrap}.nr button{border:1px solid #889;background:#fff;border-radius:6px;padding:3px 9px}.nr button.akt{outline:3px solid #2b6cb0}
+.dol{padding:8px 14px;background:#fff;border-top:1px solid #ccd;display:flex;flex-wrap:wrap;gap:10px;align-items:center}</style></head><body><div id="app"></div><script>
+function rysuj() {
+  const o = OBRAZY[S.obraz], ms = miejsca(); if (S.wyb >= ms.length) S.wyb = 0; const m = ms[S.wyb];
+  document.getElementById("app").innerHTML = `<header><b>Prześwit</b><span>${o.plik}</span><button class="btn gl" onclick="raport()">Zapisz raport</button></header>${htmlObrazy()}
+  <div class="uk"><div><b>WZORZEC:</b> ${htmlTyp().replace("porównano z: ", "")}<br>${svgNaczepa(S.obraz, { wzorzec: true })}</div>
+  <div><b>BADANY:</b> ${o.plik}<br>${svgNaczepa(S.obraz, { wybrane: S.wyb })}</div></div>
+  <div class="dol">${m ? `<span>Miejsce ${S.wyb + 1}: <span class="${m.strefa ? "ryzyko" : ""}">${nazwa(m)}</span> (różnica: ${m.st})</span> ${htmlDecyzja(S.wyb)}
+  <span class="nr">${ms.map((x, i) => `<button class="${i === S.wyb ? "akt" : ""}" onclick="S.wyb=${i};rysuj()">${i + 1}${decyzja(i) ? (decyzja(i).d === "z" ? "✓" : "✗") : ""}</button>`).join("")}</span>` : `<span class="pusto" style="padding:4px">Brak miejsc różnych od wzorca</span>`}</div>
+  <div class="stopka">${htmlPasek()}${OSTR}</div>`;
+}
+rysuj();</script></body></html>

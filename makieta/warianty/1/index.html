@@ -1,0 +1,14 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prześwit — wariant 1: jeden obraz</title><link rel="stylesheet" href="../wspolne.css"><script src="../wspolne.js"></script>
+<style>.uk{display:grid;grid-template-columns:3fr 1fr;gap:10px;padding:10px 14px}@media(max-width:760px){.uk{grid-template-columns:1fr}}
+.split{position:relative}.split .wz{position:absolute;inset:0}</style></head><body><div id="app"></div><script>
+let SPL = 0;
+function rysuj() {
+  const o = OBRAZY[S.obraz], ms = miejsca(); if (S.wyb >= ms.length) S.wyb = 0; const _x = 0;
+  document.getElementById("app").innerHTML = `<header><b>Prześwit</b><span>${o.plik}</span><span>${htmlTyp()}</span><button class="btn gl" onclick="raport()">Zapisz raport</button></header>${htmlObrazy()}
+  <div class="uk"><div><div class="split">${svgNaczepa(S.obraz, { wybrane: S.wyb })}<div class="wz" style="clip-path:inset(0 ${100 - SPL}% 0 0)">${svgNaczepa(S.obraz, { wzorzec: true })}</div></div>
+  <label style="font-size:13px">Suwak: ← badany | wzorzec → <input type="range" min="0" max="100" value="${SPL}" style="width:100%" oninput="SPL=+this.value;rysuj()"></label></div>
+  <div><b>Miejsca</b> <span style="font-size:13px">(od najbardziej różnych)</span>
+  ${ms.map((m, i) => `<div class="miejsce ${i === S.wyb ? "wyb" : ""}" onclick="if(event.target.tagName==='DIV'||event.target.tagName==='SPAN'){S.wyb=${i};rysuj()}"><span class="${m.strefa ? "ryzyko" : ""}">${i + 1}. ${nazwa(m)}</span><br><span style="font-size:13px">różnica: ${m.st}</span>${htmlDecyzja(i)}</div>`).join("") || `<div class="pusto">Brak miejsc różnych od wzorca</div>`}</div></div>
+  <div class="stopka">${htmlPasek()}${OSTR}</div>`;
+}
+rysuj();</script></body></html>
