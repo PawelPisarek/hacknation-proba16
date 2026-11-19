@@ -223,3 +223,4 @@ P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca;
 15:31 Analityk: recenzja demo R2 (ec163a9): brak braków zmieniających zakres lub kryteria → docs/recenzje/demo-R2.md
 15:31 Szef: demo R2 (8d5c214) — brak braków; docs/demo.md ec163a9 zamknięty (105 s)
 15:41 Programista: makieta R2 (P32–P37 A, Artur 15:13): Odrzuć tylko z powodem z listy; w oknie wzorca to samo miejsce przerywaną ramką; (b) porównano z chłodnia, zły typ tylko przy (d); raport = zestawienie JSON + PNG z zaznaczeniami, pola przykładowe oznaczone „dane sztuczne”; numer + krótki opis przy każdym miejscu; bez napisu w oknie wzorca i bez zdania ostrożności na pasku; kolejność obrazów wg §7.3 (b, c, d, a) — makieta/index.html + r.js/r.css (warianty bez zmian), zrzut docs/zrzuty/makieta-R2.png (obraz c)
+15:42 Szef: makieta R2 https://pawelpisarek.github.io/hacknation-proba16/makieta/ (622e60f) → krytyk Analityk
