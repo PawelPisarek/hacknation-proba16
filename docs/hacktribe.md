@@ -8,11 +8,11 @@
 2. **Skrytka.AI** — odwołanie do tego, czego szuka operator (skrytki w konstrukcji naczepy); łatwe do zapamiętania.
 3. **Wzorzec** — krótkie; od „obrazu wzorcowego”, względem którego liczone są odstępstwa.
 
-Rekomendacja: **Skrytka.AI** (zapadająca w pamięć, od razu kojarzona z przemytem). Ostateczny wybór: Szef / ludzie.
+Nazwa nie jest wybrana — wybór w kroku 6 (`product-name`).
 
 ## Nazwa zespołu
 
-Hackathon
+Hackathon (ustalone: `docs/decyzje.md`, 12:03)
 
 ## Link do repozytorium
 
@@ -20,7 +20,7 @@ https://github.com/PawelPisarek/hacknation-proba16
 
 ## Opis wstępny (DRAFT, limit 1000 znaków)
 
-Operator RTG na granicy ogląda obrazy naczep wielkości ok. 50 MB i musi wypatrzyć drobną przeróbkę lub skrytkę — a obecne narzędzie dobrze wykrywa tylko papierosy. Nasze narzędzie porównuje obraz kontrolowanej naczepy z obrazami wzorcowymi (bez anomalii) i zaznacza na nim miejsca, które odstają od normy: dodatkowe elementy, zmiany konstrukcji, ukryte przedmioty. Operator dostaje raport z oznaczonymi obszarami zamiast szukania „na oko”. Obsługuje pliki BMP, przetwarza obrazy partiami i skaluje się na większe zbiory. Wynik mierzymy na zbiorze obrazów czystych (fałszywe alarmy) i z dodatkami (nietrafione dodatki). Dla operatorów Służby Celno-Skarbowej KAS; docelowo bez chmury. Uwaga: obrazów KAS nie mamy, więc pracujemy na własnym, sztucznym zbiorze naczep.
+Operator RTG na granicy ogląda obrazy naczep wielkości ok. 50 MB i musi wypatrzyć drobną przeróbkę lub skrytkę — a obecne narzędzie dobrze wykrywa tylko papierosy. Nasze narzędzie porównuje obraz kontrolowanej naczepy z obrazami wzorcowymi (bez anomalii) i zaznacza na nim miejsca, które odstają od normy: dodatkowe elementy, zmiany konstrukcji, ukryte przedmioty. Operator dostaje raport z oznaczonymi obszarami zamiast szukania „na oko”. Obsługuje pliki BMP, przetwarza obrazy partiami i skaluje się na większe zbiory. Wynik pomiaru na naszym zbiorze: fałszywe alarmy [__] (obrazy czyste), pominięte dodatki [__] (obrazy z dodatkami), czas analizy [__] s na obraz — do uzupełnienia po pierwszym pomiarze. Dla operatorów Służby Celno-Skarbowej KAS; docelowo bez chmury; w pokazie wynik liczy nasza usługa w sieci lokalnej, bez internetu. Uwaga: obrazów KAS nie mamy, więc pracujemy na własnym, sztucznym zbiorze naczep.
 
 ## Recenzja 1
 
