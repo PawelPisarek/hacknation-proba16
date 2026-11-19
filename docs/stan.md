@@ -1,4 +1,4 @@
-# Stan — 15:02 (sobota zespołu)
+# Stan — 15:03 (sobota zespołu)
 Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 14:32 po resecie limitu); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
 
 | zadanie | kto | status |
@@ -12,10 +12,10 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | 2 /write-prd → docs/spec.md | Projektant | recenzja odbiorcy (Programista, spec-odbiorca.md): 4 techn. → Projektant wpisuje; 1 produkt → P30 Artur |
 | 3 warianty ekranu (3 linki → Artur) | Projektant szkice → Programista | szkice 40ed041; makiety wariantów zlecone 15:01 |
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
-| szkic HackTribe (docs/hacktribe.md) | Prezenter | liczby H2ko wpisywane (15:01) |
+| szkic HackTribe (docs/hacktribe.md) | Prezenter | liczby H2ko (404a0cb, 969 zn.); poprawka zdania wg P29 A; podwójna podłoga [__] czeka na Programistę |
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | 54c2628 (105 s) |
-| konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); e9ace54; liczby po 0P |
+| konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 
 Otwarte pytania: — (P29 A 14:47)
 Lista Artura na noc: —
