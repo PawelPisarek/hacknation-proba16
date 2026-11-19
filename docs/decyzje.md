@@ -28,3 +28,6 @@ P9 12:03 Artur: Kiedy uznajemy, że narzędzie wskazało skrytkę: (A) wystarczy
 P10 12:03 Artur: Jak opisujemy obecne narzędzie KAS: (A) zgodnie z zadaniem — papierosy wykrywa, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe, czy (B) inaczej? — czeka
 P11 12:03 Artur: Czy w opisie już teraz obiecujemy obsługę dużych plików i wielu obrazów naraz: (A) wpisujemy to dopiero, gdy zmierzymy, a teraz zostaje miejsce na liczby, czy (B) obiecujemy od razu? — czeka
 P12 12:03 Artur: Czy szukamy: (A) tylko dodatków w ładunku i konstrukcji, a przeróbki konstrukcji (skrytki wbudowane w ramę) pokazujemy jako to, co narzędzie wskaże przy okazji, bez obietnicy, czy (B) obiecujemy też przeróbki konstrukcji? — czeka
+P6 12:04 odpowiedź: A — w trakcie oglądania obrazu; operator ma kilka minut na auto (Artur w pokoju)
+P7 12:04 odpowiedź: oba (skrytki w konstrukcji i towar w ładunku), najczęściej podwójna podłoga albo ściana przy kabinie (Artur w pokoju)
+P8 12:04 odpowiedź: B — system dobiera wzorzec z biblioteki; operator zwykle nie ma czystego zdjęcia tej samej naczepy (Artur w pokoju)
