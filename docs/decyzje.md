@@ -155,3 +155,4 @@ P29 14:47 odpowiedź: A, a przy „Odrzuć” operator wybiera powód z krótkie
 14:49 Analityk: recenzja docs/slajdy.md (0d20a50) runda 1 — 4 braki technika (2 z 4, „jednym kliknięciem” po P29, slajd 9 niepełny, slajd 6 bez wariantu bez liczb); licencje sprawdzone: OpenMausBot Apache-2.0, pm-skills MIT; docs/recenzje/slajdy-1.md
 14:50 Szef: krok 2 przyjęty (987a579); recenzja slajdy-1 (570e39f, 4 braki technika) → Prezenter poprawia slajdy.md i README (Odrzuć = powód z listy, slajd 9 narzędzia, slajd 6 wariant bez liczb); recenzja odbiorcy spec po 0P
 14:50 Prezenter: slajdy.md i README.md po recenzji slajdy-1 (4 braki): „2 z 2”/„0 z 4”/„0 miejsc”, Odrzuć z powodem z listy i powód w raporcie, create-prd + przeplywy-pm + orkiestrator na slajdzie 9, wariant slajdu 6 bez liczb, „za słabe”.
+14:51 Szef: slajdy.md + README poprawione (cf8556b) → recenzja slajdy-2 (Analityk)
