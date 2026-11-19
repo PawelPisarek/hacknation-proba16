@@ -32,3 +32,5 @@ P6 12:04 odpowiedź: A — w trakcie oglądania obrazu; operator ma kilka minut 
 P7 12:04 odpowiedź: oba (skrytki w konstrukcji i towar w ładunku), najczęściej podwójna podłoga albo ściana przy kabinie (Artur w pokoju)
 P8 12:04 odpowiedź: B — system dobiera wzorzec z biblioteki; operator zwykle nie ma czystego zdjęcia tej samej naczepy (Artur w pokoju)
 12:04 Szef: krok 1a — docs/pm/01-competitive-analysis.md ze znacznikiem przeplywy-pm; recenzja przejścia runda 1 → Analityk.
+12:04 Projektant: pominięte (cena, wejście na rynek w perspektywie porównania) — z zadania §9: narzędzie wewnętrzne KAS, wdrożenie przez usługodawców IT KAS, nie sprzedajemy
+12:04 Projektant: recenzja 1a runda 1 (Analityk): brak 1 (zawężenie zakresu) — z P7 (oba), zakres poszerzony; brak 2 (wzorzec) — z P8 (biblioteka), sprzeczność z zadaniem §7 oznaczona jako założenie; brak 3 (liczba 96%) — usunięta; brak 4 — dodana kolumna wykonalności (założenia do pomiaru); brak 5 — linia „pominięte” powyżej
