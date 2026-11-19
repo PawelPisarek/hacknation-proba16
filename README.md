@@ -43,10 +43,10 @@ Na naszym sztucznym zbiorze (pomiar metody H2ko, zbiór `male`, 40 obrazów; szc
 |---|---|
 | czyste obrazy z zaznaczeniem | 7 z 20 |
 | pominięte dodatki (w tym przeróbki konstrukcji) | 0 z 45 (36 przeróbek konstrukcji, 9 w ładunku) |
-| w tym przeoczona podwójna podłoga | [__] z [__] |
+| w tym przeoczona podwójna podłoga | 0 z 10 |
 | czas na obraz (cel < 1 min) | 1,1 s |
 | trafność doboru wzorca | 37 z 40 |
-| duże pliki i wiele obrazów naraz | [__] (po pomiarze) |
+| duże pliki i wiele obrazów naraz | nie mierzone (po pomiarze) |
 
 Wyniki dotyczą zbioru sztucznego i mogą być lepsze niż na prawdziwych obrazach KAS.
 

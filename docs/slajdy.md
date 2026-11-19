@@ -1,6 +1,6 @@
 # Prześwit — konspekt slajdów (DRAFT, 10 slajdów, docelowo PDF)
 
-Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Liczby `[__]` wpisujemy po pomiarze. Bez zdań obiecujących skuteczność (P15–P17, P25 B). Obrazki to zrzuty z makiety (sztuczne dane).
+Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących skuteczność (P15–P17, P25 B). Obrazki to zrzuty z makiety (sztuczne dane).
 
 ## 1. Prześwit
 - Zaznacza na obrazie RTG miejsca różne od wzorca.
@@ -22,7 +22,7 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Liczby `[__]` wpisujemy p
 
 ## 4. Ekran: porównanie
 - Obraz z ramkami i suwak wzorzec / obraz badany.
-- Lista miejsc po prawej od najbardziej różnych.
+- Lista miejsc po prawej od wysokiego stopnia różnicy; stopień to trzy słowa: niski / średni / wysoki, bez liczb (P30 A).
 - Pasek stanu zgodny z obrazem: (b) „Przejrzano 2 z 2”, (c) „Przejrzano 0 z 4”, (a) „0 miejsc”.
 - **Obrazek:** zrzut głównego ekranu makiety (obraz (b), podwójna podłoga).
 
@@ -33,9 +33,9 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Liczby `[__]` wpisujemy p
 
 ## 6. Wyniki (pomiar na sztucznym zbiorze)
 - Czyste obrazy z zaznaczeniem: 7 z 20 (zbiór sztuczny).
-- Pominięte dodatki (z przeróbkami konstrukcji): 0 z 45, w tym podwójna podłoga [__] z [__] (zbiór sztuczny).
+- Pominięte dodatki (z przeróbkami konstrukcji): 0 z 45, w tym podwójna podłoga 0 z 10 (zbiór sztuczny).
 - Czas na obraz: 1,1 s (cel < 1 min); wzorzec dobrany trafnie 37 z 40.
-- **Wariant bez liczb (gdy pomiaru brak):** tytuł „Wyniki — po pomiarze”; punkty: cel < 1 min na obraz; liczby z pomiaru podamy w opisie projektu; zbiór sztuczny, na danych KAS wyniki mogą być inne. Do PDF nie trafia tabela z samymi `[__]`.
+- **Wariant bez liczb (gdy pomiaru brak):** tytuł „Wyniki — po pomiarze”; punkty: cel < 1 min na obraz; liczby z pomiaru podamy w opisie projektu; zbiór sztuczny, na danych KAS wyniki mogą być inne. Do PDF nie trafia pusta tabela.
 - **Obrazek:** tabela wyników dopiero po pomiarze; do tego czasu wariant bez liczb (wyżej).
 
 ## 7. Ograniczenia
