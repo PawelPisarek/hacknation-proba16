@@ -2,6 +2,8 @@
 <!-- skill: value-prop-statements -->
 # Nazwa i hasło projektu (krok 6)
 
+**Wybrane: Prześwit (P14)** — hasło: „Zaznacza na obrazie RTG miejsca różne od wzorca.” (50 zn.; wersja zgodna z P15 i P16, bez „każdy obraz”). Poniżej kandydaci i rekomendacja z kroku 6 jako historia (rekomendacja Skrytka.AI nie została przyjęta; hasło kandydata 3 poniżej sprzed P16).
+
 Podstawa: `docs/zadanie.md`, `docs/decyzje.md` (P6 w trakcie oglądania obrazu; P8 wzorzec z biblioteki; P10 obecne narzędzie KAS słabe przy małych ilościach w konstrukcji; P11 bez obietnic o dużych plikach przed pomiarem; P12 przeróbki konstrukcji; P13 nie przeoczyć skrytki, kilka zaznaczeń na auto), `docs/pm/01-competitive-analysis.md` (konkurenci: Rapiscan Vehicle Compare, Smiths AXR, ACXIS — nazwy opisowe, w stylu „porównanie”, „kontrola”). Lista kandydatów jest zgodna z `docs/hacktribe.md` (Skrytka.AI, Wzorzec, Prześwit; wcześniejsze RTG-Różnica zastąpiono Prześwitem). Wybór nazwy należy do Artura (P14); w opisie HackTribe nazwy nie wybrano.
 
 ## 3 kandydaci

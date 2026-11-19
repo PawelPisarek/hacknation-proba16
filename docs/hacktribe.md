@@ -2,13 +2,17 @@
 
 > **DRAFT** — pierwszy szkic. Opis do uzgodnienia z `docs/spec.md`, gdy powstanie.
 
-## Nazwa projektu (`product-name`) — 3 propozycje
+## Nazwa projektu (`product-name`): **Prześwit**
+
+Hasło (50 zn.): „Zaznacza na obrazie RTG miejsca różne od wzorca.”
+
+Historia wyboru — 3 propozycje:
 
 1. **Skrytka.AI** — nazwa od skrytek (podwójna podłoga, ściana przy kabinie), których szuka operator wg P7; łatwe do zapamiętania.
 2. **Wzorzec** — krótkie; od „obrazu wzorcowego”, względem którego liczone są odstępstwa.
 3. **Prześwit** — polskie, jedno słowo; kojarzy się z prześwietleniem obrazu RTG i podpowiedzią w trakcie oglądania (P6).
 
-Nazwa nie jest wybrana — lista zgodna z `docs/nazwa.md`; wybór czeka na odpowiedź Artura (P14).
+Wybrane: Prześwit (P14, Artur, `docs/decyzje.md` 12:13). Lista zgodna z `docs/nazwa.md`.
 
 ## Nazwa zespołu
 
