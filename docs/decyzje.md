@@ -115,3 +115,4 @@ P26 14:35 Artur: Gdy system źle dobierze wzorzec, (A) zostawiamy P8 B — syste
 14:36 Szef: poprawka 1b po recenzji 1 (9d0c1b3) przyjęta; braki 1 i 5 → P25, P26 (Artur, czekają) → recenzja 1b runda 2 (Analityk) teraz; po P25/P26 ewentualna poprawka.
 P25 14:37 odpowiedź: B, ale bez obietnicy „żadnej” w tekstach (P15) — cel w specu, w opisie liczba z pomiaru (Artur w pokoju)
 P26 14:37 odpowiedź: B — operator zna typ naczepy z dokumentów przewozowych; gdy system dobierze źle, wybiera z listy jednym kliknięciem (Artur w pokoju; zmienia ekran: dodać wybór typu naczepy)
+14:37 Analityk: recenzja przejścia 1b runda 2 (02-discover.md 9d0c1b3) — 4 braki, wszystkie technika (Z3 kolejność/kto ocenia, próba ≥30 vs generator 20+20, Z5/Z6 bez eksperymentu, Z2b/Z2c poza P23 i bez gałęzi drzewa); P25/P26 czekają, nieoceniane; docs/recenzje/1b-2.md
