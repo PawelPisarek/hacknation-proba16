@@ -1,0 +1,18 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prześwit — makieta R1</title><link rel="stylesheet" href="warianty/wspolne.css"><script src="warianty/wspolne.js"></script>
+<!-- R1 (P31, Artur 15:06): wariant 3 (wzorzec obok badanego) + lista miejsc z boku z wariantu 1; lista od wysokiego stopnia (P30 A). Dane udawane (spec §7.2). -->
+<style>.uk{display:grid;grid-template-columns:1fr 1fr 300px;gap:10px;padding:10px 14px;align-items:start}
+@media(max-width:1000px){.uk{grid-template-columns:1fr 1fr}.lista{grid-column:1/-1}}@media(max-width:640px){.uk{grid-template-columns:1fr}}
+.tyt{font-size:13px;margin-bottom:4px}.st{display:inline-block;border-radius:10px;padding:0 8px;font-size:12px;color:#fff}
+.st.wysoki{background:#8b1a1a}.st.średni{background:#b7791f}.st.niski{background:#718096}</style></head><body><div id="app"></div><script>
+const RANGA = { wysoki: 0, "średni": 1, niski: 2 };
+for (const o of Object.values(OBRAZY)) for (const t in o.miejsca) o.miejsca[t].sort((a, b) => RANGA[a.st] - RANGA[b.st]);
+function rysuj() {
+  const o = OBRAZY[S.obraz], ms = miejsca(); if (S.wyb >= ms.length) S.wyb = 0;
+  document.getElementById("app").innerHTML = `<header><b>Prześwit</b><span>${o.plik}</span><span>${htmlTyp()}</span><button class="btn gl" onclick="raport()">Zapisz raport</button></header>${htmlObrazy()}
+  <div class="uk"><div><div class="tyt"><b>WZORZEC</b> — typ: ${typ()}</div>${svgNaczepa(S.obraz, { wzorzec: true })}</div>
+  <div><div class="tyt"><b>BADANY</b> — ${o.plik}</div>${svgNaczepa(S.obraz, { wybrane: S.wyb })}</div>
+  <div class="lista"><b>Miejsca</b> <span style="font-size:13px">(od wysokiego stopnia różnicy)</span>
+  ${ms.map((m, i) => `<div class="miejsce ${i === S.wyb ? "wyb" : ""}" onclick="if(event.target.tagName==='DIV'||event.target.tagName==='SPAN'){S.wyb=${i};rysuj()}"><span class="${m.strefa ? "ryzyko" : ""}">${i + 1}. ${nazwa(m)}</span><br><span style="font-size:13px">różnica: <span class="st ${m.st}">${m.st}</span></span>${htmlDecyzja(i)}</div>`).join("") || `<div class="pusto">Brak miejsc różnych od wzorca</div>`}</div></div>
+  <div class="stopka">${htmlPasek()}${OSTR}</div>`;
+}
+rysuj();</script></body></html>
