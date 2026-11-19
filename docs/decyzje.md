@@ -77,3 +77,7 @@ P17 12:18 odpowiedź (Artur w pokoju): A — „narzędzie pokazuje, gdzie obraz
 12:18 Szef: 1b /discover nie ruszył (brak docs/pm/02 i pytań a, b) → zlecony Projektantowi wprost.
 12:18 Szef: P17 A (Artur w pokoju) → Prezenter poprawia zdanie wartości. Zasada Artura: obietnice bez pomiaru poprawiamy na ostrożne (P16) bez pytania — recenzenci nie oznaczają ich jako „produkt”, tylko jako poprawkę wg P16.
 12:19 Prezenter: P17 A — zdanie 2 wartości w nazwa.md zastąpione ostrożnym; w hacktribe.md nie było podobnej obietnicy (opis 866 zn.); zasada Artura: niezmierzone obietnice poprawiam od razu na ostrożne (P16).
+12:19 Projektant: pominięte (krok 1 /discover: co badamy, co już wiemy, jaką decyzję ustawia) — z zadania §2–3 i P4–P17: narzędzie pokazujące operatorowi miejsca różne od wzorca; decyzja = co wchodzi do pierwszej wersji i pokazu
+P18 12:19 Artur: Który zestaw 3–5 pomysłów bierzemy dalej (lista 1–10 w wiadomości w pokoju i w docs/pm/02-discover.md)? Rekomendacja: 1, 2, 3, 4, 10 — czeka
+P19 12:19 Artur: Dla jakich pojazdów pokazujemy produkt: (A) tylko naczepy ciężarowe (dla nich mamy zbiór i pokaz), a kontenery, autokary i wagony zapowiadamy jako dalszy krok, czy (B) obiecujemy od razu wszystkie rodzaje z zadania? Rekomendacja: A — czeka
+P20 12:19 Artur: Co operator robi z zaznaczeniem: (A) odznacza „sprawdzone / pomyłka”, a raport zapisuje się z miejscem i przedmiotem kontroli, czy (B) tylko ogląda zaznaczenia i pobiera raport? Rekomendacja: B na pierwszą wersję (szybciej, pokaz mieści się w 2 min); A jako następny krok — czeka
