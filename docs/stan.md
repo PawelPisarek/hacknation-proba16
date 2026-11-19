@@ -1,5 +1,5 @@
-# Stan — 15:06 (sobota zespołu)
-Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 14:32 po resecie limitu); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
+# Stan — 15:08 (sobota zespołu)
+Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
 |---|---|---|
@@ -9,14 +9,15 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | zamknięte (P18–P23 odpowiedziane) |
 | 1b /discover → docs/pm/02-discover.md | Projektant | zamknięte (74f8b12, 3 rundy) |
 | recenzja przejścia 1b | Analityk | zamknięte po 3 rundach (P28: puszczamy dalej) |
-| 2 /write-prd → docs/spec.md | Projektant | zamknięte (eef0945, §7.6 po recenzji odbiorcy); P30 czeka |
-| 3 warianty ekranu (3 linki → Artur) | Projektant szkice → Programista | makiety 1–3 na Pages (fc96c93); P31 Artur wybiera (rek. 2) |
+| 2 /write-prd → docs/spec.md | Projektant | zamknięte (eef0945); P30 A, P31 do spec — zlecone |
+| 3 warianty ekranu (3 linki → Artur) | Projektant szkice → Programista | zamknięte: P31 wariant 3 + lista z boku |
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | liczby H2ko + zdanie wg P29 A (85a5ef3, 970 zn.); podłoga 0/10 wpisana (8333c95, 965 zn.) |
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
+| makieta R1 (wariant 3 + lista) + zrzut | Programista | zlecone 15:08 (przed rdzeniem MVP) |
 | MVP rdzeń (bmp→PNG+JSON, test 4 obrazów) | Programista | zlecone 15:06 |
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | 54c2628 (105 s) |
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 
-Otwarte pytania: P31 Artur (wariant ekranu) — czeka
+Otwarte pytania: —
 Lista Artura na noc: —
