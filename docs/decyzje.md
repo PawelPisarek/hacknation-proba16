@@ -186,3 +186,4 @@ P31 15:06 odpowiedź: wariant 3 (wzorzec obok badanego obrazu) + z wariantu 1 li
 - 15:10 Prezenter: P31 — suwak zastąpiony dwoma oknami i listą z boku (demo wiersz 3, slajd 4); wg zlecenia Szefa (p31-spojnosc brak 3–4).
 15:11 Szef: makieta R1 https://pawelpisarek.github.io/hacknation-proba16/makieta/ (zrzut docs/zrzuty/makieta-R1.png) → krytyk Analityk
 15:11 Szef: spójność P31 runda 1 zamknięta — suwak usunięty (spec 54929c5, demo/slajdy Prezenter 15:10; grep: tylko zdanie „zbędny”)
+15:11 Analityk: krytyk makiety R1: ocena 7/10, 5 braków (3 produkt, 2 technika) → docs/recenzje/makieta-R1.md
