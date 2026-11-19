@@ -131,3 +131,4 @@ P27 14:41 wycofane (Paweł w P28: o rundy sprawdzania nie pytamy Artura) → pus
 14:41 Szef: 1b zamyka się poprawką Projektanta po recenzji 3 (bez rundy 4); potem od razu /write-prd → docs/spec.md. Prezenter skraca opis HackTribe do ≤ 1000 znaków po wpisaniu liczb.
 P27 14:42 odpowiedź: tak — lista typów naczepy zawsze pod ręką (Artur w pokoju); kolejna runda sprawdzania nie jest sprawą Artura, decyduje zespół → idziemy dalej wg rekomendacji, drobne braki jako ryzyka w opisie produktu
 14:41 Prezenter: opis hacktribe skrócony (1041 zn. z [__], ok. 1033 po wpisaniu liczb do 3 cyfr; limit 1000); zachowane P19 A, P20 A, P25 B, P26 B.
+14:41 Prezenter: opis hacktribe skrócony (991 zn. z [__], ok. 983 po wpisaniu liczb do 3 cyfr; limit 1000; usunięte: „(obraz ok. 50 MB)”, „Wczytuje BMP.”, „na naszym zbiorze”); zachowane P19 A, P20 A, P25 B, P26 B.
