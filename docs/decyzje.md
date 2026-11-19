@@ -215,3 +215,4 @@ P37 15:13 odpowiedź: A — usuwamy napis „WZORZEC: plandeka” z okna wzorca;
 15:22 Analityk: recenzja hacktribe R3 (43490f8): brak braków zmieniających zakres lub kryteria → docs/recenzje/hacktribe-R3.md
 15:22 Szef: hacktribe R3 (c307203) — brak braków; docs/hacktribe.md 43490f8 gotowy do wklejenia o 20:00 (link do makiety dopisać po R2)
 15:29 Szef: recenzja docs/demo.md R1 → Analityk
+15:30 Analityk: recenzja demo R1 (demo.md): 3 braki produkt (raport po (d) bez decyzji; brak P33 w opisie wiersza 3; wiersz 9 może brzmieć jak obietnica) → docs/recenzje/demo-R1.md
