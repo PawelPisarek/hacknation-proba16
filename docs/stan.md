@@ -8,6 +8,7 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione, łańcuch w toku); 20:00 
 | 1a /competitive-analysis + przegląd modeli → docs/pm/01 | Projektant | v5 75c848a; werdykt rundy 3 — potwierdza Analityk |
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | w toku |
 | 1b /discover po pytaniach (a)(b) → docs/pm/02 | Projektant | w toku |
+| 6 nazwa i hasło → docs/nazwa.md | Prezenter | zlecone |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | DRAFT 886d666; recenzja 3 po pomiarze |
 | recenzja 1a | Analityk | potwierdzenie v4→v5 |
 
