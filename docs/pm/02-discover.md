@@ -63,7 +63,7 @@ Próba (założenie robocze, do potwierdzenia z Programistą): co najmniej 30 ob
 | Założenie | Eksperyment | Kryterium sukcesu (kandydat na kryterium akceptacji) |
 |---|---|---|
 | Z1 | dla każdego obrazu system dobiera wzorzec z biblioteki | trafny typ naczepy — próg po pomiarze (założenie) |
-| Z2 | zaznaczenia na obrazach z podwójną podłogą, FN osobno | przeoczenia podwójnej podłogi — próg czeka na odpowiedź Artura (P25); do tego czasu bez liczby w specu |
+| Z2 | zaznaczenia na obrazach z podwójną podłogą, FN osobno | cel (P25 B): nie przeoczyć żadnej podwójnej podłogi — w specu jako cel, nie liczba; liczba tylko z pomiaru; w tekstach dla ludzi bez obietnicy „żadnej” (P15) |
 | Z2b | zaznaczenia na obrazach ze ścianą przy kabinie, FN osobno | próg po pomiarze (założenie); raportowane osobno od Z2 |
 | Z2c | zaznaczenia na obrazach z towarem w ładunku, FN osobno | próg po pomiarze (założenie); raportowane osobno od konstrukcji |
 | czas | czas od wczytania obrazu do wyniku | poniżej 1 minuty na obraz (zadanie §7, 01 §9) |
@@ -81,14 +81,14 @@ Fałszywe alarmy liczymy wg P9 (czysty obraz z ≥ 1 zaznaczeniem) i raportujemy
 Brak badań z operatorami (UPROSZCZENIE z punktu 1): zastępują je sztuczne dane i ustalenia Artura.
 
 ## 8. Drzewo decyzji
-- Z1 nie trzyma → dopracowujemy dobór wzorca (więcej wzorców w bibliotece). Ręczny wybór typu naczepy przez operatora zmieniłby P8 B — tylko za zgodą Artura (P26); do czasu odpowiedzi nie wchodzi do zakresu.
+- Z1 nie trzyma → dopracowujemy dobór wzorca (więcej wzorców w bibliotece). Zapas (P26 B): operator zna typ naczepy z dokumentów przewozowych i wybiera go z listy jednym kliknięciem; system nadal dobiera sam jako pierwszy krok (P8 B).
 - Z2 nie trzyma → strefy ryzyka (6) wskazują miejsce do ręcznego sprawdzenia bez twierdzenia o różnicy.
 - Z3 nie trzyma → pokazujemy tylko najbardziej różne miejsca, reszta zwinięta pod listą.
 - Wszystko trzyma → zakres bez zmian; następny krok: kontenery (P19).
 
 ## 9. Otwarte pytania do Artura
-- **P25** — dopuszczalne przeoczenia podwójnej podłogi (próg).
-- **P26** — ręczny wybór typu naczepy jako zapas, gdy dobór wzorca zawiedzie.
+- **P25** — odpowiedź B (cel: nie przeoczyć żadnej; bez obietnicy w tekstach, liczba z pomiaru).
+- **P26** — odpowiedź B (ręczny wybór typu naczepy z listy jako zapas).
 
 ## 10. Dalej
 Wybór ekranu i ścieżki (moment c) przed `/write-prd`; eksperymenty i ryzyka wracają w `docs/spec.md` jako kryteria akceptacji (tylko zmierzone lub potwierdzone).
