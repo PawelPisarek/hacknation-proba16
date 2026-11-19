@@ -2,7 +2,7 @@
 <!-- skill: value-prop-statements -->
 # Nazwa i hasło projektu (krok 6)
 
-**Wybrane: Prześwit (P14)** — hasło: „Zaznacza na obrazie RTG miejsca różne od wzorca.” (50 zn.; wersja zgodna z P15 i P16, bez „każdy obraz”). Poniżej kandydaci i rekomendacja z kroku 6 jako historia (rekomendacja Skrytka.AI nie została przyjęta; hasło kandydata 3 poniżej sprzed P16).
+**Wybrane: Prześwit (P14)** — hasło: „Zaznacza na obrazie RTG miejsca różne od wzorca.” (50 zn.; zgodne z P15 i P16: „zaznacza miejsca różne od wzorca”, „system sam dobiera wzorzec z biblioteki”, liczba z pomiaru [__]). Poniżej kandydaci i rekomendacja z kroku 6 jako historia (rekomendacja Skrytka.AI nie została przyjęta; hasło kandydata 3 poniżej sprzed P16).
 
 Podstawa: `docs/zadanie.md`, `docs/decyzje.md` (P6 w trakcie oglądania obrazu; P8 wzorzec z biblioteki; P10 obecne narzędzie KAS słabe przy małych ilościach w konstrukcji; P11 bez obietnic o dużych plikach przed pomiarem; P12 przeróbki konstrukcji; P13 nie przeoczyć skrytki, kilka zaznaczeń na auto), `docs/pm/01-competitive-analysis.md` (konkurenci: Rapiscan Vehicle Compare, Smiths AXR, ACXIS — nazwy opisowe, w stylu „porównanie”, „kontrola”). Lista kandydatów jest zgodna z `docs/hacktribe.md` (Skrytka.AI, Wzorzec, Prześwit; wcześniejsze RTG-Różnica zastąpiono Prześwitem). Wybór: Prześwit (P14, Artur).
 
@@ -12,7 +12,7 @@ Podstawa: `docs/zadanie.md`, `docs/decyzje.md` (P6 w trakcie oglądania obrazu; 
 |---|---|---|---|
 | 1 | **Skrytka.AI** | Pokazuje operatorowi to, czego nie ma we wzorcu. (48 zn.) | Nazywa to, co mają znaleźć miejsca z P7 (podwójna podłoga, ściana przy kabinie) i przeróbki z P12, więc jest od razu zrozumiała, choć zawęża skojarzenie do skrytek, a nie towaru w ładunku (słowo „skrytka” to nasz wybór, nie sformułowanie z zadania ani z odpowiedzi Artura). |
 | 2 | **Wzorzec** | Naczepa kontra wzorzec: różnice zaznaczone na obrazie. (56 zn.) | Krótka i wprost z zadania („obraz wzorcowy”), podkreśla wyróżnik z P8 (wzorzec dobiera system), ale nie mówi, że szukamy ukrytego towaru. |
-| 3 | **Prześwit** | Drugie spojrzenie na każdy obraz RTG, w trakcie oglądania. (60 zn.) | Polskie, jedno słowo, kojarzy się z prześwietleniem i z „czymś, co prześwituje”; pasuje do P6 (podpowiedź na żywo), ale sama nazwa nie tłumaczy, co narzędzie robi. |
+| 3 | **Prześwit** | Drugie spojrzenie na obraz RTG, w trakcie oglądania. (51 zn.; wersja sprzed P16 miała „na każdy obraz”) | Polskie, jedno słowo, kojarzy się z prześwietleniem i z „czymś, co prześwituje”; pasuje do P6 (podpowiedź na żywo), ale sama nazwa nie tłumaczy, co narzędzie robi. |
 
 Nazwy nie zawierają zapewnień o dostępności domeny ani znaku towarowego: tego nie sprawdzałem (brak dostępu do rejestrów w tym kroku) — do sprawdzenia przed publikacją.
 
@@ -22,9 +22,9 @@ Nazwy nie zawierają zapewnień o dostępności domeny ani znaku towarowego: teg
 
 ## Wartość dla operatora kontroli (3 zdania)
 
-1. Gdy oglądasz obraz naczepy, narzędzie samo dobiera pasujący wzorzec i zaznacza miejsca, które się od niego różnią, więc nie potrzebujesz zdjęcia czystej naczepy.
+1. Gdy oglądasz obraz naczepy, system sam dobiera wzorzec z biblioteki i zaznacza miejsca różne od wzorca.
 2. Łatwiej zauważysz małą skrytkę w podwójnej podłodze czy ścianie przy kabinie oraz obcy towar w ładunku, bo narzędzie pokazuje ci, gdzie spojrzeć jeszcze raz.
-3. Celem jest kilka zaznaczeń na auto, nie kilkadziesiąt, a decyzję o kontroli fizycznej nadal podejmujesz ty (liczby fałszywych alarmów i pominięć podamy po pomiarze).
+3. Liczbę zaznaczeń na czystych obrazach i pominięć podamy z pomiaru: [__]; decyzję o kontroli fizycznej nadal podejmujesz ty.
 
 ## Recenzja 1
 

@@ -24,7 +24,7 @@ https://github.com/PawelPisarek/hacknation-proba16
 
 ## Opis wstępny (DRAFT, limit 1000 znaków)
 
-Operator RTG na granicy ma kilka minut na naczepę (obraz ok. 50 MB) i szuka drobnej przeróbki lub skrytki. Obecne narzędzie KAS wykrywa papierosy, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe. Nasze narzędzie podpowiada w trakcie oglądania obrazu: samo dobiera z biblioteki obraz wzorcowy (bez zdjęcia pustej naczepy), porównuje z nim naczepę i zaznacza odstępstwa — dodatki w ładunku oraz przeróbki konstrukcji, najczęściej podwójną podłogę i ścianę przy kabinie. Wczytuje pliki BMP. Wynik na naszym zbiorze: fałszywe alarmy [__], pominięcia [__], czas [__] s na obraz (cel < 1 min); duże pliki i wiele obrazów — po pomiarze. Docelowo bez chmury; w pokazie liczy usługa w sieci lokalnej. Obrazów KAS nie mamy — używamy własnego, sztucznego zbioru naczep.
+Operator RTG na granicy ma kilka minut na naczepę (obraz ok. 50 MB) i szuka drobnej przeróbki lub skrytki. Obecne narzędzie KAS wykrywa papierosy, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe. Nasze narzędzie podpowiada w trakcie oglądania obrazu: system sam dobiera wzorzec z biblioteki, porównuje z nim naczepę i zaznacza miejsca różne od wzorca — dodatki w ładunku oraz przeróbki konstrukcji, najczęściej podwójną podłogę i ścianę przy kabinie. Wczytuje pliki BMP. Wynik na naszym zbiorze: czyste obrazy z zaznaczeniem [__], pominięte dodatki [__], czas [__] s na obraz (cel < 1 min); duże pliki i wiele obrazów — po pomiarze. Docelowo bez chmury; w pokazie liczy usługa w sieci lokalnej. Obrazów KAS nie mamy — używamy własnego, sztucznego zbioru naczep.
 
 ## Recenzja 1
 
