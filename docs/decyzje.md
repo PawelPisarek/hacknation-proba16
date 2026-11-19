@@ -142,3 +142,4 @@ P29 14:45 Artur: Co znaczą przyciski przy zaznaczeniu na ekranie: (A) „Zatwie
 14:45 Projektant: recenzja kroku 2 runda 1 (Analityk, b515119): braki 1–3 poprawione w spec.md (reguły zaliczenia i „nie trzyma” A1–A4, A8 z zasadą liczby, A10 fałszywy alarm, 4 obrazy w 7.2, obraz (c) w ścieżce); brak 4 → P29 (w specu rekomendacja A tymczasowo)
 14:45 Szef: spec 6d389d1 (braki 1–3 poprawione, A10 nowe) → recenzja 2-2 (Analityk); P29 czeka na Artura.
 14:45 Analityk: recenzja przejścia 2 (write-prd) runda 2 (spec.md 6d389d1) — 3 braki technika (A1 sprzeczne zdanie o progu, „kilka” z dwoma właścicielami A8/A10, A8 procenty vs „n z N”); P29 nieoceniane; docs/recenzje/2-2.md
+14:46 Szef: recenzja 2-2 (a79ed53): 3 braki technika → Projektant poprawia (runda 3 ostatnia). demo.md (0a0d09d, 120 s) → recenzja demo-1 (Analityk).
