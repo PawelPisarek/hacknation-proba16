@@ -1,4 +1,4 @@
-# Stan — 14:35 (sobota zespołu)
+# Stan — 14:36 (sobota zespołu)
 Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 14:32 po resecie limitu); 20:00 makieta (GitHub Pages) + docs/hacktribe.md (zagrożony).
 
 | zadanie | kto | status |
@@ -7,11 +7,11 @@ Najbliższy kamień: ~11:45 docs/spec.md (spóźnione +164 min, praca wznowiona 
 | 0P co jest pewne (szkielet, skrypt oceny FP/FN, generator danych, OMEN, wynik bazowy) | Programista | w toku od 14:32 (15e71fe metody; cząstkowo H2ko FP 7/20 FN 0/45) |
 | 1a /competitive-analysis + przegląd modeli → docs/pm/01 | Projektant | zamknięte (75c848a, recenzja 5117f52) |
 | przesłuchanie Artura (pokój Produkt, ≤45 min) | Projektant | zamknięte (P18–P23 odpowiedziane) |
-| 1b /discover → docs/pm/02-discover.md | Projektant | poprawka po recenzji 1 (74f5420: 2 produkt → Artur, 3 technika) |
-| recenzja przejścia 1b | Analityk | runda 1 zamknięta (5 braków), runda 2 po poprawce |
+| 1b /discover → docs/pm/02-discover.md | Projektant | recenzja 2 (9d0c1b3); czeka P25, P26 |
+| recenzja przejścia 1b | Analityk | runda 2 zlecona 14:36 |
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | DRAFT zamknięty (c3832e5); liczby [__] po pomiarze 0P |
 | szkic README.md | Prezenter | zamknięte (recenzja 3 6303dee); liczby i linki później |
 
-Otwarte pytania: — (P24 zamknięte rekomendacją 12:44; blokada zdjęta 14:32, zespół na Claude)
+Otwarte pytania: P25, P26 (Artur, 1b — czekają)
 Lista Artura na noc: —
