@@ -91,3 +91,6 @@ P22 12:21 Artur: Czy któryś odrzucony pomysł warto wziąć w części: 5 (kol
 P23 12:21 Artur: Najryzykowniejsze założenia do sprawdzenia najpierw: (Z1) system trafnie dobiera wzorzec z biblioteki (P8), (Z2) podwójną podłogę widać jako różnicę od wzorca, (Z3) przy kilku zaznaczeniach na auto operator im ufa i zdąży je obejrzeć (P13). Czy to te trzy, czy zamieniamy któreś? Rekomendacja: te trzy — czeka
 12:21 Szef: krok 6 (nazwa, hasło, DRAFT HackTribe) — recenzja 3 Analityka c3832e5: brak braków zmieniających zakres lub kryteria → zamknięte. Linie wewnętrzne w hacktribe.md („Recenzje 1–2…”, „Poza zakresem DRAFTu…”) pomija człowiek przy wklejaniu; liczby [__] po pomiarze 0P.
 12:21 Szef: 1b część 1 (b3e1c04) przyjęta; P18–P20 odpowiedziane, P21–P23 czekają; dokończenie 02-discover po odpowiedziach — Projektant.
+P21 12:22 odpowiedź (Artur w pokoju): nic nie zmieniamy w wybranych pomysłach (1, 2, 3, 4, 6, 7).
+P22 12:22 odpowiedź (Artur w pokoju): jak rekomendacja — 5 w części (kolor ramki tylko dla stref ryzyka, 6), 9 nie.
+P23 12:22 odpowiedź (Artur w pokoju): te trzy założenia w kolejności Z1, Z2, Z3; Z1 i Z2 sprawdzamy jednym przebiegiem.
