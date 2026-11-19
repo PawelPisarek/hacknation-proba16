@@ -39,3 +39,7 @@ P13 12:05 Artur: Gdy nie da się mieć obu naraz, co ważniejsze: (A) nie przeoc
 12:06 Szef: 1a recenzja przejścia runda 1 (Analityk, 891cada) — 5 braków; 1–3 to nieuwzględnione odpowiedzi Artura P6–P12 (bez nowych pytań), 4–5 technika; poprawka → Projektant.
 12:06 Projektant: 1a — sekcje „Recenzja przejścia” usunięte z pliku kroku (zapis recenzji w historii git: 891cada, 0d9c8eb); liczba 96%/3% usunięta, brak źródła; priorytet przy kolizji celów: mniej przeoczeń (P4 B). Odpowiedzi P9–P12 w tym dzienniku jeszcze nie ma — nie wpisuję.
 12:06 Szef: docs/hacktribe.md poprawka 1 (Prezenter, e7fbbde, wg P8, P10–P12) → recenzja 2 (Analityk).
+P9 12:07 odpowiedź (Artur w pokoju): A — wystarczy, że zaznaczenie choć częściowo nachodzi na skrytkę albo jego środek leży w skrytce.
+P10 12:07 odpowiedź (Artur w pokoju): A — KAS papierosy wykrywa, ale przy małych ilościach ukrytych w konstrukcji pojazdu jest za słabe.
+P11 12:07 odpowiedź (Artur w pokoju): A — dużych plików i wielu obrazów naraz nie obiecujemy, dopóki nie zmierzymy; zostaje miejsce na liczby.
+P12 12:07 odpowiedź (Artur w pokoju): B — obiecujemy też przeróbki konstrukcji; podwójna podłoga to najczęstszy przypadek (P7), bez tego narzędzie nie ma sensu.
