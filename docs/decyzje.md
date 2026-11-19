@@ -24,3 +24,4 @@ P7 12:03 Artur: Co dziś najbardziej boli: (A) małe skrytki w konstrukcji pojaz
 P8 12:03 Artur: Skąd operator bierze obraz wzorcowy: (A) sam wskazuje obraz porównawczy, czy (B) system dobiera go z biblioteki? — czeka
 12:03 Szef: recenzja 1 docs/hacktribe.md (Analityk, 263c9aa) — 5 braków; 1–3 „produkt” → Projektant pyta Artura; 4–5 technika → Prezenter.
 12:03 Szef: nazwa zespołu „Hackathon” (ustalenie Pawła z poprzednich prób); nazwa projektu — otwarta do kroku 6 (product-name); w opisie HackTribe nie podajemy reguły trafienia (czeka P6), tylko po wyniku FP/FN.
+P9 12:03 Artur: Kiedy uznajemy, że narzędzie wskazało skrytkę: (A) wystarczy, że zaznaczenie choć częściowo nachodzi na skrytkę albo jego środek leży w skrytce, czy (B) zaznaczenie musi objąć większą część skrytki? Obraz bez dodatków z choćby jednym zaznaczeniem liczymy jako fałszywy alarm. — czeka
