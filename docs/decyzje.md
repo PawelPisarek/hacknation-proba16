@@ -136,3 +136,4 @@ P27 14:42 odpowiedź: tak — lista typów naczepy zawsze pod ręką (Artur w po
 14:41 Szef: 1b zamknięty (74f8b12, poprawka po recenzji 3; bez rundy 4 wg P28) → /write-prd → docs/spec.md (Projektant, w toku).
 14:43 Szef: spec.md (12a4072) → recenzja przejścia 2-1 (Analityk). Trzy warianty ekranu zrobi Programista po 0P, zanim powstanie makieta; Artur wybiera z linków (ryzyko z spec §9). HackTribe 991 zn. (0802220) przyjęte.
 14:44 Analityk: recenzja przejścia 2 (write-prd) runda 1 (spec.md 12a4072) — 4 braki (3 technika: A1/A2 bez reguły zaliczenia, A8 „kilka”/FP bez kryterium, 3 vs 4 obrazy; 1 produkt: znaczenie Zatwierdź/Odrzuć); docs/recenzje/2-1.md
+14:44 Prezenter: docs/demo.md — szkic scenariusza pokazu, 120 s, 9 kroków wg spec §7.3; liczby [__] do wpisania po pomiarze; wersja awaryjna: zrzuty ekranu.
