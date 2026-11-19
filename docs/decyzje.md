@@ -12,3 +12,7 @@ P4 12:00 Artur: Co ma być głównym wyznacznikiem porównania: (A) co widzi ope
 P5 12:00 Artur: Do czego posłuży to porównanie: (A) do uzasadnienia, czym się wyróżniamy w opisie i na pokazie, czy (B) do wyboru funkcji? — czeka
 12:01 Szef: trafienie przy liczeniu FN/FP — zaznaczenie trafia dodatek, gdy IoU ≥ 0,1 z ramką prawdy albo środek zaznaczenia leży w ramce dodatku; czysty obraz z ≥ 1 zaznaczeniem = FP obrazowy (propozycja Analityka z docs/materialy.md, zadanie §6 nie rozstrzyga).
 P1 12:01 odpowiedź: Paweł — technika (rozmowa z Szefem), Artur — produkt (pokój Produkt), nikt więcej; podpisy urządzeń nieważne.
+P2 12:01 odpowiedź: nieważne — pisze Artur (Artur w pokoju)
+P3 12:01 odpowiedź: tak, szukamy sami (Artur w pokoju)
+P4 12:01 odpowiedź: B — skuteczność, przede wszystkim żeby nie przeoczyć skrytki (Artur w pokoju)
+P5 12:01 odpowiedź: A — uzasadnienie wyróżnika w opisie i na pokazie (Artur w pokoju)
