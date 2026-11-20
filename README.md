@@ -13,8 +13,8 @@ Zakres: pokazujemy tylko naczepy ciężarowe (dla nich mamy zbiór i pokaz); kon
 Dla kogo: operatorzy RTG Służby Celno-Skarbowej.
 
 - Repozytorium: https://github.com/PawelPisarek/hacknation-proba16
-- Makieta (klikalna, udawane dane; prawdziwa wersja dopiero powstaje): https://pawelpisarek.github.io/hacknation-proba16/makieta/
-- Wersja na ksefbot.pl: [link po wdrożeniu] (adres ksefbot.pl odpowiadał 19.11 kodem 530, więc go nie podajemy)
+- Działająca wersja (obrazy sztuczne, liczone na karcie w sieci lokalnej): https://hacknation.ksefbot.pl/
+- Makieta (klikalna, udawane dane): https://pawelpisarek.github.io/hacknation-proba16/makieta/
 
 ## Uruchomienie
 
@@ -34,6 +34,18 @@ python -m rtg.ocena --prawda ~/dane/proba16/male/prawda.json --pred wyniki/male/
 Na zespołowej flocie: przez orkiestrator (`--klasa gpu-tlo` dla `rtg.uruchom`, `--maszyna dowolna` dla generatora).
 
 Szczegóły i format przewidywań: `docs/uruchomienie.md`, nagłówek `rtg/ocena.py`.
+
+### Aplikacja (działa pod linkiem)
+
+Wersja z ekranem makiety R3 na prawdziwym wyniku metody (obrazy sztuczne): `app/`, `Dockerfile`, port 3000. Wgrywanie własnego pliku `.bmp` działa pod linkiem (usługa na karcie w sieci lokalnej, `OMEN_URL`). Zrzut: `docs/zrzuty/mvp-ksefbot.png`.
+
+```sh
+node app/serwer.mjs            # albo: docker build -t przeswit . && docker run -p 3000:3000 przeswit
+# wgrywanie własnego .bmp: usługa na karcie + OMEN_URL
+python -m rtg.aplikacja usluga --biblioteka ~/dane/proba16/male/biblioteka --port 8716
+OMEN_URL=http://192.168.1.112:8716 node app/serwer.mjs
+```
+Szczegóły: `docs/uruchomienie.md`.
 
 ## Wyniki
 

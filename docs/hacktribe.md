@@ -8,7 +8,9 @@
 
 **Link do repozytorium:** https://github.com/PawelPisarek/hacknation-proba16
 
-**Link do makiety (udawane dane, prawdziwa wersja dopiero powstaje):** https://pawelpisarek.github.io/hacknation-proba16/makieta/
+**Link do działającej wersji (obrazy sztuczne):** https://hacknation.ksefbot.pl/
+
+**Link do makiety (udawane dane):** https://pawelpisarek.github.io/hacknation-proba16/makieta/
 
 **Opis (limit 1000 znaków):**
 

@@ -1,6 +1,6 @@
 # Prześwit — konspekt slajdów (DRAFT, 10 slajdów, docelowo PDF)
 
-Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących skuteczność (P15–P17, P25 B). Obrazki to zrzuty z makiety R3 na udawanych danych; prawdziwa wersja dopiero powstaje.
+Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących skuteczność (P15–P17, P25 B). Obrazki to zrzuty z działającej wersji (mvp-*.png) i z makiety R3 (udawane dane); wszystko na obrazach sztucznych.
 
 ## 1. Prześwit
 - Zaznacza na obrazie RTG miejsca różne od wzorca.
@@ -23,7 +23,7 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących s
 ## 4. Ekran: porównanie
 - Obraz z ramkami i dwa okna obok siebie (wzorzec i obraz badany) oraz lista miejsc z boku; zrzut z makiety R3 (docs/zrzuty/makieta-R3-b.png).
 - Lista miejsc po prawej od wysokiego stopnia różnicy; stopień to trzy słowa: niski / średni / wysoki, bez liczb (P30 A).
-- Pasek stanu zgodny z obrazem: (b) „Przejrzano 2 z 2”, (c) „Przejrzano 0 z 4”, (a) „0 miejsc”.
+- Pasek stanu zgodny z obrazem: (b) „Przejrzano 2 z 2”, (c) „Przejrzano 0 z 3”, (a) „0 miejsc”.
 - **Obrazek:** zrzut głównego ekranu makiety (obraz (b), podwójna podłoga).
 
 ## 5. Ekran: wybór typu i raport
@@ -60,5 +60,5 @@ Podstawa: `docs/spec.md`, `docs/demo.md`, `README.md`. Bez zdań obiecujących s
 ## 10. Zespół
 - Paweł — technika, wygląd, użyteczność; Artur — kształt produktu.
 - Boty: Szef (rozdział pracy), Projektant (spec), Analityk (materiały, recenzje), Programista (kod, makieta), Prezenter (teksty).
-- Linki: repo, makieta https://pawelpisarek.github.io/hacknation-proba16/makieta/, ksefbot.pl [link po wdrożeniu].
+- Linki: repo, działająca wersja https://hacknation.ksefbot.pl/, makieta https://pawelpisarek.github.io/hacknation-proba16/makieta/.
 - **Obrazek:** zdjęcie zespołu lub 2 awatary ludzi i 5 ikon botów.
