@@ -21,3 +21,4 @@ a linia w docs/decyzje.md ma godzinę. Kolejność: najpierw rdzeń (bmp → PNG
 
 Sprawdzenia odbioru: docs/odbior-mvp.md (30 wierszy, także A1–A10 ze spec) — przechodzą wszystkie poza A8 (czeka na Artura po MVP).
 Kryterium jakości na noc (P39 A, Artur 16:10): na danych sztucznych FN = 0 i FP ≤ 7/20 jako minimum; gdy da się zejść niżej z FP bez żadnego przeoczenia — schodzimy (hipotezy na karcie OMENa).
+- P40 A (Artur 16:23): progi stopnia zostają 60/25 — prawdziwe skrytki na górze listy, nawet kosztem kilku pomyłek wyżej; obniżanie FP nie może zepchnąć prawdziwych trafień poniżej „wysoki”.
