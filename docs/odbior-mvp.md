@@ -36,12 +36,12 @@ Skróty: „ap.” = prawdziwa aplikacja pod ksefbot.pl (wynik z karty OMENa); o
 | 22 | A9 | Przeszukaj teksty ekranu i raportu | brak zdań obiecujących skuteczność | `grep -riE "skuteczn|wykryj(e|emy) (wszystk|każd)|żadn" <teksty ekranu>` + przegląd zrzutów |
 | 23 | A10 | Czyste obrazy z generatora (a): policz FP = obraz z ≥1 zaznaczeniem; razem z FN | wynik „n z N”; próg FP po pomiarze zapisany w `docs/decyzje.md` | komenda oceny, linia FP |
 | 24 | §7.2 | Wczytaj (a) | „0 miejsc”, brak ramek, brak komunikatu sugerującego „nic nie ma” inaczej niż „0 miejsc” (P15–P17) | zrzut `mvp-a-czysta.png` |
-| 25 | §7.2/§7.3 | Wczytaj (c) | 4 zaznaczenia; na liście strefy „ściana przy kabinie” i towar w ładunku; pasek „Przejrzano 0 z 4” | zrzut `mvp-c.png` |
+| 25 | §7.2/§7.3 | Wczytaj (c) | 3 zaznaczenia (T006: towar w ładunku, ściana przy kabinie, belka — spec §7.2 po 8ed053b); pasek „Przejrzano 0 z 3” | zrzut `mvp-c.png` |
 | 26 | §7.6 pkt 1 | Wgraj własny .bmp zamiast gotowego | wynik jak dla gotowych; typy z listy: plandeka, chłodnia, kontener na podwoziu, cysterna, skrzyniowa | zrzut + lista opcji |
 | 27 | §7.6 pkt 3 | Podwójna podłoga (b) | ramka w strefie ryzyka (środek w pasie nad podłogą) ma wyróżniony kolor i etykietę „podwójna podłoga”; reszta bez koloru strefy | zrzut `mvp-b-strefa.png` |
 | 28 | §7.6 pkt 4 | Sprawdź, co jest pod publicznym linkiem | tylko dane sztuczne; obraz od KAS nigdy nie jest wysyłany poza komputer (uruchomienie lokalne z Dockerfile) | `curl -s -o /dev/null -w "%{http_code}" <link>` = 200; przegląd żądań sieciowych / kodu |
 | 29 | zadanie 01 „Gotowe” | Aplikacja pod linkiem | HTTP 200 | `curl -s -o /dev/null -w "%{http_code}\n" https://ksefbot.pl/…` (adres z `docs/uruchomienie.md`) |
-| 30 | zadanie 01 „Kolejność” | Rdzeń: .bmp → PNG + JSON; test 4 obrazów | każdy z 4 obrazów daje PNG + JSON; ramki zgodne z §7.2 (b: 2, c: 4, a: 0) | linia wyniku testu (`pytest`/skrypt) |
+| 30 | zadanie 01 „Kolejność” | Rdzeń: .bmp → PNG + JSON; test 4 obrazów | każdy z 4 obrazów daje PNG + JSON; ramki zgodne z §7.2 (b: 2, c: 3, a: 0) | linia wyniku testu (`pytest`/skrypt) |
 
 Razem: **30 sprawdzeń** (13 z P29–P38, 17 z A1–A10, §7.2–7.6 i warunków zadania 01). Nr 21 wymaga Artura, reszta da się wykonać w nocy.
 
