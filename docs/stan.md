@@ -1,4 +1,4 @@
-# Stan — 16:24 (sobota zespołu)
+# Stan — 16:25 (sobota zespołu)
 Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
@@ -14,7 +14,7 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | 6 nazwa i hasło → docs/nazwa.md | Prezenter | zamknięte (recenzja 3 c3832e5) |
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | gotowy: 43490f8 (999 zn.), recenzja R3 c307203 |
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
-| makieta R1/R2 (wariant 3 + lista) + zrzut | Programista → krytyk Analityk | R1 7/10; R2 8/10 (30b5830); R3 ac5eedf 8/10 (a4e4085) — zamknięte; poprawka złego typu + P38 B na stronie (16:22) → Analityk sprawdza |
+| makieta R1/R2 (wariant 3 + lista) + zrzut | Programista → krytyk Analityk | R1 7/10; R2 8/10 (30b5830); R3 ac5eedf 8/10 (a4e4085) — zamknięte; poprawka złego typu + P38 B (77e506a) — brak braków (c61ddb7) |
 | MVP rdzeń (bmp→PNG+JSON, test 4 obrazów) | Programista | zamknięte (4be384c, test 23/23 zgl-4693) |
 | zadanie 01: P29–P38 w MVP pod ksefbot.pl + obniżanie FP (P39, P40) | Programista | zlecone 16:24 |
 | spójność P31 (spec §7.2, demo, slajdy) | Analityk → Projektant, Prezenter | zamknięte (54929c5 + Prezenter 15:10) |
