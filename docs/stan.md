@@ -1,4 +1,4 @@
-# Stan — 16:41 (sobota zespołu)
+# Stan — 16:42 (sobota zespołu)
 Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
@@ -23,8 +23,9 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | konspekt docs/slajdy.md (≤ 10) | Prezenter | zamknięte (recenzja 2 e76538f); liczby H2ko (404a0cb) |
 | materiały do stanu makiety R3 + P38 | Prezenter | zamknięte (c140d95, baaf09e); ksefbot.pl 530 — link po wdrożeniu |
 | lista odbioru MVP (docs/odbior-mvp.md) | Analityk | zamknięte (09166e2, 30 sprawdzeń; 5 rozbieżności rozstrzygnięte) |
-| materiały do stanu MVP (link, (b) T015, (c) 3 miejsca) | Projektant (spec §7.2), Prezenter (README, hacktribe, demo, slajdy) | zlecone 16:41
-| odbiór MVP na produkcji → docs/odbior-mvp-wynik.md | Analityk | zlecone 16:41
+| materiały do stanu MVP (link, (b) T015, (c) 3 miejsca) | Projektant (spec §7.2), Prezenter (README, hacktribe, demo, slajdy) | spec zamknięte (8ed053b); Prezenter w toku |
+| odbiór MVP na produkcji → docs/odbior-mvp-wynik.md | Analityk | zlecone 16:41 |
+| UPROSZCZENIE (ładunek deklarowany) → Artur | Projektant | zlecone 16:42 |
 
 Otwarte pytania: —
 Lista Artura na noc: P29–P38 z makiety do MVP (docs/zadania/01-mvp-z-makiety.md); materiały do stanu faktycznego
