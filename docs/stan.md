@@ -1,4 +1,4 @@
-# Stan — 16:25 (sobota zespołu)
+# Stan — 16:29 (sobota zespołu)
 Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
