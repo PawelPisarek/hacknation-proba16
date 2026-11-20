@@ -1,4 +1,4 @@
-# Stan — 16:19 (sobota zespołu)
+# Stan — 16:22 (sobota zespołu)
 Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
@@ -15,7 +15,7 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | szkic HackTribe (docs/hacktribe.md) | Prezenter | gotowy: 43490f8 (999 zn.), recenzja R3 c307203 |
 | README + hacktribe wg P25 B, P26 B | Prezenter | zamknięte (24e73db, 0802220) |
 | makieta R1/R2 (wariant 3 + lista) + zrzut | Programista → krytyk Analityk | R1 7/10; R2 8/10 (30b5830); R3 ac5eedf 8/10 (a4e4085) — zamknięte; poprawka złego typu → Programista |
-| MVP rdzeń (bmp→PNG+JSON, test 4 obrazów) | Programista | zlecone 15:06 |
+| MVP rdzeń (bmp→PNG+JSON, test 4 obrazów) | Programista | zamknięte (test 23/23 zgl-4693); dalej zadanie 01 + obniżanie FP |
 | spójność P31 (spec §7.2, demo, slajdy) | Analityk → Projektant, Prezenter | zamknięte (54929c5 + Prezenter 15:10) |
 | recenzja hacktribe | Analityk → Prezenter | zamknięte R3 (c307203), tekst 43490f8 999 zn. |
 | szkic docs/demo.md (pokaz do 2 min) | Prezenter | zamknięte: ec163a9 (105 s), recenzja R2 8d5c214 |
@@ -23,5 +23,5 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | materiały do stanu makiety R3 + P38 | Prezenter | zamknięte (c140d95, baaf09e); ksefbot.pl 530 — link po wdrożeniu |
 | lista odbioru MVP (docs/odbior-mvp.md) | Analityk | zamknięte (09166e2, 30 sprawdzeń; 5 rozbieżności rozstrzygnięte) |
 
-Otwarte pytania: —
+Otwarte pytania: P40 progi stopnia (Projektant → Artur)
 Lista Artura na noc: P29–P38 z makiety do MVP (docs/zadania/01-mvp-z-makiety.md); materiały do stanu faktycznego
