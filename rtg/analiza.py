@@ -32,7 +32,7 @@ STREFA_PODLOGA, STREFA_SCIANA = "podwójna podłoga", "ściana przy kabinie"
 # 4 gotowe obrazy (spec §7.2) ze zbioru `male` (ziarno 16)
 GOTOWE = {
     "a": ("testy/T000.bmp", "czysta naczepa"),
-    "b": ("testy/T031.bmp", "podwójna podłoga (+ mała paczka w ładunku)"),
+    "b": ("testy/T015.bmp", "podwójna podłoga (chłodnia, typ dobrany dobrze — P34)"),
     "c": ("testy/T006.bmp", "ściana przy kabinie i towar w ładunku (+ belka)"),
     "d": ("testy/T014.bmp", "zły dobór typu: system wybiera plandeka, poprawny chłodnia"),
 }
@@ -101,6 +101,7 @@ class Analiza:
         torch.cuda.synchronize()
         t = time.time()
         ramki, a, wz = self.por.porownaj(obraz, kod)
+        self.ostatni_obraz = a
         j, g, ref = self.por.ostatnie
         st = strefy(geometria(ref))
         torch.cuda.synchronize()

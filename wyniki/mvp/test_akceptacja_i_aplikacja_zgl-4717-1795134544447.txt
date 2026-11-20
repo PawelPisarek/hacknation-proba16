@@ -1,0 +1,41 @@
+czekam w kolejce: pozycja 2, przed tobą:  (zgl-4717-1795134544447)
+(a) testy/T000.bmp — czysta naczepa: porównano z kontener na podwoziu; miejsc 0:  | 1.1 s
+  OK  (a) PNG i JSON zapisane
+  OK  (a) pola raportu
+  OK  (a) stopień słownie, lista od wysokiego
+  OK  (a) czas < 60 s (A4)
+(b) testy/T015.bmp — podwójna podłoga (chłodnia, typ dobrany dobrze — P34): porównano z chłodnia; miejsc 2: 1 podwójna podłoga wysoki, 2 ściana przy kabinie wysoki | 1.26 s
+  OK  (b) PNG i JSON zapisane
+  OK  (b) pola raportu
+  OK  (b) stopień słownie, lista od wysokiego
+  OK  (b) czas < 60 s (A4)
+(c) testy/T006.bmp — ściana przy kabinie i towar w ładunku (+ belka): porównano z kontener na podwoziu; miejsc 3: 1 - wysoki, 2 ściana przy kabinie wysoki, 3 - wysoki | 1.11 s
+  OK  (c) PNG i JSON zapisane
+  OK  (c) pola raportu
+  OK  (c) stopień słownie, lista od wysokiego
+  OK  (c) czas < 60 s (A4)
+(d) testy/T014.bmp — zły dobór typu: system wybiera plandeka, poprawny chłodnia: porównano z plandeka; miejsc 2: 1 podwójna podłoga wysoki, 2 ściana przy kabinie wysoki | 1.12 s
+  OK  (d) PNG i JSON zapisane
+  OK  (d) pola raportu
+  OK  (d) stopień słownie, lista od wysokiego
+  OK  (d) czas < 60 s (A4)
+  OK  (a) 0 miejsc
+  OK  (b) podwójna podłoga trafiona ramką w strefie „podwójna podłoga”
+  OK  (b) automatycznie porównano z „chłodnia” (P34)
+  OK  (c) ściana przy kabinie trafiona ramką w strefie „ściana przy kabinie”
+  OK  (c) towar w ładunku trafiony ramką spoza stref ryzyka
+  OK  (d) automatycznie porównano z „plandeka”
+(d) po wyborze „chłodnia”: porównano z chłodnia, wzorce ['chłodnia', 'chłodnia', 'chłodnia']; miejsc 2: 1 podwójna podłoga wysoki, 2 ściana przy kabinie wysoki
+  OK  (d) operator wybiera „chłodnia” -> porównano z „chłodnia”, wszystkie wzorce chłodnia (A6)
+  OK  (d) po zmianie typu podwójna podłoga w strefie „podwójna podłoga”
+TEST AKCEPTACJI: 24/24 OK
+b testy/T015.bmp: auto chłodnia, miejsc 2: 1 podwójna podłoga wysoki, 2 ściana przy kabinie wysoki | kontener na podwoziu 36, chłodnia 2, cysterna 87, skrzyniowa 84, plandeka 41
+c testy/T006.bmp: auto kontener na podwoziu, miejsc 3: 1 w ładunku wysoki, 2 ściana przy kabinie wysoki, 3 poza skrzynią wysoki | kontener na podwoziu 3, chłodnia 71, cysterna 157, skrzyniowa 48, plandeka 41
+d testy/T014.bmp: auto plandeka, miejsc 2: 1 podwójna podłoga wysoki, 2 ściana przy kabinie wysoki | kontener na podwoziu 16, chłodnia 2, cysterna 62, skrzyniowa 107, plandeka 57
+a testy/T000.bmp: auto kontener na podwoziu, miejsc 0:  | kontener na podwoziu 0, chłodnia 56, cysterna 153, skrzyniowa 56, plandeka 110
+T031 testy/T031.bmp: auto skrzyniowa, miejsc 3: 1 podwójna podłoga wysoki, 2 pod dachem wysoki, 3 poza skrzynią wysoki | kontener na podwoziu 7, chłodnia 67, cysterna 0, skrzyniowa 3, plandeka 65
+T005 testy/T005.bmp: auto kontener na podwoziu, miejsc 1: 1 w ładunku wysoki | kontener na podwoziu 1, chłodnia 57, cysterna 176, skrzyniowa 55, plandeka 73
+T020 testy/T020.bmp: auto cysterna, miejsc 3: 1 ściana przy kabinie wysoki, 2 podwójna podłoga wysoki, 3 poza skrzynią wysoki | kontener na podwoziu 85, chłodnia 61, cysterna 3, skrzyniowa 0, plandeka 65
+T033 testy/T033.bmp: auto chłodnia, miejsc 2: 1 poza skrzynią średni, 2 poza skrzynią niski | kontener na podwoziu 35, chłodnia 109, cysterna 23, skrzyniowa 87, plandeka 0
+T038 testy/T038.bmp: auto plandeka, miejsc 1: 1 ściana przy kabinie wysoki | kontener na podwoziu 43, chłodnia 51, cysterna 56, skrzyniowa 137, plandeka 1
+3.0M	app/public/dane

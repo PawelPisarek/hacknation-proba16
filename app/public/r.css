@@ -1,0 +1,25 @@
+*{box-sizing:border-box}body{margin:0;font:15px/1.4 system-ui,sans-serif;background:#eef1f4;color:#1b2430}
+header{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;padding:10px 14px;background:#1b2430;color:#fff}
+header b{font-size:18px;letter-spacing:.5px}header select,header button{font:inherit}
+.obrazy{display:flex;gap:6px;flex-wrap:wrap;padding:8px 14px;background:#dde3ea;font-size:13px}
+.obrazy button{border:1px solid #8a99a8;background:#fff;border-radius:14px;padding:3px 10px;cursor:pointer}
+.obrazy button.akt{background:#1b2430;color:#fff}
+button{cursor:pointer}.btn{border:0;border-radius:6px;padding:7px 12px;font:inherit}
+.zatw{background:#1f7a3f;color:#fff}.odrz{background:#fff;border:1px solid #a33;color:#a33}.gl{background:#2b6cb0;color:#fff}
+svg.rtg{width:100%;height:auto;display:block;background:#f7f7f2;border:1px solid #b8c2cc;border-radius:4px}
+.stopka{padding:10px 14px;background:#fff;border-top:1px solid #ccd;font-size:14px}
+.pasek{height:8px;background:#dde;border-radius:4px;overflow:hidden;margin:4px 0 6px}.pasek i{display:block;height:100%;background:#1f7a3f}
+.ostr{color:#555}.miejsce{border:1px solid #ccd;border-radius:6px;padding:8px;margin-bottom:8px;background:#fff}
+.miejsce.wyb{outline:3px solid #2b6cb0}.ryzyko{color:#c0392b;font-weight:600}.dec{font-size:13px;margin-top:4px}
+.modal{position:fixed;inset:0;background:#0008;display:flex;align-items:center;justify-content:center;padding:10px}
+.modal>div{background:#fff;border-radius:8px;max-width:640px;width:100%;max-height:92vh;overflow:auto;padding:14px}
+.modal input{width:100%;padding:6px;font:inherit;margin:2px 0 8px}.pusto{padding:30px;text-align:center;color:#1f7a3f;font-weight:600}
+select.powod{font:inherit;margin-top:4px;max-width:100%}
+.szt{color:#a33;font-size:13px}
+body.zrzut .modal{position:static;background:none;display:block;padding:10px 14px}body.zrzut .modal>div{max-height:none;max-width:760px;border:2px solid #2b6cb0}
+.ostrz{background:#fff3cd;border:2px solid #b8860b;padding:8px 10px;margin:6px 0;font-weight:bold;border-radius:4px}
+.rtgw{position:relative;border:1px solid #b8c2cc;border-radius:4px;overflow:hidden;background:#fff}
+.rtgw img{width:100%;display:block}.rtgw svg{position:absolute;inset:0;width:100%;height:100%}
+.wgraj{display:inline-flex;gap:6px;align-items:center}.wgraj input{font-size:12px;max-width:210px}
+.info{font-size:12px;color:#445;padding:0 14px 6px}.blad{background:#ffe3e3;border:1px solid #e88;padding:6px 10px;margin:6px 14px;border-radius:4px}
+.licze{padding:6px 14px;font-weight:600;color:#2b6cb0}

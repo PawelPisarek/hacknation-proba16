@@ -66,6 +66,7 @@ def main():
     pp = dodatki(prawda, GOTOWE["b"][0], "podwojna_podloga")
     sprawdz("(b) podwójna podłoga trafiona ramką w strefie „podwójna podłoga”",
             pp and all(any(m["strefa"] == STREFA_PODLOGA and p9a(m["ramka"], d) for m in rap["b"]["miejsca"]) for d in pp))
+    sprawdz("(b) automatycznie porównano z „chłodnia” (P34)", rap["b"]["porownano_z"] == "chłodnia")
     sc = dodatki(prawda, GOTOWE["c"][0], "sciana_przy_kabinie")
     sprawdz("(c) ściana przy kabinie trafiona ramką w strefie „ściana przy kabinie”",
             sc and all(any(m["strefa"] == STREFA_SCIANA and p9a(m["ramka"], d) for m in rap["c"]["miejsca"]) for d in sc))

@@ -32,3 +32,17 @@ JSON: `obraz`, `porownano_z`, `typ_wybrany_przez_operatora`, `wzorce`, `metoda`,
 `miejsca[]` (`nr`, `ramka` [x0,y0,x1,y1] px, `strefa` „podwójna podłoga” / „ściana przy kabinie” / null, `stopien` niski/średni/wysoki,
 `decyzja`, `powod`), `png`. Lista od wysokiego stopnia. Gotowe: (a) T000, (b) T031, (c) T006, (d) T014 — `rtg/analiza.py` `GOTOWE`.
 Na flocie: `--klasa gpu-tlo` (karta). Wyniki z karty: `wyniki/mvp/` (zgl-4693).
+
+## Aplikacja (zadanie 01)
+
+```sh
+# dane ekranu liczone na karcie (9 obrazów sztucznych × dobór automatyczny + 5 typów) -> app/public/dane
+python -m rtg.aplikacja przygotuj --dane ~/dane/proba16/male --wyjscie app/public/dane
+# aplikacja (bez zależności): http://localhost:3000
+node app/serwer.mjs            # albo: docker build -t przeswit . && docker run -p 3000:3000 przeswit
+node app/test.mjs              # test ekranu: P30, P32, P34, P35, P38, A6, A7, A9
+# wgrywanie własnego .bmp: usługa na karcie + OMEN_URL w aplikacji
+python -m rtg.aplikacja usluga --biblioteka ~/dane/proba16/male/biblioteka --port 8716
+OMEN_URL=http://192.168.1.112:8716 node app/serwer.mjs
+```
+Adres: https://hacknation.ksefbot.pl/ (Coolify, Dockerfile z repo). Zrzuty: docs/zrzuty/mvp-*.png.
