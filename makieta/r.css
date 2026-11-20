@@ -17,3 +17,4 @@ svg.rtg{width:100%;height:auto;display:block;background:#f7f7f2;border:1px solid
 select.powod{font:inherit;margin-top:4px;max-width:100%}
 .szt{color:#a33;font-size:13px}
 body.zrzut .modal{position:static;background:none;display:block;padding:10px 14px}body.zrzut .modal>div{max-height:none;max-width:760px;border:2px solid #2b6cb0}
+.ostrz{background:#fff3cd;border:2px solid #b8860b;padding:8px 10px;margin:6px 0;font-weight:bold;border-radius:4px}
