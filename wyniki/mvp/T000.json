@@ -1,0 +1,16 @@
+{
+ "obraz": "T000.bmp",
+ "porownano_z": "kontener na podwoziu",
+ "typ_wybrany_przez_operatora": null,
+ "wzorce": [
+  "kontener na podwoziu",
+  "kontener na podwoziu",
+  "kontener na podwoziu"
+ ],
+ "metoda": "H2ko",
+ "czas_s": 1.12,
+ "miejsce_kontroli": null,
+ "przedmiot_kontroli": null,
+ "miejsca": [],
+ "png": "T000.png"
+}

@@ -1,0 +1,43 @@
+{
+ "obraz": "T014.bmp",
+ "porownano_z": "chłodnia",
+ "typ_wybrany_przez_operatora": "chłodnia",
+ "wzorce": [
+  "chłodnia",
+  "chłodnia",
+  "chłodnia"
+ ],
+ "metoda": "H2ko",
+ "czas_s": 0.92,
+ "miejsce_kontroli": null,
+ "przedmiot_kontroli": null,
+ "miejsca": [
+  {
+   "nr": 1,
+   "ramka": [
+    689,
+    643,
+    1275,
+    663
+   ],
+   "strefa": "podwójna podłoga",
+   "stopien": "wysoki",
+   "decyzja": null,
+   "powod": null
+  },
+  {
+   "nr": 2,
+   "ramka": [
+    267,
+    226,
+    335,
+    607
+   ],
+   "strefa": "ściana przy kabinie",
+   "stopien": "wysoki",
+   "decyzja": null,
+   "powod": null
+  }
+ ],
+ "png": "T014.png"
+}

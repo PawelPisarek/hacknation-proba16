@@ -217,24 +217,34 @@ class Porownywacz:
                     tol = torch.maximum(tol, z)
                 self.tol.append(F.max_pool2d(tol[None, None], 5, 1, 2)[0, 0])
 
-    def dobierz(self, a, ile):
-        """Indeksy `ile` najpodobniejszych wzorców (miniatury, skala + przesunięcie, korelacja)."""
+    def dobierz(self, a, ile, kandydaci=None):
+        """Indeksy `ile` najpodobniejszych wzorców (miniatury, skala + przesunięcie, korelacja).
+        kandydaci: ograniczenie do tych indeksów (typ naczepy wybrany przez operatora, P26 B)."""
         m = F.avg_pool2d(a[None, None], 4)[0, 0]
-        oceny = []
-        for w in self.miniatury:
-            w = _dopasuj_rozmiar(w, m.shape)
+        kandydaci = list(range(len(self.miniatury))) if kandydaci is None else list(kandydaci)
+        oceny = {}
+        for i in kandydaci:
+            w = _dopasuj_rozmiar(self.miniatury[i], m.shape)
             g = wyrownaj(m, w, True, False)
             waz = przenies(torch.ones_like(w), g) > 0.99
-            oceny.append(_ncc(m, przenies(w, g), waz))
-        return sorted(range(len(oceny)), key=lambda i: -oceny[i])[:ile]
+            oceny[i] = _ncc(m, przenies(w, g), waz)
+        return sorted(kandydaci, key=lambda i: -oceny[i])[:ile]
 
-    def porownaj(self, obraz):
+    def porownaj(self, obraz, typ=None):
+        """typ=None: wzorzec dobierany automatycznie; typ podany: tylko wzorce tego typu.
+        Po wywołaniu self.ostatnie = (indeks pierwszego wzorca, jego siatka obraz->wzorzec, wzorzec w rozdz. roboczej)."""
         a, f, (H, W) = wczytaj(obraz, self.dev, self.f)
-        wybrane = self.dobierz(a, self.p.get("top", 1))
+        kand = None if typ is None else [i for i, t in enumerate(self.typy) if t == typ]
+        if kand is not None and not kand:
+            raise SystemExit(f"brak wzorców typu {typ!r} w bibliotece")
+        wybrane = self.dobierz(a, self.p.get("top", 1), kand)
         z_min = d_min = None
+        self.ostatnie = None
         for j in wybrane:
             ref = _dopasuj_rozmiar(self.wz[j], a.shape)
             g = wyrownaj(a, ref, self.p["skale"], self.p["lokalnie"])
+            if self.ostatnie is None:
+                self.ostatnie = (j, g, ref)
             z, d = mapa_z(a, przenies(ref, g), przenies(torch.ones_like(ref), g), self.p["tol"])
             if self.p["nauka"]:
                 tol = przenies(_dopasuj_rozmiar(self.tol[j], a.shape), g)

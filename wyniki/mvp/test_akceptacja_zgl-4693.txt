@@ -1,0 +1,30 @@
+(a) testy/T000.bmp — czysta naczepa: porównano z kontener na podwoziu; miejsc 0:  | 1.12 s
+  OK  (a) PNG i JSON zapisane
+  OK  (a) pola raportu
+  OK  (a) stopień słownie, lista od wysokiego
+  OK  (a) czas < 60 s (A4)
+(b) testy/T031.bmp — podwójna podłoga (+ mała paczka w ładunku): porównano z skrzyniowa; miejsc 3: 1 podwójna podłoga wysoki, 2 - wysoki, 3 - wysoki | 1.24 s
+  OK  (b) PNG i JSON zapisane
+  OK  (b) pola raportu
+  OK  (b) stopień słownie, lista od wysokiego
+  OK  (b) czas < 60 s (A4)
+(c) testy/T006.bmp — ściana przy kabinie i towar w ładunku (+ belka): porównano z kontener na podwoziu; miejsc 3: 1 - wysoki, 2 ściana przy kabinie wysoki, 3 - wysoki | 1.23 s
+  OK  (c) PNG i JSON zapisane
+  OK  (c) pola raportu
+  OK  (c) stopień słownie, lista od wysokiego
+  OK  (c) czas < 60 s (A4)
+(d) testy/T014.bmp — zły dobór typu: system wybiera plandeka, poprawny chłodnia: porównano z plandeka; miejsc 2: 1 podwójna podłoga wysoki, 2 ściana przy kabinie wysoki | 1.25 s
+  OK  (d) PNG i JSON zapisane
+  OK  (d) pola raportu
+  OK  (d) stopień słownie, lista od wysokiego
+  OK  (d) czas < 60 s (A4)
+  OK  (a) 0 miejsc
+  OK  (b) podwójna podłoga trafiona ramką w strefie „podwójna podłoga”
+  OK  (c) ściana przy kabinie trafiona ramką w strefie „ściana przy kabinie”
+  OK  (c) towar w ładunku trafiony ramką spoza stref ryzyka
+  OK  (d) automatycznie porównano z „plandeka”
+(d) po wyborze „chłodnia”: porównano z chłodnia, wzorce ['chłodnia', 'chłodnia', 'chłodnia']; miejsc 2: 1 podwójna podłoga wysoki, 2 ściana przy kabinie wysoki
+  OK  (d) operator wybiera „chłodnia” -> porównano z „chłodnia”, wszystkie wzorce chłodnia (A6)
+  OK  (d) po zmianie typu podwójna podłoga w strefie „podwójna podłoga”
+TEST AKCEPTACJI: 23/23 OK
+kod testu 0

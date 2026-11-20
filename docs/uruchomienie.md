@@ -17,3 +17,18 @@ Format przewidywań i zasady liczenia FP/FN: nagłówek `rtg/ocena.py`. Ramki pr
 `miejsce`: `konstrukcja` = przeróbka/skrytka, `ladunek`; `maly`).
 
 Na zespołowej flocie: przez orkiestrator (`--klasa gpu-tlo` dla `rtg.uruchom`, `--maszyna dowolna` dla generatora).
+
+## Rdzeń MVP: .bmp → PNG z ramkami + JSON (spec §7.6)
+
+```sh
+# jeden obraz, typ dobierany automatycznie (albo --typ chłodnia = wybór operatora, P26 B)
+python -m rtg.analiza --biblioteka ~/dane/proba16/male/biblioteka --obraz ~/dane/proba16/male/testy/T031.bmp --wyjscie wynik/
+# 4 gotowe obrazy (a)–(d) ze spec §7.2
+python -m rtg.analiza --biblioteka ~/dane/proba16/male/biblioteka --gotowe ~/dane/proba16/male --wyjscie wynik/
+# test akceptacji (23 sprawdzenia; --caly dodaje przegląd stref i stopni na 40 obrazach)
+python -m rtg.test_akceptacja --dane ~/dane/proba16/male --wyjscie wyniki/mvp
+```
+JSON: `obraz`, `porownano_z`, `typ_wybrany_przez_operatora`, `wzorce`, `metoda`, `czas_s`, `miejsce_kontroli`, `przedmiot_kontroli`,
+`miejsca[]` (`nr`, `ramka` [x0,y0,x1,y1] px, `strefa` „podwójna podłoga” / „ściana przy kabinie” / null, `stopien` niski/średni/wysoki,
+`decyzja`, `powod`), `png`. Lista od wysokiego stopnia. Gotowe: (a) T000, (b) T031, (c) T006, (d) T014 — `rtg/analiza.py` `GOTOWE`.
+Na flocie: `--klasa gpu-tlo` (karta). Wyniki z karty: `wyniki/mvp/` (zgl-4693).

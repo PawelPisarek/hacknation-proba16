@@ -1,0 +1,56 @@
+{
+ "obraz": "T006.bmp",
+ "porownano_z": "kontener na podwoziu",
+ "typ_wybrany_przez_operatora": null,
+ "wzorce": [
+  "kontener na podwoziu",
+  "kontener na podwoziu",
+  "kontener na podwoziu"
+ ],
+ "metoda": "H2ko",
+ "czas_s": 1.23,
+ "miejsce_kontroli": null,
+ "przedmiot_kontroli": null,
+ "miejsca": [
+  {
+   "nr": 1,
+   "ramka": [
+    1714,
+    370,
+    1736,
+    395
+   ],
+   "strefa": null,
+   "stopien": "wysoki",
+   "decyzja": null,
+   "powod": null
+  },
+  {
+   "nr": 2,
+   "ramka": [
+    231,
+    181,
+    302,
+    553
+   ],
+   "strefa": "ściana przy kabinie",
+   "stopien": "wysoki",
+   "decyzja": null,
+   "powod": null
+  },
+  {
+   "nr": 3,
+   "ramka": [
+    590,
+    722,
+    655,
+    749
+   ],
+   "strefa": null,
+   "stopien": "wysoki",
+   "decyzja": null,
+   "powod": null
+  }
+ ],
+ "png": "T006.png"
+}

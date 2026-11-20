@@ -1,0 +1,2 @@
+HS strefy (ramki trafiające dodatek: właściwa strefa / wszystkie): belka 11/11, dach 1/1, drzwi 1/1, ladunek 8/9, podwojna_podloga 9/9, sciana_przy_kabinie 13/13
+HT stopień: trafienia wysoki 39, średni 3, niski 2 | fałszywe ramki wysoki 1, średni 9, niski 51

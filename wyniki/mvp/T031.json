@@ -1,0 +1,56 @@
+{
+ "obraz": "T031.bmp",
+ "porownano_z": "skrzyniowa",
+ "typ_wybrany_przez_operatora": null,
+ "wzorce": [
+  "skrzyniowa",
+  "skrzyniowa",
+  "plandeka"
+ ],
+ "metoda": "H2ko",
+ "czas_s": 1.24,
+ "miejsce_kontroli": null,
+ "przedmiot_kontroli": null,
+ "miejsca": [
+  {
+   "nr": 1,
+   "ramka": [
+    457,
+    642,
+    1272,
+    667
+   ],
+   "strefa": "podwójna podłoga",
+   "stopien": "wysoki",
+   "decyzja": null,
+   "powod": null
+  },
+  {
+   "nr": 2,
+   "ramka": [
+    1015,
+    173,
+    1034,
+    188
+   ],
+   "strefa": null,
+   "stopien": "wysoki",
+   "decyzja": null,
+   "powod": null
+  },
+  {
+   "nr": 3,
+   "ramka": [
+    370,
+    744,
+    377,
+    762
+   ],
+   "strefa": null,
+   "stopien": "wysoki",
+   "decyzja": null,
+   "powod": null
+  }
+ ],
+ "png": "T031.png"
+}
