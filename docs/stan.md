@@ -1,4 +1,4 @@
-# Stan — 16:01 (sobota zespołu)
+# Stan — 16:02 (sobota zespołu)
 Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 
 | zadanie | kto | status |
@@ -23,5 +23,5 @@ Najbliższy kamień: 20:00 makieta (GitHub Pages) + docs/hacktribe.md.
 | materiały do stanu makiety R3 + P38 | Prezenter | zamknięte (c140d95, baaf09e); ksefbot.pl 530 — link po wdrożeniu |
 | lista odbioru MVP (docs/odbior-mvp.md) | Analityk | zamknięte (09166e2, 30 sprawdzeń; 5 rozbieżności rozstrzygnięte) |
 
-Otwarte pytania: —
+Otwarte pytania: P39 (Artur, kryterium jakości na noc; rek. tak) — Projektant
 Lista Artura na noc: P29–P38 z makiety do MVP (docs/zadania/01-mvp-z-makiety.md); materiały do stanu faktycznego

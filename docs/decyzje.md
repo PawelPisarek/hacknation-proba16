@@ -239,3 +239,4 @@ P38 15:53 odpowiedź: B — jedno ostrzeżenie „Nieprzejrzane: N miejsc. Zapis
 15:59 Szef: Analityk → docs/odbior-mvp.md (sprawdzenia odbioru P29–P38 + testy spec)
 16:00 Analityk: docs/odbior-mvp.md — 30 sprawdzeń (P29–P38, A1–A10, §7.2–7.6), 5 rozbieżności spec↔zadanie 01 (1 produkt, 4 technika)
 16:01 Szef: rozbieżności odbioru (09166e2) rozstrzygnięte w zadaniu 01: powody odrzucenia wg spec A7 (4); liczenie na karcie, obrazy sztuczne (§7.6); A1–A10 przez odbior-mvp.md; odmiana „miejsc” = poprawka; na noc FN=0 i FP ≤ 7/20 do decyzji o A8
+16:02 Szef: korekta wpisu 16:01 — kryterium jakości na noc (FN=0, FP ≤ 7/20) to parametr produktu → pytanie P39 do Artura przez Projektanta (rek.: tak); do odpowiedzi tylko robocze dla Programisty. Powody odrzucenia = spec A7 (z P29/P32 Artura), bez nowej decyzji.
