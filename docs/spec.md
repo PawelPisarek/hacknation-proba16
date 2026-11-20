@@ -83,10 +83,12 @@ UPROSZCZENIE: kolejka wielu obrazów (9) — jeden obraz naraz — dorobienie: �
 UPROSZCZENIE: tablica wyników jako funkcja (10) — liczby tylko w opisie i na slajdzie — dorobienie: małe
 UPROSZCZENIE: kontenery, autokary, wagony — tylko naczepy — dorobienie: duże (nowy zbiór)
 UPROSZCZENIE: badania z operatorami — sztuczne dane i Artur przy przeglądzie MVP — dorobienie: duże
+UPROSZCZENIE: naczepy z innym zadeklarowanym ładunkiem niż na wzorcu (P42 A) — system ich nie rozróżnia; ograniczenie opisane wprost w opisie i na slajdzie „dalsze kroki” — dorobienie: ok. pół dnia
 
 ## 9. Ryzyka
 - Znaczenie „Zatwierdź” / „Odrzuć” rozstrzygnięte (P29 A); powody odrzucenia trafiają do raportu.
 - **Ekran i ścieżka nie były potwierdzone przez Artura:** moment (c) (trzy warianty ekranu i wybór) pominięty na zlecenie Szefa po P28; układ z 7.2 to propozycja Projektanta. Do potwierdzenia przy przeglądzie makiety.
+- **Ograniczenie (P42 A):** system sprawdza naczepy puste albo z ładunkiem jak na wzorcu; obce paczki w przestrzeni ładunkowej wskazuje, ale przy innym zadeklarowanym ładunku (np. inne palety) nie rozróżnia. Pisane wprost w opisie i na slajdzie „dalsze kroki”.
 - Z1: dobór wzorca może zawieść; zapas — wybór typu z listy (P26 B).
 - Z2 / Z2b / Z2c: przeoczenia podwójnej podłogi, ściany przy kabinie i towaru — progi po pomiarze 0P; zapas — strefy ryzyka.
 - Z3: zaufanie operatora do kilku zaznaczeń; mierzone dopiero po MVP.
