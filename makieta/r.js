@@ -23,7 +23,10 @@ const OBRAZY = {
 for (const o of Object.values(OBRAZY)) for (const t in o.miejsca) o.miejsca[t].sort((a, b) => RANGA[a.st] - RANGA[b.st]);
 const S = { obraz: OBRAZY[location.hash.slice(1, 2)] ? location.hash.slice(1, 2) : "b", typ: {}, dec: {}, wyb: 0, odrz: null };
 function typ(k = S.obraz) { return S.typ[k] || OBRAZY[k].dobrany; }
-function miejsca(k = S.obraz) { return OBRAZY[k].miejsca[typ(k)] || []; }
+function miejsca(k = S.obraz) {   // inny typ bez własnych miejsc -> te same miejsca co dla właściwego typu (nigdy „brak różnic”)
+  const o = OBRAZY[k]; return o.miejsca[typ(k)] || o.miejsca[o.poprawny || o.dobrany] || []; }
+function formaMiejsc(n) { const d = n % 10, s = n % 100; return n === 1 ? "miejsce" : d >= 2 && d <= 4 && (s < 12 || s > 14) ? "miejsca" : "miejsc"; }
+function nieprzejrzane() { return miejsca().filter((_, i) => !decyzja(i)).length; }
 function klucz(i, k = S.obraz) { return k + "|" + typ(k) + "|" + i; }
 function decyzja(i) { return S.dec[klucz(i)]; }
 function przejrzane() { return miejsca().filter((_, i) => decyzja(i)).length; }
@@ -89,16 +92,23 @@ function raport() {
   <label>Miejsce kontroli <i class="szt">(dane sztuczne)</i><input id="mk" value="Przejście graniczne Koroszczyn, stanowisko RTG 2"></label>
   <label>Przedmiot kontroli <i class="szt">(dane sztuczne)</i><input id="pk" value="Naczepa WGM 4521X, ciągnik WGM 1187C"></label>
   <ol>${ms.map((m, i) => { const d = decyzja(i); return `<li>${nazwa(m)} (różnica: ${m.st}) — ${!d ? "nieprzejrzane" : d.d === "z" ? "zatwierdzone (do kontroli)" : "odrzucone: " + d.powod}</li>`; }).join("") || "<p>0 miejsc</p>"}</ol>
-  <button class="btn gl" onclick="pobierz()">Zapisz raport (zestawienie + obraz PNG)</button> <button class="btn odrz" onclick="this.closest('.modal').remove()">Zamknij</button></div>`;
+  <span id="zapis"><button class="btn gl" onclick="zapisz()">Zapisz raport (zestawienie + obraz PNG)</button></span> <button class="btn odrz" onclick="this.closest('.modal').remove()">Zamknij</button></div>`;
   document.body.appendChild(w);
 }
+function zapisz() {   // P38 B: jedno ostrzeżenie przy nieprzejrzanych, po potwierdzeniu zapis z oznaczeniem „nieprzejrzane”
+  const n = nieprzejrzane();
+  if (!n) return pobierz();
+  document.getElementById("zapis").innerHTML = `<div class="ostrz">Nieprzejrzane: ${n} ${formaMiejsc(n)}. Zapisać mimo to?</div>
+    <button class="btn gl" onclick="pobierz()">Zapisz mimo to</button> <button class="btn odrz" onclick="raportZamknij();raport()">Wróć</button>`;
+}
+function raportZamknij() { document.querySelectorAll(".modal").forEach(m => m.remove()); }
 function pobierzPlik(blob, nazwaPliku) { const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = nazwaPliku; a.click(); }
 function pobierz() {   // P35: zestawienie (JSON) razem z obrazem PNG z zaznaczeniami
   const o = OBRAZY[S.obraz], baza = "raport_" + o.plik.replace(".bmp", "");
   const r = { obraz: o.plik, obraz_z_zaznaczeniami: baza + ".png", porownano_z: typ(), dane_sztuczne: "miejsce i przedmiot kontroli — przykładowe, dane sztuczne",
     miejsce_kontroli: document.getElementById("mk").value, przedmiot_kontroli: document.getElementById("pk").value,
     miejsca: miejsca().map((m, i) => ({ nr: i + 1, ramka: m.r, strefa: m.strefa ? STREFY[m.strefa] : null, opis: nazwa(m), stopien: m.st,
-      decyzja: !decyzja(i) ? null : decyzja(i).d === "z" ? "zatwierdzone" : "odrzucone", powod: decyzja(i) && decyzja(i).powod || null })) };
+      decyzja: !decyzja(i) ? "nieprzejrzane" : decyzja(i).d === "z" ? "zatwierdzone" : "odrzucone", powod: decyzja(i) && decyzja(i).powod || null })) };
   pobierzPlik(new Blob([JSON.stringify(r, null, 2)], { type: "application/json" }), baza + ".json");
   const img = new Image(), c = document.createElement("canvas"); c.width = 1000; c.height = 400;
   img.onload = () => { const g = c.getContext("2d"); g.fillStyle = "#f7f7f2"; g.fillRect(0, 0, 1000, 400); g.drawImage(img, 0, 0, 1000, 400); c.toBlob(b => pobierzPlik(b, baza + ".png")); };
@@ -106,10 +116,12 @@ function pobierz() {   // P35: zestawienie (JSON) razem z obrazem PNG z zaznacze
 }
 
 // tryb zrzutu (#b-zrzut itd.): przykładowe decyzje jak w ścieżce pokazu §7.3 i otwarte okno raportu
+// #c-ostrz-zrzut: ostrzeżenie P38; #a-typ-zrzut: (a) z innym typem
 if (location.hash.endsWith("-zrzut")) addEventListener("load", () => {
   const k = S.obraz;
   if (k === "b") { S.dec[klucz(0)] = { d: "z" }; S.dec[klucz(1)] = { d: "o", powod: "cień lub zakłócenie obrazu" }; }
   if (k === "c") S.dec[klucz(0)] = { d: "z" };
   if (k === "d") S.typ.d = "chłodnia";
-  S.wyb = 0; rysuj(); raport(); document.body.classList.add("zrzut");
+  if (location.hash.includes("-typ")) S.typ[k] = "cysterna";
+  S.wyb = 0; rysuj(); raport(); if (location.hash.includes("-ostrz")) zapisz(); document.body.classList.add("zrzut");
 });
