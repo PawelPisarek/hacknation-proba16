@@ -20,4 +20,4 @@ Gotowe, gdy każdy wiersz ma dowód (zrzut w docs/zrzuty/mvp-*.png albo test), a
 a linia w docs/decyzje.md ma godzinę. Kolejność: najpierw rdzeń (bmp → PNG + JSON, test 4 obrazów), potem ekran.
 
 Sprawdzenia odbioru: docs/odbior-mvp.md (30 wierszy, także A1–A10 ze spec) — przechodzą wszystkie poza A8 (czeka na Artura po MVP).
-Kryterium jakości na noc — robocze, czeka na P39 (Artur): na danych sztucznych FN = 0 i FP nie gorsze niż wynik bazowy H2ko (7/20).
+Kryterium jakości na noc (P39 A, Artur 16:10): na danych sztucznych FN = 0 i FP ≤ 7/20 jako minimum; gdy da się zejść niżej z FP bez żadnego przeoczenia — schodzimy (hipotezy na karcie OMENa).
