@@ -35,7 +35,7 @@ Metoda: kod produkcyjny `app.js` ma sumę md5 identyczną z `app/public/app.js` 
 
 ## Braki (bez pochwał)
 
-1. **technika** — wiersz 26: pole „wgraj .bmp” jest widoczne na produkcji, a `POST /api/analiza` daje 503; operator zobaczy błąd. Do rozstrzygnięcia z P41 (ukryć pole albo otworzyć drogę do OMENa).
+1. **technika** — wiersz 26 i README.md (1c3a073, linia 40: „Wgrywanie własnego pliku .bmp działa pod linkiem”): oba „w toku / nie da się sprawdzić” do meldunku Programisty, bo nikt nie wgrał pliku na produkcji. Pole „wgraj .bmp” jest widoczne na produkcji, a `POST /api/analiza` daje 503; operator zobaczy błąd. Do rozstrzygnięcia z P41 (ukryć pole albo otworzyć drogę do OMENa).
 2. **technika** — brak pobranego przez przeglądarkę raportu (JSON + PNG) z produkcji: wiersze 8, 12 oparte na kodzie i teście w node, nie na pliku. Ktoś z przeglądarką (Programista) powinien pobrać jedną parę i wkleić `grep nieprzejrzane`.
 3. **technika** — zrzutów `mvp-p37-ekran`, `mvp-a5-*`, `mvp-b-strefa` z listy dowodów nie ma; dowody zastępcze (grep, kod, `mvp-ksefbot.png`).
 4. **technika** — brak progu trafności doboru (A3, 37/40) w `decyzje.md` (wiersz 16).
