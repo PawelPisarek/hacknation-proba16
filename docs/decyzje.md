@@ -237,3 +237,4 @@ P38 15:53 odpowiedź: B — jedno ostrzeżenie „Nieprzejrzane: N miejsc. Zapis
 15:54 Szef: P38 B przyjęte → zadanie 01 (MVP) + makieta (ostrzeżenie) → Programista; demo.md sprawdzić ostrzeżenie → Prezenter
 - 15:54 Prezenter: P38 B — demo bez zmiany kroków (w (b) przejrzane 2 z 2 przed zapisem), dopisana notatka o ostrzeżeniu „Nieprzejrzane: N miejsc. Zapisać mimo to?”; suma 105 s.
 15:59 Szef: Analityk → docs/odbior-mvp.md (sprawdzenia odbioru P29–P38 + testy spec)
+16:00 Analityk: docs/odbior-mvp.md — 30 sprawdzeń (P29–P38, A1–A10, §7.2–7.6), 5 rozbieżności spec↔zadanie 01 (1 produkt, 4 technika)
